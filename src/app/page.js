@@ -3,13 +3,11 @@ import HomeBanner from '@/components/home/HomeBanner';
 
 // Dynamically import components
 const ScrollHome = dynamic(() => import('@/components/home/ScrollHome'), {
-  ssr: false, // Optional: If you want to disable SSR for this component
-  loading: () => <p>Loading...</p> // Optional: Loading component
+   loading: () => <p>Loading...</p>
 });
 
 const TrustedPartners = dynamic(() => import('@/components/home/TrustedPartners'), {
-  ssr: false, // Optional: If you want to disable SSR for this component
-  loading: () => <p>Loading...</p> // Optional: Loading component
+   loading: () => <p>Loading...</p>
 });
 
 export default function Home() {

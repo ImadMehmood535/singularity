@@ -14,6 +14,7 @@ module.exports = {
       },
       colors :{
         themeGray: ["#252730"],
+        themeTextGray: ["#A4A4A4"],
 
       }
     },

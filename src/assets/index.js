@@ -7,6 +7,7 @@ import trusted1 from "./images/trusted1.svg"
 import trusted2 from "./images/trusted2.svg"
 import trusted3 from "./images/trusted3.svg"
 import trusted5 from "./images/trusted5.svg"
+import scrollbg from "./images/scrollbg.webp"
 
 export {
     homeBg,
@@ -17,6 +18,7 @@ export {
     trusted1,
     trusted2,
     trusted3,
-    trusted5
+    trusted5,
+    scrollbg
     
 }

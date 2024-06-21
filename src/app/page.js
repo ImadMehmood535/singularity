@@ -1,14 +1,6 @@
-import dynamic from 'next/dynamic';
-import HomeBanner from '@/components/home/HomeBanner';
-
-// Dynamically import components
-const ScrollHome = dynamic(() => import('@/components/home/ScrollHome'), {
-   loading: () => <p>Loading...</p>
-});
-
-const TrustedPartners = dynamic(() => import('@/components/home/TrustedPartners'), {
-   loading: () => <p>Loading...</p>
-});
+ import HomeBanner from "@/components/home/HomeBanner";
+import ScrollHome from "@/components/home/ScrollHome";
+import TrustedPartners from "@/components/home/TrustedPartners";
 
 export default function Home() {
   return (

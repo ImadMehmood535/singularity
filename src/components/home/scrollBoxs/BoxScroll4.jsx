@@ -18,9 +18,9 @@ const BoxScroll4 = () => {
         />
       </div>
 
-      <div className=" block lg:hidden  col-span-1"></div>
+      <div className=" block lg:hidden  col-span-3"></div>
 
-      <div className=" block lg:hidden col-span-1 mt-[95%]">
+      <div className=" block lg:hidden col-span-3 mt-[95%]">
         <SBox
           pic={b4}
           head={<>Service</>}
@@ -29,7 +29,7 @@ const BoxScroll4 = () => {
           }
         />
       </div>
-      <div className=" block lg:hidden col-span-2"></div>
+      <div className=" block lg:hidden col-span-1 md:col-span-2"></div>
     </div>
   );
 };

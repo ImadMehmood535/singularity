@@ -4,8 +4,8 @@ import SBox from "./SBox";
 
 const BoxScroll = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-4 justify-evenly h-screen px-2 relative ">
-      <div className="col-span-1 mt-[70%]">
+    <div className="grid grid-cols-1 lg:grid-cols-4 justify-evenly h-screen px-2 relative">
+      <div className="md:col-span-1 mt-[20%]  md:mt-[70%]">
         <SBox
           pic={b1}
           head={<>Global Exposure</>}

@@ -3,7 +3,7 @@ import React from "react";
 
 const TrustedBox = ({ item }) => {
   return (
-    <div className="p--[1px] customLink2 relative">
+    <div className="p-[1px] customLink2 relative">
  <div className="w-full  z-20 relative  px-7 py-5 flex flex-col gap-3 trustedGradient ">
       <div className="h-[80px] relative w-full">
         <Image

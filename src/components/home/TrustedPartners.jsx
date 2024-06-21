@@ -2,6 +2,7 @@ import React from "react";
 import Ticker from "./Ticker";
 import { trustedData } from "@/data/homePage";
 import TrustedBox from "./TrustedBox";
+import TrustedReachOut from "./TrustedReachOut";
 
 const TrustedPartners = () => {
   return (
@@ -28,16 +29,15 @@ const TrustedPartners = () => {
             </p>
           </div>
         </div>
-
       </div>
-        <div className=" containerCust grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 w-full">
-          {trustedData?.map((item, index) => (
-            <TrustedBox item={item} key={index} />
-          ))}
-        </div>
+      <div className=" containerCust grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 w-full">
+        {trustedData?.map((item, index) => (
+          <TrustedBox item={item} key={index} />
+        ))}
+        <TrustedReachOut/>
+      </div>
     </section>
   );
 };
 
 export default TrustedPartners;
-

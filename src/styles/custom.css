@@ -173,3 +173,14 @@
       background-position: 100%;
     }
   }
+
+
+  .boxGradient {
+    background: linear-gradient(
+      180deg,
+      rgb(42, 14, 98) 0%,
+      rgba(63, 46, 97) 100%
+    );
+    border-radius: 20px;
+    opacity: 0.9;
+  }

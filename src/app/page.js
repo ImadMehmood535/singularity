@@ -1,5 +1,5 @@
 import HomeBanner from "@/components/home/HomeBanner";
-import ScrollComponent from "@/components/home/ScrollComponent";
+import ScrollHome from "@/components/home/ScrollHome";
 import TrustedPartners from "@/components/home/TrustedPartners";
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <HomeBanner />
       <TrustedPartners />
-      <ScrollComponent/>
+      <ScrollHome />
     </>
   );
 }

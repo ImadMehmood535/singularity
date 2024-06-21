@@ -34,7 +34,8 @@ const TrustedPartners = () => {
         {trustedData?.map((item, index) => (
           <TrustedBox item={item} key={index} />
         ))}
-        <TrustedReachOut/>
+
+        {/* <TrustedReachOut/> */}
       </div>
     </section>
   );

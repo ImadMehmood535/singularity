@@ -8,10 +8,11 @@ export default function Home() {
     <>
       <HomeBanner />
       <TrustedPartners />
-         <ScrollHome />
-       <div className="relative z-50 ">
-      <VideoComponent />
-
+      <div className="hidden lg:block">
+        <ScrollHome />
+      </div>
+      <div className="relative z-50 ">
+        <VideoComponent />
       </div>
     </>
   );

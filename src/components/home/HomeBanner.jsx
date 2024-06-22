@@ -5,7 +5,7 @@ import LinkComponent from "../general/LinkComponent";
 
 const HomeBanner = () => {
   return (
-    <section className="homeBackground h-screen w-full relative">
+    <section className="homeBackground h-screen md:h-[120vh] w-full relative">
       <Image
         src={homeBg}
         alt="Background Image"
@@ -13,7 +13,7 @@ const HomeBanner = () => {
         objectFit="cover"
         quality={100}
       />
-      <div className="flex flex-col items-center justify-center h-full gap-12 containerCust relative z-10">
+      <div className="flex flex-col items-center justify-center h-full gap-12 containerCust relative z-10 top-4 md:top-8">
         <div className="flex flex-col items-center gap-2">
           <p className="text-[#FAFAFA]/80 text-lg">We are</p>
           <h1 className="text-animation w-[220px] md:w-[360px]">

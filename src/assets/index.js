@@ -14,6 +14,7 @@ import b3 from "./images/b3.svg";
 import b4 from "./images/b4.svg";
 import play from "./images/play.svg";
 import videoPic from "./images/videoPic.webp"
+import logo from "./images/logo.svg"
 
 export {
   homeBg,
@@ -32,4 +33,5 @@ export {
   b4,
   play,
   videoPic,
+  logo,
 };

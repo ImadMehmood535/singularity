@@ -193,3 +193,29 @@
   -webkit-box-shadow: 2px 5px 1px 0px rgb(255 255 255 / 19%);
   -moz-box-shadow: 12px 13px 1px -6px rgb(255 255 255 / 19%);
 }
+
+@keyframes spin {
+  0% {
+    transform: rotate(-20deg);
+  }
+
+  50%{
+    transform: rotate(0deg);
+
+  }
+  100% {
+    transform: rotate(-20deg);
+  }
+}
+.spin-slow {
+  animation: spin 10s linear infinite;
+}
+
+.swiper-wrapper .swiper-slide:nth-child(1) {
+  /* margin-left: 50px; */
+
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 3%;
+}

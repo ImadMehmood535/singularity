@@ -2,6 +2,7 @@ import HomeBanner from "@/components/home/HomeBanner";
 import ScrollHome from "@/components/home/ScrollHome";
 import TrustedPartners from "@/components/home/TrustedPartners";
 import VideoComponent from "@/components/home/VideoComponent";
+import WhyUs from "@/components/home/WhyUs";
 
 export default function Home() {
   return (
@@ -13,6 +14,9 @@ export default function Home() {
       </div>
       <div className="relative z-50 ">
         <VideoComponent />
+      </div>
+      <div className="relative z-50 ">
+        <WhyUs />
       </div>
     </>
   );

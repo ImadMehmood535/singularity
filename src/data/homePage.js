@@ -50,3 +50,22 @@ export const trustedData = [
     para: "Lorem ipsum dolor sit amet consectetur. Lorem blandit risus id amet. Et at vulputate lectus quis. Eget consequat ornare urna diam lorem mauris.",
   },
 ];
+
+export const whyTrustData = [
+  {
+    head: "Global Exposure",
+    para: "International consultants with the solid knowledge and unassailable consultancy.",
+  },
+  {
+    head: "Complete Compliance",
+    para: "Maximum potential is in your reach with consistent and second to none compliance.",
+  },
+  {
+    head: "Maximum Flexibility",
+    para: "Consummate tailored solutions for every business need that meets and exceeds.",
+  },
+  {
+    head: "Complete Compliance",
+    para: "Maximum potential is in your reach with consistent and second to none compliance.",
+  },
+];

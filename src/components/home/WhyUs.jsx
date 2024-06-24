@@ -77,7 +77,9 @@ const WhyUs = () => {
 
       <div className="flex justify-between flex-wrap lg:flex-nowrap gap-10 items-center containerCust !py-[130px]">
         <div className=" w-full lg:w-[50%]">
+         {showContactForm &&   
           <ContactForm />
+         }
         </div>
         <div className=" w-full lg:w-[50%]">
           <FaqComponent />

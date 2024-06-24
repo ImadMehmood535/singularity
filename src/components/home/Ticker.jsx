@@ -22,6 +22,8 @@ const Ticker = () => {
                       width={30}
                       height={30}
                       alt="award-icon"
+                      loading="eager"
+                       fetchPriority="high"
                     />
                   </React.Fragment>
                 ))}

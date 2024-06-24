@@ -2,16 +2,20 @@ import Image from "next/image";
 import BannerBoxes from "./BannerBoxes";
 import { homeBg } from "@/assets";
 import LinkComponent from "../general/LinkComponent";
+import Head from "next/head";
 
 const HomeBanner = () => {
   return (
     <section className="homeBackground h-screen md:h-[120vh] w-full relative">
+   
       <Image
         src={homeBg}
         alt="Background Image"
         layout="fill"
         objectFit="cover"
         quality={100}
+        fetchPriority="high"
+        loading="eager"
       />
       <div className="flex flex-col items-center justify-center h-full gap-12 containerCust relative z-10 top-4 md:top-8">
         <div className="flex flex-col items-center gap-2">

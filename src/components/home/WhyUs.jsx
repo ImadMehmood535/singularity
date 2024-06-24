@@ -12,6 +12,7 @@ import ContactForm from "./ContactForm";
 import FaqComponent from "../general/FaqComponent";
 
 const WhyUs = () => {
+
   const [showContactForm, setShowContactForm] = useState(false);
 
   useEffect(() => {
@@ -19,7 +20,7 @@ const WhyUs = () => {
       setShowContactForm(true);
     }, 4000);
 
-    return () => clearTimeout(timer);
+     return () => clearTimeout(timer);
   }, []);
 
   return (
@@ -76,7 +77,7 @@ const WhyUs = () => {
 
       <div className="flex justify-between flex-wrap lg:flex-nowrap gap-10 items-center containerCust !py-[130px]">
         <div className=" w-full lg:w-[50%]">
-          {showContactForm && <ContactForm />}
+          <ContactForm />
         </div>
         <div className=" w-full lg:w-[50%]">
           <FaqComponent />

@@ -8,7 +8,7 @@ const FormInput = ({ type, placeholder, register, name, error , label }) => {
         type={type}
         placeholder={placeholder}
         {...register(name)}
-        className="bg-[#EDEDED] border-[1px] border-white bg-opacity-10 rounded-lg px-4 py-4 text-white placeholder-white outline-none focus:ring-2 focus:ring-themeGreen-0 focus:border-themeGreen-0 transition duration-300"
+        className="bg-[#EDEDED] border-[1px] border-white bg-opacity-10 rounded-[10px] px-4 h-[3.5rem] text-white placeholder-white outline-none  transition duration-300"
       />
       {error && (
         <span className="text-red-500 text-sm">{error[name]?.message}</span>

@@ -4,7 +4,7 @@ import React from "react";
 
 const ScrollComponent = () => {
   return (
-    <div className="h-screen bg-gradient-to-b  containerCust  from-[#0F121D] to-[#1536DA] relative  text-center flex flex-col justify-start items-center">
+    <div className="h-screen bg-gradient-to-b     from-[#0F121D] to-[#1536DA] relative  text-center flex flex-col justify-start items-center">
       <div className="absolute bottom-0 left-0 z-20 spin-slow">
         <Image
           src={scrollbg}

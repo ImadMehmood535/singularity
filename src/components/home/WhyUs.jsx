@@ -9,10 +9,11 @@ import { FreeMode } from "swiper/modules";
 import { whyTrustData } from "@/data/homePage";
 import WhyTrustBox from "./WhyTrustBox";
 import ContactForm from "./ContactForm";
+import FaqComponent from "../general/FaqComponent";
 
 const WhyUs = () => {
   return (
-    <div className="bg-gradient-to-b from-[#0F121D] to-[#275A4F]">
+    <div className="bg-gradient-to-b from-[#0F121D] to-[#275A4F] h-full">
       <section className=" h-full py-12 flex flex-col gap-10 ">
         <div className="containerCust">
           <div className="flex flex-wrap md:flex-nowrap gap-2 justify-start  ">
@@ -63,8 +64,13 @@ const WhyUs = () => {
         ))}
       </Swiper>
 
-      <div className="flex justify-between items-center containerCust">
-        <ContactForm />
+      <div className="flex justify-between flex-wrap lg:flex-nowrap gap-10 items-center containerCust !py-[130px]">
+        <div className=" w-full lg:w-[50%]">
+          <ContactForm />
+        </div>
+        <div className=" w-full lg:w-[50%]">
+          <FaqComponent />
+        </div>
       </div>
     </div>
   );

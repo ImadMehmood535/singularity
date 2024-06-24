@@ -148,6 +148,10 @@
   }
 }
 
+.contactBg{
+  background: rgba(247, 247, 247, 0.15);
+}
+
 .customLink2:hover:after {
   content: "";
   position: absolute;

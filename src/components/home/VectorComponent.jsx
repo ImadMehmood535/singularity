@@ -5,13 +5,13 @@ import { vectorL, vectorR } from "@/assets";
 
 const VectorComponent = () => {
   return (
-    <div className="w-full bg-black py-12 relative z-30 h-[55vh] flex flex-col gap-8 justify-center items-center">
-      <h1 className="font-bold">
+    <div className="w-full bg-black py-12 relative z-30 h-[100vh] md:h-[55vh] flex flex-col gap-8 justify-center items-center">
+      <h1 className="font-bold px-3">
         Lorem ipsum dolor sit amet <br /> ipsum dolor sit amet
       </h1>
       <LinkComponent text={"Reach Us Out"} href={"/"} />
 
-      <div className="absolute right-0  ">
+      <div className="absolute right-0 top-0 md:top-16  ">
         <Image src={vectorR} alt="vector-right" width={250} height={250} />
       </div>
       <div className="absolute left-0 bottom-0">

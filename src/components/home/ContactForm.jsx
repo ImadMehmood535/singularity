@@ -39,7 +39,7 @@ const ContactForm = () => {
   }, []);
 
   return (
-    <div className="bg-white bg-opacity-20 rounded-[25px] px-4 py-12 flex flex-col gap-4  h-full lg:h-[690px]">
+    <div className="contactBg rounded-[25px] px-4 py-12 flex flex-col gap-4  h-full lg:h-[690px]">
       <h3 className="font-bold text-white">We would love to hear from you</h3>
 
       <p className="text-white">
@@ -121,7 +121,7 @@ const ContactForm = () => {
 
         <button
           type="submit"
-          className="bg-black hover:bg-white hover:text-black transition-all relative customLink rounded-full w-[150px] py-3 text-center text-sm text-white"
+          className="bg-black hover:bg-white hover:text-black transition-all relative customLink rounded-full w-[160px] py-4 text-center text-sm text-white"
         >
           Send message
           <span className="gradientBorder"></span>

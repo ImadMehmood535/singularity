@@ -27,11 +27,16 @@ const Footer = () => {
 
   return (
     <div
-      className={`Footer overflow-hidden relative py-10 md:pt-20 md:pb-10 px-0 mx-auto ${
+      className={`Footer overflow-hidden containerCust relative py-10 md:pt-20 md:pb-10 px-0 mx-auto ${
         isDarkMode ? "bg-black text-white" : "bg-white text-black"
       }`}
     >
-      <div className="containerCust  relative z-20">
+      <div className="w-full  mb-14 mt-14 md:mt-0">
+        <h2 className=" font-bold">
+          Your trusted partner <br /> for taxation
+        </h2>
+      </div>
+      <div className="  relative z-20">
         <div className="flex flex-col md:flex-row justify-between gap-5">
           <div className="left-area w-full md:w-5/6">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
@@ -44,7 +49,7 @@ const Footer = () => {
                     <li key={key}>
                       <Link
                         href={item.link}
-                        className=" text-sm font-medium hover:text-[#32BB98]"
+                        className=" text-sm font-[300] hover:text-[#32BB98]"
                       >
                         {item.name}
                       </Link>
@@ -60,7 +65,7 @@ const Footer = () => {
                     <li key={key}>
                       <Link
                         href={item.link}
-                        className=" text-sm font-medium hover:text-[#32BB98]"
+                        className=" text-sm font-[300] hover:text-[#32BB98]"
                       >
                         {item.name}
                       </Link>
@@ -76,7 +81,7 @@ const Footer = () => {
                     <li key={key}>
                       <Link
                         href={item.link}
-                        className=" text-sm font-medium hover:text-[#32BB98]"
+                        className=" text-sm font-[300] hover:text-[#32BB98]"
                       >
                         {item.name}
                       </Link>
@@ -121,7 +126,7 @@ const Footer = () => {
               <h4 className="uppercase  font-bold text-lg mb-4">
                 Subscribe to our newsletter
               </h4>
-              <p className="mb-3  font-medium text-base">
+              <p className="mb-3  font-[300] text-base">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit phasellus
                 amet dui quam vitae quis leo.
               </p>
@@ -151,7 +156,7 @@ const Footer = () => {
                     )}
                   </div>
                   <div className="button-wrapper  w-1/3">
-                    <button className="bg-black w-full rounded-full font-medium text-white  table py-3 transition-all duration-200 cursor-pointer hover:bg-[#32BB98]">
+                    <button className="bg-black w-full rounded-full font-medium text-white  table py-3 transition-all duration-200 cursor-pointer text-center hover:bg-[#32BB98]">
                       Suscribe
                     </button>
                   </div>
@@ -161,7 +166,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex justify-between items-center py-10 md:py-36">
+        <div className="flex justify-between flex-wrap items-center py-10 md:py-[100px] gap-10">
           <div className="w-full md:w-1/5">
             <Image
               src={logo}
@@ -176,7 +181,8 @@ const Footer = () => {
           <div className="w-full md:w-[25%]">
             <div className="icon-list">
               <ul className="flex flex-col gap-2 text-sm font-medium">
-                <li className="flex flex-row gap-3 items-center justify-end">
+                <li className="flex flex-row gap-3 items-center justify-start">
+                  <div className="ml-[4px]">
                   <svg
                     width="20"
                     height="26"
@@ -190,6 +196,8 @@ const Footer = () => {
                     />
                   </svg>
 
+                  </div>
+
                   <Link
                     href={"/"}
                     className="GeneralSans text-sm font-medium hover:text-[#32BB98] w-[80%]"
@@ -197,7 +205,7 @@ const Footer = () => {
                     Goerscheider Weg 50 42579 Heiligenhaus
                   </Link>
                 </li>
-                <li className="flex flex-row gap-3 items-center justify-end max-w-[400px] w-full">
+                <li className="flex flex-row gap-3 items-center justify-start  w-full">
                   <svg
                     width="29"
                     height="30"
@@ -223,20 +231,24 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="bottom-footer w-full flex flex-col justify-between md:flex-row  items-center">
+
+        <div className="h-[1px] bg-white/10 mb-7 w-full"/>
+
+        <div className="bottom-footer flex-wrap mb-20 font-[300] text-sm w-full flex flex-col justify-between md:flex-row  items-center">
+
           <div className="rights-text">
-            <p className=" flex flex-row gap-4 text-base">
-              <span className="font-semibold">Copyright © 2024 </span>
-              <span> Singularity GmbH. All Rights Reserved</span>
+            <p className=" whitespace-nowrap text-base">
+              <span className="font-[300] text-sm">Copyright © 2024 </span>
+              <span className="font-[300] text-sm"> Singularity GmbH. All Rights Reserved</span>
             </p>
           </div>
-          <div className="payments flex flex-row gap-1 items-center justify-end">
+          <div className="payments flex flex-row gap-1 items-start md:items-center justify-start md:justify-end">
             <div className="link-list">
               <ul className="flex  flex-row gap-3 text-sm font-medium">
                 <li className="text-center">
                   <Link
                     href={"/"}
-                    className=" text-sm font-medium hover:text-[#32BB98] w-[80%]"
+                    className=" font-[300] text-sm hover:text-[#32BB98] w-[80%]"
                   >
                     Impressum
                   </Link>
@@ -244,7 +256,7 @@ const Footer = () => {
                 <li className="text-center">
                   <Link
                     href={"/"}
-                    className=" text-sm font-medium hover:text-[#32BB98]"
+                    className=" font-[300] text-sm hover:text-[#32BB98]"
                   >
                     Privacy Policy
                   </Link>
@@ -252,7 +264,7 @@ const Footer = () => {
                 <li className="text-center">
                   <Link
                     href={"/"}
-                    className=" text-sm font-medium hover:text-[#32BB98]"
+                    className=" font-[300] text-sm hover:text-[#32BB98]"
                   >
                     FAQs
                   </Link>

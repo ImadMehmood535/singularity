@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -12,6 +12,16 @@ import ContactForm from "./ContactForm";
 import FaqComponent from "../general/FaqComponent";
 
 const WhyUs = () => {
+  const [showContactForm, setShowContactForm] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowContactForm(true);
+    }, 4000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className="bg-gradient-to-b from-[#0F121D] to-[#275A4F] h-full">
       <section className=" h-full py-12 flex flex-col gap-10 ">
@@ -66,7 +76,7 @@ const WhyUs = () => {
 
       <div className="flex justify-between flex-wrap lg:flex-nowrap gap-10 items-center containerCust !py-[130px]">
         <div className=" w-full lg:w-[50%]">
-          <ContactForm />
+          {showContactForm && <ContactForm />}
         </div>
         <div className=" w-full lg:w-[50%]">
           <FaqComponent />

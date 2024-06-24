@@ -54,16 +54,16 @@ const Index = () => {
           have a residence in the target market. EU customs territory could be
           challenging because of incalculable risks, fees, and duties.
         </p>
-        <h2 className="mt-12">Singularity GmbH's Oblique Representation</h2>
+        <h2 className="mt-12">Singularity GmbH&apos;s Oblique Representation</h2>
         <p>
           Provides a fully equipped indirect representation service, which
           serves in Germany, the UK and across the EU. To register for indirect
           representation, the following criteria are to be met:
         </p>
         <p>
-          The shipper needs to be connected to Singularity GmbH's address by a
+          The shipper needs to be connected to Singularity GmbH&apos;s address by a
           legitimate EU EORI number. A valid VAT number for the destined nation
-          connected to the shipper's business address is required. Compliance
+          connected to the shipper&apos;s business address is required. Compliance
           with relevant laws and a predetermined deposit or security guarantee.
         </p>
         <p>

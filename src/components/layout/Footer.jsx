@@ -6,7 +6,7 @@ import { FaTiktok } from "react-icons/fa";
 import { PiInstagramLogo } from "react-icons/pi";
 import { RiFacebookFill } from "react-icons/ri";
 import { FaLinkedinIn } from "react-icons/fa";
-import { PaymentCards, logo } from "@/assets";
+import {   logo } from "@/assets";
 import Image from "next/image";
 import VectorComponent from "../home/VectorComponent";
 import { quick_links } from "@/data/footer";
@@ -273,13 +273,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="card-list">
-                <Image
-                  src={PaymentCards}
-                  alt="footer-image"
-                  className="max-w-[210px]"
-                />
-              </div>
+              
             </div>
           </div>
         </div>

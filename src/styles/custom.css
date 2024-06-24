@@ -278,3 +278,7 @@
 .react-international-phone-country-selector-button__dropdown-arrow {
   display: none !important;
 }
+
+.aboutBg {
+  background-image: url(../assets/images/aboutBg.png)
+}

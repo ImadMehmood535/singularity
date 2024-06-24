@@ -19,9 +19,7 @@ export default function Home() {
       <div className="relative z-50 ">
         <WhyUs />
       </div>
-      <div className="relative z-50 ">
-        <VectorComponent />
-      </div>
+     
     </>
   );
 }

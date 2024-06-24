@@ -17,6 +17,11 @@ import videoPic from "./images/videoPic.webp";
 import logo from "./images/logo.svg";
 import vectorL from "./images/vectorL.svg";
 import vectorR from "./images/vectorR.svg";
+import innerBanner from "./images/innerBanner.png"
+import about1 from "./images/about1.png"
+import about2 from "./images/about2.png"
+import about3 from "./images/about3.png"
+import aboutBg from "./images/aboutBg.png"
 
 export {
   homeBg,
@@ -38,4 +43,9 @@ export {
   logo,
   vectorL,
   vectorR,
+  innerBanner,
+  about1,
+  about2,
+  about3,
+  aboutBg
 };

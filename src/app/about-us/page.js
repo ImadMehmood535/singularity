@@ -72,7 +72,7 @@ const Index = () => {
         </p>
       </div>
 
-      <div className="bg-gradient-to-b from-[#0F121D] to-[#275A4F] h-full">
+      <div className="bg-gradient-to-b from-[#0F121D] to-[#275A4F] h-full !text-start">
         <div className="flex justify-between flex-wrap lg:flex-nowrap gap-10 items-center containerCust !py-[130px]">
           <div className=" w-full lg:w-[50%]">
             <ContactForm />

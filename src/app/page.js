@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <HomeBanner />
-      <TrustedPartners />
+      {/* <TrustedPartners />
       <div className="hidden lg:block">
         <ScrollHome />
       </div>
@@ -21,7 +21,7 @@ export default function Home() {
       </div>
       <div className="relative z-50 ">
         <VectorComponent />
-      </div>
+      </div> */}
     </>
   );
 }

@@ -274,7 +274,7 @@ const Footer = () => {
             <div className="card-list">
               <Image
                 src={PaymentCards}
-                alt={PaymentCards}
+                alt="footer-image"
                 className="max-w-[210px]"
               />
             </div>

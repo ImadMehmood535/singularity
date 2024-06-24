@@ -13,8 +13,10 @@ import b2 from "./images/b2.svg";
 import b3 from "./images/b3.svg";
 import b4 from "./images/b4.svg";
 import play from "./images/play.svg";
-import videoPic from "./images/videoPic.webp"
-import logo from "./images/logo.svg"
+import videoPic from "./images/videoPic.webp";
+import logo from "./images/logo.svg";
+import vectorL from "./images/vectorL.svg";
+import vectorR from "./images/vectorR.svg";
 
 export {
   homeBg,
@@ -34,4 +36,6 @@ export {
   play,
   videoPic,
   logo,
+  vectorL,
+  vectorR,
 };

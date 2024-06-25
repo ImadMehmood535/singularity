@@ -11,8 +11,8 @@ const Header = () => {
 
   return (
     <div
-      className={`flex justify-between items-center transition-all    ${
-        expend ? "max-w-[330px] md:max-w-[800px]" : " max-w-[270px] "
+      className={`flex justify-between items-center transition-all  ${
+        expend ? "max-w-[330px] md:max-w-[800px]" : " max-w-[270px]"
       } mx-auto w-full bg-white/60 headerShadow fixed top-10 right-0 left-0 z-[100] rounded-[40px] px-6 py-3`}
     >
       <Image
@@ -25,37 +25,51 @@ const Header = () => {
       />
 
       <div
-        className={`transition-all   ease-in-out overflow-hidden hidden md:block ${
+        className={`transition-all ease-in-out overflow-hidden  hidden md:block ${
           expend ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <ul className={`flex flex-col sm:flex-row  gap-4`}>
+        <ul className={`flex flex-col sm:flex-row gap-4`}>
           {navItems?.map((item, index) => (
-            <li key={index}>
+            <li key={index} className="relative group">
               <Link
                 href={item.href}
-                className="text-white whitespace-nowrap hover:text-themeGreen-0 transition-all text-sm"
+                className={`text-white whitespace-nowrap hover:text-themeGreen-0 transition-all text-sm`}
               >
                 {item.name}
               </Link>
+              {item?.subLinks && (
+                <ul className="group-hover:block hidden absolute z-[999] left-0 top-full bg-white text-black w-max p-2 mt-2 shadow-lg rounded-md">
+                  {item.subLinks.map((subItem, subIndex) => (
+                    <li key={subIndex}>
+                      <Link
+                        href={subItem.href}
+                        className="block whitespace-nowrap hover:text-themeGreen-0 transition-all text-sm p-2"
+                      >
+                        {subItem.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </li>
           ))}
         </ul>
       </div>
-
+{}
       <div
         onClick={() => setExpend(!expend)}
         className={`${
           expend ? "hidden" : "block"
-        } bg-white hover:bg-themeGreen-0 group transition-all rounded-[51px] px-2 py-1 cursor-pointer `}
+        } bg-white hover:bg-themeGreen-0 group transition-all rounded-[51px] px-2 py-1 cursor-pointer`}
       >
         <p className="text-themeGreen-0 group-hover:text-white text-sm">Menu</p>
       </div>
 
       <div
-        className={` ${
+        className={`${
           expend ? "block" : "hidden"
-        } flex justify-end items-center gap-3 `}
+        } flex justify-end items-center gap-3`}
       >
         <div className="bg-themeGreen-0 transition-all hover:bg-white group rounded-[20px] px-3">
           <Link
@@ -65,14 +79,19 @@ const Header = () => {
             Login
           </Link>
         </div>
-        <IoMdClose onClick={() => setExpend(!expend)} size={30} color="white" className="cursor-pointer" />
+        <IoMdClose
+          onClick={() => setExpend(!expend)}
+          size={30}
+          color="white"
+          className="cursor-pointer"
+        />
       </div>
       <div
-        className={`transition-all bg-white/60 border-[5px] border-black/10  ease-in-out overflow-hidden block md:hidden absolute top-20 rounded-xl left-0 w-full   p-4  ${
+        className={`transition-all bg-white/60 border-[5px] border-black/10 ease-in-out overflow-hidden block md:hidden absolute top-20 rounded-xl left-0 w-full p-4 ${
           expend ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <ul className={`flex flex-col sm:flex-row  gap-4`}>
+        <ul className={`flex flex-col sm:flex-row gap-4`}>
           {navItems?.map((item, index) => (
             <li key={index}>
               <Link

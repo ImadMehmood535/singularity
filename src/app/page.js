@@ -17,9 +17,8 @@ export default function Home() {
         <VideoComponent />
       </div>
       <div className="relative z-50 ">
-        <WhyUs />
+        <WhyUs onlyslider={true} />
       </div>
-     
     </>
   );
 }

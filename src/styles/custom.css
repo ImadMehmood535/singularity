@@ -57,7 +57,7 @@
   border-color: transparent;
 }
 
-.customLink:hover:after {
+.gradent-wrapper:hover:after {
   content: "";
   position: absolute;
   background: linear-gradient(
@@ -76,8 +76,11 @@
   border-radius: 40px;
   background-size: 400% 100%; /* Increase background size to cover animation path */
   animation: animate 2s linear infinite;
+  z-index: 20;
 }
-
+.gradent-wrapper:hover a {
+  background-color: #474951;
+}
 @keyframes animate {
   from {
     background-position: 0%;
@@ -148,7 +151,7 @@
   }
 }
 
-.contactBg{
+.contactBg {
   background: rgba(247, 247, 247, 0.15);
 }
 
@@ -245,7 +248,6 @@
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
 }
 
- 
 .react-international-phone-country-selector-button {
   display: flex;
   height: 3.5rem !important;
@@ -280,5 +282,61 @@
 }
 
 .aboutBg {
-  background-image: url(../assets/images/aboutBg.png)
+  background-image: url(../assets/images/aboutBg.png);
+}
+.ServiceBanner .containerCust {
+  background: linear-gradient(
+    180deg,
+    #32bb98 0%,
+    #2a98a7 10.5%,
+    #2682b0 20.26%,
+    #132992 45.59%,
+    #0f121d 89.33%,
+    #0f121d 94.23%
+  );
+}
+.InformationBanner .containerCust {
+  background: linear-gradient(
+    180deg,
+    #32bb98 0%,
+    #2a98a7 10.5%,
+    #2682b0 20.26%,
+    #132992 45.59%,
+    #0f121d 89.33%,
+    #0f121d 94.23%
+  );
+}
+.text-gradent {
+  background: linear-gradient(283deg, #32bb98 15.33%, #fff 96.78%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.service-heading {
+  background: linear-gradient(
+    277.97deg,
+    #32bb98 12.56%,
+    #2ecc5a 48.34%,
+    #1d3667 117.79%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.service-area .custom-gradent:before {
+  border-radius: 512px;
+  opacity: 0.35;
+  background: linear-gradient(282deg, #32bb98 14.2%, #0f29c3 74.43%);
+  filter: blur(75px);
+  content: "";
+  width: 405px;
+  height: 479px;
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.service-area .custom-shadow {
+  box-shadow: 3px 4px 6.1px 0px #ffffff1a;
 }

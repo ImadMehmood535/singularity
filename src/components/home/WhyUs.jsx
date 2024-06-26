@@ -11,8 +11,7 @@ import WhyTrustBox from "./WhyTrustBox";
 import ContactForm from "./ContactForm";
 import FaqComponent from "../general/FaqComponent";
 
-const WhyUs = () => {
-
+const WhyUs = ({ onlyslider }) => {
   const [showContactForm, setShowContactForm] = useState(false);
 
   useEffect(() => {
@@ -20,11 +19,11 @@ const WhyUs = () => {
       setShowContactForm(true);
     }, 4000);
 
-     return () => clearTimeout(timer);
+    return () => clearTimeout(timer);
   }, []);
 
   return (
-    <div className="bg-gradient-to-b from-[#0F121D] to-[#275A4F] h-full">
+    <div className={` ${ onlyslider === false ? `bg-[#0F121D]` : `bg-gradient-to-b from-[#0F121D] to-[#275A4F]`} h-full`}>
       <section className=" h-full py-12 flex flex-col gap-10 ">
         <div className="containerCust">
           <div className="flex flex-wrap md:flex-nowrap gap-2 justify-start  ">
@@ -40,51 +39,52 @@ const WhyUs = () => {
           </div>
         </div>
       </section>
-
-      <Swiper
-        pagination={{
-          dynamicBullets: true,
-          clickable: true,
-        }}
-        slidesPerView={1}
-        freeMode={true}
-        grabCursor={true}
-        modules={[FreeMode]}
-        spaceBetween={2}
-        loop={false}
-        breakpoints={{
-          540: {
-            slidesPerView: 1,
-            spaceBetween: 2,
-          },
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 2,
-          },
-          1024: {
-            slidesPerView: 3,
-            spaceBetween: 2,
-          },
-        }}
-        className="mySwiper"
-      >
-        {whyTrustData?.map((item) => (
-          <SwiperSlide key={item.id}>
-            <WhyTrustBox head={item?.head} para={item?.para} />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-
-      <div className="flex justify-between flex-wrap lg:flex-nowrap gap-10 items-center containerCust !py-[130px]">
-        <div className=" w-full lg:w-[50%]">
-         {showContactForm &&   
-          <ContactForm />
-         }
-        </div>
-        <div className=" w-full lg:w-[50%]">
-          <FaqComponent />
-        </div>
+      <div className={onlyslider === false ? "pb-20" : ""}>
+        <Swiper
+          pagination={{
+            dynamicBullets: true,
+            clickable: true,
+          }}
+          slidesPerView={1}
+          freeMode={true}
+          grabCursor={true}
+          modules={[FreeMode]}
+          spaceBetween={2}
+          loop={false}
+          breakpoints={{
+            540: {
+              slidesPerView: 1,
+              spaceBetween: 2,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 2,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 2,
+            },
+          }}
+          className="mySwiper"
+        >
+          {whyTrustData?.map((item) => (
+            <SwiperSlide key={item.id}>
+              <WhyTrustBox head={item?.head} para={item?.para} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
+
+      {onlyslider  === true && (
+        <div className="flex justify-between flex-wrap lg:flex-nowrap gap-10 items-center containerCust !py-[130px]">
+          <div className=" w-full lg:w-[50%]">
+            {showContactForm && <ContactForm />}
+          </div>
+          <div className=" w-full lg:w-[50%]">
+            <FaqComponent />
+          </div>
+        </div>
+      )}
     </div>
   );
 };

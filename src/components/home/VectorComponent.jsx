@@ -1,21 +1,16 @@
 import React from "react";
 import LinkComponent from "../general/LinkComponent";
-import Image from "next/image";
-import { vectorL, vectorR } from "@/assets";
 
 const VectorComponent = () => {
   return (
-    <div className="w-full bg-black py-12 relative z-30 h-[100vh] md:h-[55vh] flex flex-col gap-8 justify-center items-center">
-      <h1 className="font-bold px-3">
-        Lorem ipsum dolor sit amet <br /> ipsum dolor sit amet
-      </h1>
-      <LinkComponent text={"Reach Us Out"} href={"/"} />
-
-      <div className="absolute right-0 top-0 md:top-16  ">
-        <Image src={vectorR} alt="vector-right" width={250} height={250} />
-      </div>
-      <div className="absolute left-0 bottom-0">
-        <Image src={vectorL} alt="vector-right" width={250} height={250} />
+    <div className={`VectorComponent bg-black relative py-20 overflow-hidden`}>
+      <div className="containerCust z-30 relative">
+        <div className="w-full   z-30   flex flex-col gap-8 justify-center items-center">
+          <h1 className="font-bold  text-center">
+            Lorem ipsum dolor sit amet <br /> ipsum dolor sit amet
+          </h1>
+          <LinkComponent text={"Reach Us Out"} href={"/"} />
+        </div>
       </div>
     </div>
   );

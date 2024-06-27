@@ -10,8 +10,9 @@ const TrustedReachOut = () => {
       <p className="max-w-[85%]">
         Contact our team for tailor-made services just for you.
       </p>
-
-      <LinkComponent text={"Reach Us Out"} href={"/"} />
+      <div className="flex">
+        <LinkComponent text={"Reach Us Out"} href={"/"} />
+      </div>
     </div>
   );
 };

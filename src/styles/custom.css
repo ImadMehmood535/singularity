@@ -1,7 +1,12 @@
 .homeBackground {
   background-image: url(../assets/images/bg.webp);
 }
-
+.glass-effect {
+  background: rgba(255, 255, 255, 0.28);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.2px);
+  -webkit-backdrop-filter: blur(4.2px);
+}
 .words {
   display: inline;
   text-indent: 10px;
@@ -378,3 +383,17 @@
     width: 50%;
   }
 }
+.custom-gradent:before {
+  border-radius: 512px;
+  opacity: 0.35;
+  background: linear-gradient(282deg, #32bb98 14.2%, #0f29c3 74.43%);
+  filter: blur(75px);
+  content: "";
+  width: 405px;
+  height: 479px;
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+ 

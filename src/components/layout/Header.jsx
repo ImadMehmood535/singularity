@@ -11,9 +11,9 @@ const Header = () => {
 
   return (
     <div
-      className={`flex justify-between items-center transition-all  ${
+      className={`glass-effect flex justify-between items-center transition-all  ${
         expend ? "max-w-[330px] md:max-w-[800px]" : " max-w-[270px]"
-      } mx-auto w-full bg-white/60 headerShadow fixed top-10 right-0 left-0 z-[100] rounded-[40px] px-6 py-3`}
+      } mx-auto w-full  headerShadow fixed top-10 right-0 left-0 z-[100] rounded-[40px] px-6 py-3`}
     >
       <Image
         src={logo}
@@ -56,7 +56,7 @@ const Header = () => {
           ))}
         </ul>
       </div>
-{}
+      {}
       <div
         onClick={() => setExpend(!expend)}
         className={`${

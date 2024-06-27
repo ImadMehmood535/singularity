@@ -21,5 +21,5 @@ export const navItems = [
   },
   { name: "News", href: "/news" },
   { name: "Information", href: "/information" },
-  { name: "Contact Us", href: "/contact" },
+  { name: "Contact Us", href: "/contact-us" },
 ];

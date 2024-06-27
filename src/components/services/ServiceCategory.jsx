@@ -24,7 +24,7 @@ const ServiceCategory = ({ title, content, data, text, href }) => {
                    
                   <div
                     key={key}
-                    className=" w-full lg:w-[33.33%] p-6 rounded-2xl overflow-hidden relative custom-gradent bg-[#19161A] "
+                    className=" w-full lg:w-[33.33%] p-6 rounded-2xl overflow-hidden relative custom-gradent rotate-360 bg-[#19161A] "
                   >
                     <div className="relative z-30">
                       <div className="bg-[#ffffff26] custom-shadow rounded-[28px] px-6 py-2 border-white border w-fit mb-16">

@@ -221,16 +221,8 @@
 .spin-slow {
   animation: spin 10s linear infinite;
 }
-
-.swiper-wrapper .swiper-slide:nth-child(1) {
-  /* margin-left: 50px; */
-
-  width: 100%;
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 0 3%;
-}
-
+ 
+ 
 .react-international-phone-input-container .react-international-phone-input {
   overflow: visible;
   height: 3.5rem !important;
@@ -396,4 +388,34 @@
   right: 0;
   top: 20px;
 }
+.custom-gradent-slider:before{
+  border-radius: 512px;
+  opacity: 0.35;
+  background: linear-gradient(282deg, #32bb98 14.2%, #0f29c3 74.43%);
+  filter: blur(75px);
+  content: "";
+  width: 405px;
+  height: 479px;
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  
+   
+}
+.rotate-360:before {
+  animation: rotate-360 8s linear infinite;
+}
  
+@keyframes rotate-360 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(280deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

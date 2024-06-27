@@ -23,10 +23,16 @@ const WhyUs = ({ onlyslider }) => {
   }, []);
 
   return (
-    <div className={` ${ onlyslider === false ? `bg-[#0F121D]` : `bg-gradient-to-b from-[#0F121D] to-[#275A4F]`} h-full`}>
-      <section className=" h-full py-12 flex flex-col gap-10 ">
+    <div
+      className={` ${
+        onlyslider === false
+          ? `bg-[#0F121D]`
+          : `bg-gradient-to-b from-[#0F121D] to-[#275A4F]`
+      } h-full`}
+    >
+      <section className=" h-full pt-12 flex flex-col gap-10 ">
         <div className="containerCust">
-          <div className="flex flex-wrap md:flex-nowrap gap-2 justify-start  ">
+          <div className="flex pb-12 flex-wrap md:flex-nowrap gap-2 justify-start  ">
             <div className="flex flex-col gap-4">
               <div className="bg-themeGray-0 rounded-[28px] px-6 py-1 w-fit">
                 <p className="text-sm">Why Us</p>
@@ -37,8 +43,8 @@ const WhyUs = ({ onlyslider }) => {
               </h2>
             </div>
           </div>
-        </div>
-      </section>
+       
+      
       <div className={onlyslider === false ? "pb-20" : ""}>
         <Swiper
           pagination={{
@@ -54,15 +60,15 @@ const WhyUs = ({ onlyslider }) => {
           breakpoints={{
             540: {
               slidesPerView: 1,
-              spaceBetween: 2,
+              spaceBetween: 20,
             },
             768: {
               slidesPerView: 2,
-              spaceBetween: 2,
+              spaceBetween: 20,
             },
             1024: {
               slidesPerView: 3,
-              spaceBetween: 2,
+              spaceBetween: 20,
             },
           }}
           className="mySwiper"
@@ -74,8 +80,9 @@ const WhyUs = ({ onlyslider }) => {
           ))}
         </Swiper>
       </div>
-
-      {onlyslider  === true && (
+      </div>
+      </section>
+      {onlyslider === true && (
         <div className="flex justify-between flex-wrap lg:flex-nowrap gap-10 items-center containerCust !py-[130px]">
           <div className=" w-full lg:w-[50%]">
             {showContactForm && <ContactForm />}

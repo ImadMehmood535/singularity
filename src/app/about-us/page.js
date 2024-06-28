@@ -1,3 +1,4 @@
+import AboutBanner from "@/components/about/AboutBanner";
 import Aboutarea from "@/components/about/Aboutarea";
 import Centercontent from "@/components/about/Centercontent";
 import VatComponent from "@/components/about/VatComponent";
@@ -10,7 +11,8 @@ import React from "react";
 const Index = () => {
   return (
     <div className="text-center w-full  ">
-      <InnerBanner title={"About Us"} />
+      <AboutBanner subtitle="Our Story" title="About Us" />
+      {/* <InnerBanner title={"About Us"} /> */}
       <Aboutarea />
       <VatComponent />
       <Centercontent />

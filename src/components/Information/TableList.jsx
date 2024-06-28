@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import React, { useState } from "react";
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 
@@ -6,31 +6,32 @@ const TableList = ({ data }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [entriesPerPage, setEntriesPerPage] = useState(50);
 
+  // Calculate indexes for pagination
   const indexOfLastEntry = currentPage * entriesPerPage;
   const indexOfFirstEntry = indexOfLastEntry - entriesPerPage;
   const currentEntries = data.slice(indexOfFirstEntry, indexOfLastEntry);
 
+  // Calculate total pages
   const totalPages = Math.ceil(data.length / entriesPerPage);
 
+  // Handle next page click
   const handleNext = () => {
     if (currentPage < totalPages) {
       setCurrentPage(currentPage + 1);
     }
   };
 
+  // Handle previous page click
   const handlePrevious = () => {
     if (currentPage > 1) {
       setCurrentPage(currentPage - 1);
     }
   };
 
+  // Handle entries per page change
   const handleEntriesChange = (entries) => {
     setEntriesPerPage(entries);
-    setCurrentPage(1);
-    const elem = document.activeElement;
-    if (elem) {
-      elem?.blur();
-    }
+    setCurrentPage(1); // Reset to first page when changing entries per page
   };
 
   return (
@@ -39,7 +40,11 @@ const TableList = ({ data }) => {
         <div className="table-count-changer mb-4">
           <div className="dropdown flex items-center flex-row">
             <p className="mr-2 text-white">Show</p>
-            <div tabIndex={0} role="button" className="btn m-1 border border-white bg-[#ffffff38] w-[70px]">
+            <div
+              tabIndex={0}
+              role="button"
+              className="btn m-1 border border-white bg-[#ffffff38] w-[70px]"
+            >
               {entriesPerPage}
             </div>
             <ul
@@ -61,26 +66,26 @@ const TableList = ({ data }) => {
             <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
               <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
-                  <td className="py-2 w-[15%] rounded-tl-xl px-2 bg-gradient-to-r from-[#0F29C3] to-[#32BB98] text-white font-semibold text-base">
+                  <th className="py-2 w-[15%] rounded-tl-xl px-2 bg-gradient-to-r from-[#0F29C3] to-[#32BB98] text-white font-semibold text-base">
                     Country
-                  </td>
-                  <td className="py-2 w-[15%] px-2 bg-gradient-to-r from-[#0F29C3] to-[#32BB98] text-white font-semibold text-base">
+                  </th>
+                  <th className="py-2 w-[15%] px-2 bg-gradient-to-r from-[#0F29C3] to-[#32BB98] text-white font-semibold text-base">
                     Region
-                  </td>
-                  <td className="py-2 w-[15%] px-2 bg-gradient-to-r from-[#0F29C3] to-[#32BB98] text-white font-semibold text-base">
+                  </th>
+                  <th className="py-2 w-[15%] px-2 bg-gradient-to-r from-[#0F29C3] to-[#32BB98] text-white font-semibold text-base">
                     Rate
-                  </td>
-                  <td className="py-2 w-[20%] px-2 bg-gradient-to-r from-[#0F29C3] to-[#32BB98] text-white font-semibold text-base">
+                  </th>
+                  <th className="py-2 w-[20%] px-2 bg-gradient-to-r from-[#0F29C3] to-[#32BB98] text-white font-semibold text-base">
                     Rate type
-                  </td>
-                  <td className="py-2 w-[75%] rounded-tr-xl px-2 bg-gradient-to-r from-[#0F29C3] to-[#32BB98] text-white font-semibold text-base">
+                  </th>
+                  <th className="py-2 w-[75%] rounded-tr-xl px-2 bg-gradient-to-r from-[#0F29C3] to-[#32BB98] text-white font-semibold text-base">
                     Description
-                  </td>
+                  </th>
                 </tr>
               </thead>
               <tbody>
-                {currentEntries.map((item, key) => (
-                  <tr key={key} className="my-2 md:my-0 border-b border-[#4B4D55] md:border-none">
+                {currentEntries.map((item, index) => (
+                  <tr key={index} className="my-2 md:my-0 border-b border-[#4B4D55] md:border-none">
                     <td className="py-2 px-2 text-white text-base">
                       {item.country}
                     </td>
@@ -104,7 +109,7 @@ const TableList = ({ data }) => {
         </div>
         <div className="mt-6 rounded-2xl pagination-bar bg-[#252731] py-4 px-3 flex flex-col gap-3 md:flex-row justify-between items-center">
           <p className="text-white text-base">
-            Showing {indexOfFirstEntry + 1} to{" "}
+            Showing {Math.min(indexOfFirstEntry + 1, data.length)} to{" "}
             {Math.min(indexOfLastEntry, data.length)} of {data.length} entries
           </p>
           <div className="btn-area flex justify-between items-center gap-3 max-w-[150px]">

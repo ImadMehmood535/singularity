@@ -24,6 +24,8 @@ import about3 from "./images/about3.png"
 import aboutBg from "./images/aboutBg.png"
 import Customizedtaxplanning1 from "./images/Customizedtaxplanning1.jpg"
 import informationBanner from "./images/informationBanner.jpg"
+import amazonlogo1 from "./images/amazonlogo1.png"
+import amazonlogo2 from "./images/amazonlogo2.png"
 
 export {
   homeBg,
@@ -51,5 +53,7 @@ export {
   about3,
   aboutBg,
   Customizedtaxplanning1,
-  informationBanner
+  informationBanner,
+  amazonlogo1,
+  amazonlogo2,
 };

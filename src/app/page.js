@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <HomeBanner />
       <TrustedPartners />
-      <div className="hidden lg:block">
+      <div className=" ">
         <ScrollHome />
       </div>
       <div className="relative z-50 ">

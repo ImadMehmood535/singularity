@@ -3,7 +3,7 @@ import React from "react";
 
 const SBox = ({ pic, head, paragh }) => {
   return (
-    <div className="max-w-[300px] border-4 border-black/10 font-light text-white w-full p-8 bg-gray-500/50 ra rounded-[25px] h-[350px]         ">
+    <div className="w-full md:max-w-[300px] border-4 border-black/10 font-light text-white w-full p-8 bg-themeGray-0 lg:bg-gray-500/50 rounded-[25px] h-[350px]">
       <Image
         src={pic}
         alt="pic"

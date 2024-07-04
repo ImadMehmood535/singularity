@@ -7,7 +7,7 @@ const BoxScroll3 = () => {
     <div className="grid grid-cols-1 lg:grid-cols-4 justify-evenly h-screen px-2  ">
       <div className="col-span-2"></div>
 
-      <div className="col-span-1 mt-[70%] md:mt-[90%]">
+      <div className="col-span-1 mt-[50%] lg:mt-[90%]">
         <SBox
           pic={b3}
           head={<>Flexible</>}

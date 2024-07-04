@@ -5,7 +5,11 @@ import Intro from "@/components/amazon/Intro";
 import Resources from "@/components/amazon/Resources";
 import SalesFeature from "@/components/amazon/SalesFeature";
 import VideoComponent from "@/components/home/VideoComponent";
-import { SalesFeatureData, faqData, resourcesData } from "@/data/AmazomPageData";
+import {
+  SalesFeatureData,
+  faqData,
+  resourcesData,
+} from "@/data/AmazomPageData";
 import React from "react";
 
 const Index = () => {

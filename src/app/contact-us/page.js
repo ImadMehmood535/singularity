@@ -1,3 +1,4 @@
+import AboutBanner from "@/components/about/AboutBanner";
 import LocationDetails from "@/components/contact/LocationDetails";
 import MapArea from "@/components/contact/MapArea";
 import InnerBanner from "@/components/general/InnerBanner";
@@ -9,7 +10,8 @@ const Index = () => {
  
   return (
     <div className="contactpage  w-full ">
-      <InnerBanner title={"Contact Us"} />
+      <AboutBanner subtitle="Reach Us" title="Contact Us" />
+      {/* <InnerBanner title={"Contact Us"} /> */}
       <div className="!py-[130px]  bg-gradient-to-b from-[#0F121D] to-[#275A4F] h-full !text-start">
         <div className="containerCust">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">

@@ -39,7 +39,7 @@ const ContactForm = () => {
   }, []);
 
   return (
-    <div className="contactBg rounded-[25px] px-4 py-12 flex flex-col gap-4  h-full lg:h-[690px]">
+    <div className="contactBg   rounded-[25px] px-4 py-12 flex flex-col gap-4  h-full lg:h-[690px]">
       <h3 className="font-bold text-white">We would love to hear from you</h3>
 
       <p className="text-white">

@@ -2,7 +2,8 @@ import React from "react";
 
 const FaqComponent = () => {
   return (
-    <div className="bg-black  text-white rounded-[25px] px-4 py-12 flex flex-col gap-4 h-full  ">
+    // <div className="bg-black  text-white rounded-[25px] px-4 py-12 flex flex-col gap-4 h-full lg:h-[690px]">
+    <div className="bg-black  text-white rounded-[25px] px-4 py-12 flex flex-col gap-4 h-full">
       <h3 className="font-bold  ">Frequently Asked Questions</h3>
       <p className="text-[13px]">
         At Singularity, we are dedicated to providing clarity and support for

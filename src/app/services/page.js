@@ -30,6 +30,15 @@ const Index = () => {
         }
       />
       <ServiceCategory
+        title={"VAT Compliance"}
+        content={
+          "Singularity GmbH offers top-tier tax consulting services to help you optimize your tax strategies. Our expertise ensures that your business benefits from tailored advice and strategic planning."
+        }
+        text={"Learn More"}
+        href={"services/vat-compliance"}
+        data={TaxConsultingData.vatcompliance}
+      />
+      <ServiceCategory
         title={"Tax Consulting"}
         content={
           "Singularity GmbH offers top-tier tax consulting services to help you optimize your tax strategies. Our expertise ensures that your business benefits from tailored advice and strategic planning."

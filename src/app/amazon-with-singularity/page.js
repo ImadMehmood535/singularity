@@ -26,7 +26,7 @@ const Index = () => {
       <Intro
         subtitle={"Explore"}
         title={"Introduction"}
-        content="Understanding sales tax obligations is crucial for Amazon sellers. Sales tax regulations can be complex and vary by state, making compliance challenging. Staying informed and compliant can save you from costly penalties and ensure your business runs smoothly."
+        content="Managing VAT compliance can be a daunting task, but Amazon VAT Service simplifies the process for you. Singularity is proud to partner with Amazon VAT Service, offering comprehensive VAT compliance solutions. We handle your European VAT registration and filing obligations, covering the UK, France, Italy, Spain, Poland, and the Czech Republic."
       />
       <SalesFeature data={SalesFeatureData} />
       <Resources

@@ -10,13 +10,16 @@ import ProgressComponent from "@/components/layout/ProgressComponent";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Singularity",
-  description: "Created by Clicktap Digital",
+  title: "Comprehensive Tax and Accounting Services | Singularity Tax",
+  description: "Discover top-tier tax and accounting services at Singularity Tax. Our expert team specializes in providing tailored solutions for businesses in the tech industry. Ensure compliance and optimize your financial strategy with our trusted services.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body className={inter.className}>
         <ProgressComponent />
         <div className="fixed z-[999]  bottom-[50px] right-12">

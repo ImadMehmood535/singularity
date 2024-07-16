@@ -12,7 +12,7 @@ const BoxScroll4 = () => {
 
       <div className="hidden lg:block col-span-3"></div>
 
-      <div className="hidden lg:block col-span-1 mt-[100%]">
+      <div className="hidden lg:block col-span-1 mt-[120%]">
         <SBox
           pic={b4}
           head={<>Service</>}

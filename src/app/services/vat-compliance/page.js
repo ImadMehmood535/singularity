@@ -2,6 +2,7 @@ import WhyUs from "@/components/home/WhyUs";
 import InnerFaq from "@/components/services/InnerFaq";
 import InnerServiceFeature from "@/components/services/InnerServiceFeature";
 import ServiceBanner from "@/components/services/ServiceBanner";
+
 import { taxcompliance } from "@/data/InnerServicePagesData";
 import { VatComplianceFaq } from "@/data/SingleServiceData";
 
@@ -11,10 +12,10 @@ const Index = () => {
   return (
     <div>
       <ServiceBanner
-        subtitle={"Services: Tax Compliance"}
-        title={"Comprehensive Tax Compliance Services"}
+        subtitle={"Services: VAT Compliance  "}
+        title={"VAT Compliance  Services: Simplifying Your Tax Journey"}
         content={
-          "Tax compliance is critical to maintaining your business's reputation and avoiding penalties. At Singularity GmbH, we bring our extensive expertise to ensure your business meets all regulatory requirements with precision and accuracy."
+          "At Singularity, we understand the critical role of VAT compliance within the European Union, particularly for businesses involved in cross-border transactions. Our VAT services are expertly crafted to support your business, ensuring seamless tax operations and adherence to EU regulations. By partnering with us, you gain access to comprehensive VAT compliance solutions that streamline your processes and keep your business running smoothly."
         }
         text={"Learn More"}
         href={"/"}
@@ -48,11 +49,12 @@ const Index = () => {
       <div className="relative z-50 ">
         <WhyUs onlyslider={false} />
       </div>
-      {/* <InnerFaq
+
+      <InnerFaq
         data={VatComplianceFaq}
         title="What is Lorem Ipsum?"
         content="rem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
-      /> */}
+      />
     </div>
   );
 };

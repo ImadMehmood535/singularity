@@ -1,4 +1,27 @@
 const TaxConsultingData = {
+  vatcompliance: [
+    {
+      id: 1,
+      subtitle: "Key Benefits 1",
+      title: "Customized Tax Planning",
+      content:
+        "Develop strategies that align with your business goals and maximize tax efficiency.",
+    },
+    {
+      id: 2,
+      subtitle: "Key Benefits 2",
+      title: "Compliance and Risk Management",
+      content:
+        "Stay ahead of regulatory changes and manage tax risks effectively.",
+    },
+    {
+      id: 3,
+      subtitle: "Key Benefits 3",
+      title: "International Tax Solutions",
+      content:
+        "Handle cross-border tax issues with expert guidance on international regulations.",
+    },
+  ],
   taxconsulting: [
     {
       id: 1,

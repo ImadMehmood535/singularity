@@ -5,7 +5,6 @@ import VectorComponent from "@/components/home/VectorComponent";
 import VideoComponent from "@/components/home/VideoComponent";
 import WhyUs from "@/components/home/WhyUs";
 
- 
 
 export default function Home() {
   return (

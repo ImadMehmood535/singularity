@@ -15,7 +15,6 @@ const ScrollHome = () => {
         <div className="sticky top-16 mx-auto  z-20">
           <BoxScroll />
         </div>
-
         <div className="sticky top-16 mx-auto  z-20">
           <BoxScroll2 />
         </div>
@@ -25,6 +24,7 @@ const ScrollHome = () => {
         <div className="sticky top-16 mx-auto  z-20">
           <BoxScroll4 />
         </div>
+        
       </div>
     </>
   );

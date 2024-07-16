@@ -80,10 +80,22 @@ const WhyUs = ({ onlyslider }) => {
           ))}
         </Swiper>
       </div>
+      <div className="pt-12">
+        <p className="pb-4 text-left">
+        Ideal for businesses seeking complete VAT assistance, Singularity GmbH provides support at every stage. As expert accounting and business consultants, we simplify your VAT processes from start to finish, ensuring your financial records are flawless and compliant. Trust us to handle the complexities while you focus on growing your business.
+        </p>
+        <p className="pb-4 text-left">
+        Our comprehensive services as accounting and business consultantsinclude VAT registration, preparation, and submission of VAT returns, as well as detailed guidance on VAT compliance. We help you understand the intricacies of VAT regulations and implement best practices to optimize your VAT management. Our team also offers VAT audit support, ensuring that you are well-prepared for any inspections or reviews by tax authorities.
+        </p>
+        <p className="pb-4 text-left">
+        Singularity GmbH is committed to providing personalized tax and accounting services tailored to your specific needs. Our goal is to relieve you of the burdensome administrative tasks, allowing you to focus on growing your business. With our comprehensive tax and accounting services, you can rest assured that your financial affairs are in expert hands. Trust us to deliver reliable, efficient, and compliant financial solutions for your business
+        </p>
+        
+      </div>
       </div>
       </section>
       {onlyslider === true && (
-        <div className="flex justify-between flex-wrap lg:flex-nowrap gap-10 items-center containerCust !py-[130px]">
+        <div className="flex justify-between flex-wrap lg:flex-nowrap gap-10 items-start containerCust !py-[130px]">
           <div className=" w-full lg:w-[50%]">
             {showContactForm && <ContactForm />}
           </div>

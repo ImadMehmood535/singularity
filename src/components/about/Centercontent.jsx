@@ -7,37 +7,56 @@ const Centercontent = () => {
         <div className=" flex flex-col items-center gap-5 containerCust !py-12">
           <h2>What Is Indirect Representation?</h2>
           <p>
-            Direct representation means to appoint a professional to represent
-            an entity as jointly liable for the import formalities, including
-            duties, taxes, and relevant agreed-upon activities. The importance
-            of such representation is acquired to clear the goods from customs
-            on account of the applicant. Indirect representation on the other
-            hand means that the rights and obligations have been delegated and
-            transferred to the representative to take over all stipulated
-            procedures. The Primary reason for pursuing indirect representation
-            is when importers do not have a residence in the target market. EU
-            customs territory could be challenging because of incalculable
-            risks, fees, and duties.
+            In contrast, indirect representation transfers the rights and
+            obligations entirely to the representative, who manages all required
+            procedures. Importers often choose this approach when they lack
+            residency in the target market or when they want to avoid the
+            complexities associated with customs clearance. In indirect
+            representation, the representative assumes full responsibility for
+            the import process, including the payment of duties, taxes, and any
+            penalties. This method can provide greater peace of mind for
+            importers, as the representative handles all interactions with
+            customs authorities and navigates any potential challenges.
+          </p>
+          <p>
+            Navigating EU customs can be complex due to unpredictable risks,
+            fees, and duties. The EU has stringent regulations that vary between
+            member states, requiring a deep understanding of local customs laws
+            and procedures. Factors such as tariff classifications, valuation
+            methods, and origin rules can significantly impact the import
+            process. Additionally, importers must be aware of specific
+            documentation requirements, including certificates of origin,
+            commercial invoices, and packing lists, to ensure smooth customs
+            clearance.
           </p>
           <div className="px-0 md:px-[10%] flex flex-col gap-5">
             <h2 className="mt-12">
               Singularity GmbH&apos;s Oblique Representation
             </h2>
             <p>
-              Provides a fully equipped indirect representation service, which
-              serves in Germany, the UK and across the EU. To register for
-              indirect representation, the following criteria are to be met:
+              We offer comprehensive indirect representation services throughout
+              Germany, the UK, and the EU. Our expert team ensures smooth and
+              efficient customs clearance, allowing you to focus on your core
+              business activities. To register for our services, you must meet
+              the following criteria:
             </p>
             <p>
-              The shipper needs to be connected to Singularity GmbH&apos;s
-              address by a legitimate EU EORI number. A valid VAT number for the
-              destined nation connected to the shipper&apos;s business address
-              is required. Compliance with relevant laws and a predetermined
-              deposit or security guarantee.
+              Connect the shipper to Singularity GmbH’s address with a valid EU
+              EORI number. This unique identifier is crucial for customs
+              processes within the EU, ensuring that all transactions are
+              properly tracked and documented.
             </p>
             <p>
-              Verification with the shipping business or freight forwarder of
-              item clearances with Fiscal IOR as your indirect representative.
+              Provide a legitimate VAT number for the destination country linked
+              to the shipper’s business. This is essential for compliance with
+              local tax regulations and enables the correct processing of VAT on
+              imported goods.
+            </p>
+            <p>
+              Ensure compliance with applicable regulations and provide a
+              security deposit or guarantee. This step is necessary to cover any
+              potential liabilities or duties that may arise during the import
+              process, safeguarding both your business and our services.
             </p>
           </div>
         </div>

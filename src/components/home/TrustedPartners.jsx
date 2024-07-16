@@ -37,6 +37,11 @@ const TrustedPartners = () => {
         
         <TrustedReachOut/>
       </div>
+      <div className=" containerCust text-center">
+        <p>
+        Contact Singularity GmbH today for more information about our comprehensive tax services or to schedule a consultation with our experienced team. We are committed to providing tailored solutions to help your business succeed.
+        </p>
+      </div>
     </section>
   );
 };

@@ -43,9 +43,7 @@ const ContactForm = () => {
       <h3 className="font-bold text-white">We would love to hear from you</h3>
 
       <p className="text-white">
-        Lorem ipsum dolor sit amet consectetur. Leo vestibulum nisl vitae
-        aliquam etiam eu elementum. Vitae amet lectus sit risus amet metus
-        malesuada. Diam sed bibendum.
+      Contact Singularity GmbH today for more information about our comprehensive tax services or to schedule a consultation with our experienced team. We are committed to providing tailored solutions to help your business succeed.
       </p>
 
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">

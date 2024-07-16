@@ -8,26 +8,26 @@ export const trustedData = [
         VAT Compliance <br /> & Registration
       </>
     ),
-    para: "Perfect for businesses that are looking for end-to-end VAT Support, being with you every step of the way.",
+    para: "By choosing Singularity GmbH, you gain a trusted partner dedicated to simplifying the complexities of company formation and VAT compliance.",
   },
   {
     pic: trusted1,
     head: (
       <>
-        VAT Compliance <br /> & Registration
+        Company Formation <br /> & Services
       </>
     ),
-    para: "Perfect for businesses that are looking for end-to-end VAT Support, being with you every step of the way.",
+    para: "Our company formation services cover everything from initial consultation to post-registration support.",
   },
   {
     pic: trusted2,
     head: (
       <>
-        E-Commerce <br /> Business Specialist
+       Custom Indirect <br /> Representative Services
       </>
     ),
 
-    para: "Lorem ipsum dolor sit amet consectetur. Nulla sit risus ultricies in ut. Sollicitudin eu metus aliquet pharetra ultrices diam enim porta. Euismod.",
+    para: "We provide comprehensive customs indirect representation services, assisting businesses in clearing goods through customs in Germany and the UK.",
   },
   {
     pic: trusted3,
@@ -43,26 +43,26 @@ export const trustedData = [
     pic: trusted5,
     head: (
       <>
-        Custom Indirect <br /> Representative Services
+        Amazon <br /> Sales Tax
       </>
     ),
 
-    para: "Lorem ipsum dolor sit amet consectetur. Lorem blandit risus id amet. Et at vulputate lectus quis. Eget consequat ornare urna diam lorem mauris.",
+    para: "Managing VAT compliance can be a daunting task, but Amazon VAT Service simplifies the process for you.",
   },
 ];
 
 export const whyTrustData = [
   {
-    head: "Global Exposure",
-    para: "International consultants with the solid knowledge and unassailable consultancy.",
+    head: "Worldwide Visibility",
+    para: "Expert International Consultants with Deep Knowledge and Reliable Advice.",
   },
   {
-    head: "Complete Compliance",
-    para: "Maximum potential is in your reach with consistent and second to none compliance.",
+    head: "Absolute Compliance",
+    para: "Achieve Your Full Potential with Unmatched and Consistent Compliance Services.",
   },
   {
-    head: "Maximum Flexibility",
-    para: "Consummate tailored solutions for every business need that meets and exceeds.",
+    head: "Ultimate Flexibility",
+    para: "Perfectly Tailored Solutions to Meet and Exceed Every Business Need.",
   },
   {
     head: "Complete Compliance",

@@ -15,8 +15,9 @@ const Index = () => {
       <div className="!py-[130px]  bg-gradient-to-b from-[#0F121D] to-[#275A4F] h-full !text-start">
         <div className="containerCust">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-            {locationdetails.map((item, key) => (
+            {locationdetails?.map((item, index) => (
               <LocationDetails
+              key={index}
                 icon={item.icon}
                 head={item.heading}
                 para={item.para}

@@ -53,11 +53,11 @@ const Aboutarea = () => {
             we assist clients with mergers and acquisitions, financial due
             diligence, and business valuations. We also provide robust support
             in areas such as financial reporting, risk management, and internal
-            controls, ensuring that our clients' financial practices are sound
+            controls, ensuring that our clients&apos;s financial practices are sound
             and compliant.
           </p>
           <p>
-            Singularity GmbH's commitment to innovation is evident in our
+            Singularity GmbH&apos;s commitment to innovation is evident in our
             adoption of advanced technologies and digital solutions to enhance
             our service delivery. We leverage data analytics, cloud-based
             accounting systems, and automation tools to provide our clients with
@@ -69,7 +69,7 @@ const Aboutarea = () => {
             also deeply passionate about delivering exceptional service. We
             invest in continuous professional development to maintain our edge
             in the ever-evolving field of tax advisory. Our client-centric
-            approach ensures that we understand and anticipate our clients'
+            approach ensures that we understand and anticipate our client&apos;s
             needs, providing proactive solutions that drive their success.
           </p>
           <p>

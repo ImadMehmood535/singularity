@@ -8,8 +8,8 @@ const FaqComponent = () => {
       <p className="text-[13px]">
         At Singularity, we are dedicated to providing clarity and support for
         all your queries regarding our innovative services and unique approach.
-        We strive to help your business excel. If you don't find your question
-        answered below, please feel free to contact us directly. We're always
+        We strive to help your business excel. If you do&apos;t find your question
+        answered below, please feel free to contact us directly. We&apos;re always
         here to assist you!
       </p>
 

@@ -12,7 +12,7 @@ const VatComponent = () => {
             <p>
               VAT, or Value-Added Tax, is a consumption tax applied at each
               stage of production, distribution, or sale of goods and services.
-              It is calculated incrementally based on the product's or service's
+              It is calculated incrementally based on the product&apos;s or service&apos;s
               price at each stage. Ensuring VAT compliance involves regularly
               submitting VAT returns to the relevant tax authorities according
               to specific guidelines that vary based on the nature and size of
@@ -20,7 +20,7 @@ const VatComponent = () => {
             </p>
             <p>
               In essence, VAT compliance means adhering to the prescribed
-              regulations for filing and reporting an entity's VAT returns
+              regulations for filing and reporting an entity&apos;s VAT returns
               within the stipulated deadlines set by the designated VAT
               authority. This ensures that businesses accurately account for the
               tax collected and paid at each stage of their operations.

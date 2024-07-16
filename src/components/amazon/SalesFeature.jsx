@@ -4,8 +4,8 @@ const SalesFeature = ({ data }) => {
   return (
     <div className="SalesFeature bg-[#0F121D] pt-10">
       <div className="containerCust">
-        {data.map((item, key) => (
-          <div className="wrapper pt-10 pb-16" key={key}>
+        {data.map((item, index) => (
+          <div className="wrapper pt-10 pb-16" key={index}>
             <div className="max-w-[560px] mx-auto text-left md:text-center mb-10">
               <div className="flex flex-col gap-4 items-start md:items-center">
                 <h2 className="text-2xl gradientstyle2 md:text-3xl lg:text-4xl mb-4 font-bold">
@@ -18,9 +18,9 @@ const SalesFeature = ({ data }) => {
             </div>
             <div className="service-area col-span-2 ">
               <div className="flex flex-col lg:flex-row gap-4 ">
-                {item.block.map((item, key) => (
+                {item.block.map((item, index) => (
                   <div
-                    key={key}
+                    key={index}
                     className=" w-full lg:w-[50%] p-6 rounded-2xl overflow-hidden relative custom-gradent2 rotate-360 bg-[#0F121D] "
                   >
                     <div className="relative z-30 h-full flex flex-col justify-between">
@@ -31,8 +31,8 @@ const SalesFeature = ({ data }) => {
                       <p className="text-[#A4A4A4] text-base">{item.content}</p>
                       {item.points && (
                         <ul className="list-disc ml-6 mt-2 flex flex-col gap-1 text-[#A4A4A4] text-base">
-                          {item.points.map((item, key) => (
-                            <li>{item.point}</li>
+                          {item.points.map((item, index) => (
+                            <li key={index}>{item.point}</li>
                           ))}
                         </ul>
                       )}

@@ -9,9 +9,9 @@ const Explore = ({ subtitle, title, content }) => {
             <div className="bg-themeGray-0 rounded-[28px] px-6 py-1 w-fit">
               <p className="text-sm">{subtitle}</p>
             </div>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl">{title}</h2>
+            <h2 className="text-3xl ">{title}</h2>
           </div>
-          <div className="col-span-2 w-full">
+          <div className="col-span-2 h-full flex items-center w-full">
             <p>{content}</p>
           </div>
         </div>

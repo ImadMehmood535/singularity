@@ -12,8 +12,8 @@ const Index = () => {
   return (
     <div>
       <ServiceBanner
-        subtitle={"Services: VAT Compliance  "}
-        title={"VAT Compliance  Services: Simplifying Your Tax Journey"}
+        subtitle={"Services: Vat Compliance Service"}
+        title={"Vat Compliance Service"}
         content={
           "At Singularity, we understand the critical role of VAT compliance within the European Union, particularly for businesses involved in cross-border transactions. Our VAT services are expertly crafted to support your business, ensuring seamless tax operations and adherence to EU regulations. By partnering with us, you gain access to comprehensive VAT compliance solutions that streamline your processes and keep your business running smoothly."
         }
@@ -21,29 +21,29 @@ const Index = () => {
         href={"/"}
       />
       <InnerServiceFeature
-        subtitle={"Precision in Tax Filings"}
-        title={"Accurate and Timely Filings"}
+        subtitle={"Mastering VAT Compliance"}
+        title={"Tax and Accounting Services"}
         content={
-          "Accurate and timely tax filings are essential to avoid penalties and maintain compliance. Singularity GmbH ensures precision through meticulous processes and advanced technology, so your filings are always accurate and on time."
+          "Our comprehensive VAT compliance services form a vital part of our broader tax and accounting offerings. As VAT specialists, we leverage our extensive tax management and accounting expertise to deliver tailored VAT solutions that meet your business needs. Our team of VAT experts ensures that your VAT obligations are managed efficiently, minimising risks and optimising your tax processes within the EU market."
         }
-        data={taxcompliance.taxfilings}
+        data={taxcompliance?.vat1}
       />
       <InnerServiceFeature
-        subtitle={"Expert Audit Support"}
-        title={"Audit Support and Representation"}
+        subtitle={"VAT Compliance Service"}
+        title={"E-Commerce Accounting Solutions"}
         content={
-          "Audit support is a crucial aspect of tax compliance, providing you with the necessary expertise to navigate audits smoothly. Singularity GmbH offers comprehensive audit support services to minimize disruptions and ensure compliance."
+          "Our expertise addresses the unique challenges of the e-commerce landscape, making VAT compliance straightforward and efficient. Trust our outsource accounting team to manage your financial needs, allowing you to focus on growing your business."
         }
         flip={true}
-        data={taxcompliance.auditsupport}
+        data={taxcompliance?.vat2}
       />
       <InnerServiceFeature
-        subtitle={"Navigating Multi-Jurisdictional Compliance"}
-        title={"Multi-Jurisdictional Compliance"}
+        subtitle={"VAT Compliance Service"}
+        title={"EU VAT Compliance for Expats"}
         content={
-          "Managing tax compliance across multiple jurisdictions is complex and challenging. Singularity GmbH provides solutions to navigate these complexities, ensuring compliance in all relevant jurisdictions."
+          "For expatriates navigating VAT compliance in the EU , expert guidance is essential. Singularity specialises in tailored advisory services for expats, ensuring adherence to EU VAT regulations while maximising efficiency."
         }
-        data={taxcompliance.jurisdictionalcompliance}
+        data={taxcompliance?.vat3}
       />
 
       <div className="relative z-50 ">

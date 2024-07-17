@@ -3,23 +3,23 @@ const TaxConsultingData = {
     {
       id: 1,
       subtitle: "Key Benefits 1",
-      title: "Customized Tax Planning",
+      title: "Avoid Fines",
       content:
-        "Develop strategies that align with your business goals and maximize tax efficiency.",
+        "Prevent costly fines and penalties through consistent VAT compliance.",
     },
     {
       id: 2,
       subtitle: "Key Benefits 2",
-      title: "Compliance and Risk Management",
+      title: "Enhance Business Reputation",
       content:
-        "Stay ahead of regulatory changes and manage tax risks effectively.",
+        "Enhance trust and reliability with customers and partners.",
     },
     {
       id: 3,
       subtitle: "Key Benefits 3",
-      title: "International Tax Solutions",
+      title: "Streamline Financial Operations",
       content:
-        "Handle cross-border tax issues with expert guidance on international regulations.",
+        "Simplify financial processes and improve cash flow insights.",
     },
   ],
   taxconsulting: [
@@ -49,46 +49,46 @@ const TaxConsultingData = {
     {
       id: 1,
       subtitle: "Key Benefits 1",
-      title: "Accurate and Timely Filings",
+      title: "Expert Guidance",
       content:
-        "Guarantee that your tax documents are prepared and submitted correctly and on schedule.",
+        "Smooth, compliant setup with professional support.",
     },
     {
       id: 2,
       subtitle: "Key Benefits 2",
-      title: "Audit Support and Representation",
+      title: "Time and Cost Efficiency",
       content:
-        "Receive professional support during audits to minimize disruptions and ensure compliance.",
+        "Save time and reduce costs with streamlined processes.",
     },
     {
       id: 3,
       subtitle: "Key Benefits 3",
-      title: "Multi-Jurisdictional Compliance",
+      title: "Strong Market Presence",
       content:
-        "Manage compliance across various jurisdictions with our comprehensive services.",
+        "Establish a strong foothold with local expertise.",
     },
   ],
   technologysolutions: [
     {
       id: 1,
       subtitle: "Key Benefits 1",
-      title: "Automation of Tax Workflows",
+      title: "Expert Compliance",
       content:
-        "Enhance efficiency and reduce errors by automating your tax processes.",
+        "Ensure adherence to complex EU customs regulations, minimising the risk of penalties and delays.",
     },
     {
       id: 2,
       subtitle: "Key Benefits 2",
-      title: "Real-Time Reporting and Analytics",
+      title: "Seamless Operations",
       content:
-        "Access immediate insights and data to inform your business decisions.",
+        "Streamline your customs processes, allowing for smoother and more efficient business operations.",
     },
     {
       id: 3,
       subtitle: "Key Benefits 3",
-      title: "Integration with Existing Systems",
+      title: "Reduced Burden",
       content:
-        "Ensure smooth operation with our solutions that integrate effortlessly with your current infrastructure.",
+        "Let professionals handle the intricate details, freeing up your resources to focus on core business activities.",
     },
   ],
 };

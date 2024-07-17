@@ -11,7 +11,7 @@ const Index = () => {
   return (
     <div className="secvices w-full  ">
       <ServiceBanner
-        title={"Comprehensive Tax Services by Singularity GmbH"}
+        title={"Tax Services By Singularity GmbH"}
         subtitle={"Services"}
         content={
           "Explore Singularity GmbH's wide range of tax services designed to meet your business needs. Our experts are ready to assist you with personalized solutions. Learn more about our services today."
@@ -32,10 +32,10 @@ const Index = () => {
       <ServiceCategory
         title={"VAT Compliance"}
         content={
-          "Singularity GmbH offers top-tier tax consulting services to help you optimize your tax strategies. Our expertise ensures that your business benefits from tailored advice and strategic planning."
+          "At Singularity, we understand the vital importance of VAT compliance within the EU for businesses engaged in cross-border transactions. Trust us to simplify your VAT processes and navigate the European market with confidence."
         }
         text={"Learn More"}
-        href={"services/vat-compliance"}
+        href={"services/vat-compliance-services"}
         data={TaxConsultingData.vatcompliance}
       />
       <ServiceCategory
@@ -48,18 +48,18 @@ const Index = () => {
         data={TaxConsultingData.taxconsulting}
       />
       <ServiceCategory
-        title={"Tax Compliance"}
+        title={"Company Formation Services"}
         content={
-          "Our tax compliance services at Singularity GmbH are designed to ensure your business remains compliant with all relevant tax laws. We provide meticulous attention to detail in filing and representation."
+          "At Singularity, we provide tailored company formation services to establish your business in the UK, Germany, and EU. Our expertise ensures a smooth, compliant process, navigating the complexities of all markets. Start your enterprise on solid ground with us."
         }
         text={"Learn More"}
         href={"services/tax-compliance"}
         data={TaxConsultingData.taxcompliance}
       />
       <ServiceCategory
-        title={"Tax Technology Solutions"}
+        title={"Customs Indirect Representation"}
         content={
-          "Singularity GmbH provides innovative tax technology solutions to modernize your tax processes. Our services include automation, real-time reporting, and seamless integration with your existing systems."
+          "Navigating EU customs clearance can be complex, but with our Customs Indirect Representation Services, you have a reliable partner by your side. We serve as your dedicated representative, expertly managing EU customs regulations to ensure full compliance and smooth operations for your business."
         }
         text={"Learn More"}
         href={"services/tax-technology-solutions"}

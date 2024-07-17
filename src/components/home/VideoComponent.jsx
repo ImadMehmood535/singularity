@@ -24,11 +24,11 @@ const VideoComponent = () => {
       <video
         ref={videoRef}
         width="320"
-        height="420"
+        height="620"
         preload="none"
         controls={false}
         poster={videoPic.src}
-        className="w-full h-[420px]   object-cover object-center"
+        className="w-full h-[620px]   object-cover object-center"
       >
         <source src={"video1.mp4"} type="video/mp4" />
         Your browser does not support the video tag.

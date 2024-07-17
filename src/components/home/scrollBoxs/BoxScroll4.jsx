@@ -36,7 +36,7 @@ const BoxScroll4 = () => {
       </div>
       <div className=" block lg:hidden col-span-1 md:col-span-3"></div>
     </div>
-    <p className="text-center pb-6">Reach out to Singularity GmbH today to learn more about our extensive tax services or to book a consultation with our expert team. We are dedicated to offering customized solutions to ensure your business thrives.</p>
+    <p className="text-center pb-6 hidden md:block">Reach out to Singularity GmbH today to learn more about our extensive tax services or to book a consultation with our expert team. We are dedicated to offering customized solutions to ensure your business thrives.</p>
     </>
   );
 };

@@ -22,7 +22,7 @@ const InnerFaq = ({ data, title, content }) => {
                   {data.map((item, key) => (
                     <div
                       key={key}
-                      className="collapse collapse-arrow first:border-t-[1px]  rounded-none     border-b-[1px] border-[#373A45] first-child:bg-red-200"
+                      className="collapse collapse-arrow bg-[#171717]"
                     >
                       <input
                         type="radio"

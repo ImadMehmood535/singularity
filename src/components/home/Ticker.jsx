@@ -6,8 +6,8 @@ const Ticker = () => {
   const wordlist = ["Trusted by 2950+ Businesses around the world"];
 
   return (
-    <div className="Ticker bg-transparent">
-      <div className="relative    overflow-hidden">
+    <div className="Ticker bg-transparent overflow-hidden">
+      <div className="relative ">
         <div className="ticker-wrapper">
           <div className="ticker flex py-2  justify-evenly items-center space-x-4">
             {Array.from({ length: 5 }).map((_, index) => (

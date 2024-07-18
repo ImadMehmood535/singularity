@@ -52,6 +52,15 @@ import IndirectRepresentation3 from "./images/IndirectRepresentation3.jpg"
 import SingularityRisk1 from "./images/SingularityRisk1.jpg"
 import SingularityRisk2 from "./images/SingularityRisk2.jpg"
 import SingularityRisk3 from "./images/SingularityRisk3.jpg"
+import trustedvat1 from "./images/trustedvat1.jpg"
+import trustedvat2 from "./images/trustedvat2.jpg"
+import trustedvat3 from "./images/trustedvat3.jpg"
+import defermentacross1 from "./images/defermentacross1.jpg"
+import defermentacross2 from "./images/defermentacross2.jpg"
+import defermentacross3 from "./images/defermentacross3.jpg"
+import benefits1 from "./images/benefits1.jpg"
+import benefits2 from "./images/benefits2.jpg"
+import benefits3 from "./images/benefits3.jpg"
 
 
 
@@ -110,5 +119,14 @@ export {
   SingularityRisk1,
   SingularityRisk2,
   SingularityRisk3,
+  trustedvat1,
+  trustedvat2,
+  trustedvat3,
+  defermentacross1,
+  defermentacross2,
+  defermentacross3,
+  benefits1,
+  benefits2,
+  benefits3,
  
 };

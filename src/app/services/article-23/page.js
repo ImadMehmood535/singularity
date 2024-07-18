@@ -3,8 +3,8 @@ import WhyUs from "@/components/home/WhyUs";
 import InnerFaq from "@/components/services/InnerFaq";
 import InnerServiceFeature from "@/components/services/InnerServiceFeature";
 import ServiceBanner from "@/components/services/ServiceBanner";
-import { article23, taxcompliance } from "@/data/InnerServicePagesData";
- 
+import { article23  } from "@/data/InnerServicePagesData";
+import { article23faq  } from "@/data/SingleServiceData";
 
 const page = () => {
   return (
@@ -46,7 +46,11 @@ const page = () => {
       <div className="relative z-50 ">
         <WhyUs onlyslider={false} />
       </div>
- 
+      <InnerFaq
+        data={article23faq}
+        title="What is Lorem Ipsum?"
+        content="rem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+      />
     </div>
   );
 };

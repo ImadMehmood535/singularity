@@ -2,7 +2,8 @@ import WhyUs from "@/components/home/WhyUs";
 import InnerFaq from "@/components/services/InnerFaq";
 import InnerServiceFeature from "@/components/services/InnerServiceFeature";
 import ServiceBanner from "@/components/services/ServiceBanner";
-import { technologysolutions } from "@/data/InnerServicePagesData";
+import { CustomsIndirectRepresentation, technologysolutions } from "@/data/InnerServicePagesData";
+import { customsindirectfaq } from "@/data/SingleServiceData";
  
 
 import React from "react";
@@ -25,7 +26,7 @@ const Index = () => {
         content={
           "At Singularity, we specialise in indirect representation customs, serving as your trusted intermediary within the EU customs framework. By partnering with us, you can focus on your core business activities while we handle the complexities of customs, providing you with peace of mind and seamless operations across the European Union."
         }
-        data={technologysolutions.customIndirect}
+        data={CustomsIndirectRepresentation.customIndirect}
       />
       <InnerServiceFeature
         subtitle={"Customs Indirect Representation Services"}
@@ -34,7 +35,7 @@ const Index = () => {
           "Singularity takes pride in offering top-tier Indirect Customs Representation services for businesses looking to expand into the European Union. Our seasoned professionals possess extensive knowledge of EU customs laws and regulations, ensuring your goods clear customs efficiently and accurately."
         }
         flip={true}
-        data={technologysolutions.realtimereporting}
+        data={CustomsIndirectRepresentation.realtimereporting}
       />
       <InnerServiceFeature
         subtitle={"Customs Indirect Representation Services"}
@@ -42,13 +43,17 @@ const Index = () => {
         content={
           "Choosing Singularity as your indirect customs representative means partnering with a team that prioritises compliance, reduces risks, and minimises errors."
         }
-        data={technologysolutions.integrationefficiency}
+        data={CustomsIndirectRepresentation.integrationefficiency}
       />
 
       <div className="relative z-50 ">
         <WhyUs onlyslider={false} />
       </div>
-      
+      <InnerFaq
+        data={customsindirectfaq}
+        title="What is Lorem Ipsum?"
+        content="rem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+      />
     </div>
   );
 };

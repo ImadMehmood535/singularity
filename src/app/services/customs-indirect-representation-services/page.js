@@ -2,9 +2,11 @@ import WhyUs from "@/components/home/WhyUs";
 import InnerFaq from "@/components/services/InnerFaq";
 import InnerServiceFeature from "@/components/services/InnerServiceFeature";
 import ServiceBanner from "@/components/services/ServiceBanner";
-import { CustomsIndirectRepresentation, technologysolutions } from "@/data/InnerServicePagesData";
+import {
+  CustomsIndirectRepresentation,
+  technologysolutions,
+} from "@/data/InnerServicePagesData";
 import { customsindirectfaq } from "@/data/SingleServiceData";
- 
 
 import React from "react";
 
@@ -13,12 +15,16 @@ const Index = () => {
     <div>
       <ServiceBanner
         subtitle={"Services: Customs Indirect Representation Services"}
-        title={<>Customs Indirect <br/> Representation Services</>}
+        title={
+          <>
+            Customs Indirect <br /> Representation Services
+          </>
+        }
         content={
           "Navigating the complexities of customs clearance in the European Union (EU) can be challenging. With our Customs Indirect Representation services, we become your reliable partner, ensuring compliance with EU customs regulations. Acting as your indirect representation, we facilitate smooth and efficient operations, allowing your business to thrive without the hassle of customs complexities."
         }
-        text={"Learn More"}
-        href={"/"}
+        text={"Reach Us Out"}
+        href={"#ReachUs"}
       />
       <InnerServiceFeature
         subtitle={"Customs Indirect Representation "}
@@ -49,11 +55,12 @@ const Index = () => {
       <div className="relative z-50 ">
         <WhyUs onlyslider={false} />
       </div>
-      <InnerFaq
-        data={customsindirectfaq}
-        title="What is Lorem Ipsum?"
-        content="rem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
-      />
+      <div id="ReachUs">
+        <InnerFaq
+          data={customsindirectfaq}
+           
+        />
+      </div>
     </div>
   );
 };

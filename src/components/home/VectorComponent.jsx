@@ -9,7 +9,7 @@ const VectorComponent = () => {
           <h1 className="font-bold  text-center">
           Are you ready to elevate <br /> your tax strategy?
           </h1>
-          <LinkComponent text={"Reach Us Out"} href={"/"} />
+          <LinkComponent text={"Reach Us Out"} href={"/contact-us"} />
         </div>
       </div>
     </div>

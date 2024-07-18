@@ -3,8 +3,8 @@ import WhyUs from "@/components/home/WhyUs";
 import InnerFaq from "@/components/services/InnerFaq";
 import InnerServiceFeature from "@/components/services/InnerServiceFeature";
 import ServiceBanner from "@/components/services/ServiceBanner";
-import { article23  } from "@/data/InnerServicePagesData";
-import { article23faq  } from "@/data/SingleServiceData";
+import { article23 } from "@/data/InnerServicePagesData";
+import { article23faq } from "@/data/SingleServiceData";
 
 const page = () => {
   return (
@@ -15,8 +15,8 @@ const page = () => {
         content={
           "At Singularity, we offer specialised Article 23 services, positioning ourselves as leading article 23 providers in the UK and Germany. Our services are designed to help businesses leverage the benefits of the Article 23 mechanism, optimising VAT management and enhancing cash flow efficiency."
         }
-        text={"Learn More"}
-        href={"/"}
+        text={"Reach Us Out"}
+        href={"#ReachUs"}
       />
       <InnerServiceFeature
         subtitle={"Article 23"}
@@ -46,11 +46,9 @@ const page = () => {
       <div className="relative z-50 ">
         <WhyUs onlyslider={false} />
       </div>
-      <InnerFaq
-        data={article23faq}
-        title="What is Lorem Ipsum?"
-        content="rem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
-      />
+      <div id="ReachUs">
+        <InnerFaq data={article23faq} />
+      </div>
     </div>
   );
 };

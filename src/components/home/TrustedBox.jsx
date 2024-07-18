@@ -20,7 +20,7 @@ const TrustedBox = ({ item }) => {
             />
           </div>
           <h3 className="text-themeTextGray-0 min-h-[64px]">{item?.head}</h3>
-          <p className="text-sm text-themeTextGray-0 h-[70px]">{item?.para}</p>
+          <p className="text-sm text-themeTextGray-0 h-[90px]">{item?.para}</p>
         </div>
       </div>
     </Link>

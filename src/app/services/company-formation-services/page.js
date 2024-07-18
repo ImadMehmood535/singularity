@@ -5,7 +5,6 @@ import ServiceBanner from "@/components/services/ServiceBanner";
 
 import { companyformation, taxcompliance } from "@/data/InnerServicePagesData";
 import { companyformationfaq } from "@/data/SingleServiceData";
- 
 
 import React from "react";
 
@@ -18,8 +17,8 @@ const Index = () => {
         content={
           "At Singularity, we excel in providing comprehensive and customised company formation services, guiding businesses to establish a strong foothold in the United Kingdom and EU."
         }
-        text={"Learn More"}
-        href={"/"}
+        text={"Reach Us Out"}
+        href={"#ReachUs"}
       />
       <InnerServiceFeature
         subtitle={"Formation Services"}
@@ -50,12 +49,12 @@ const Index = () => {
       <div className="relative z-50 ">
         <WhyUs onlyslider={false} />
       </div>
-      <InnerFaq
-        data={companyformationfaq}
-        title="What is Lorem Ipsum?"
-        content="rem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
-      />
-       
+      <div id="ReachUs">
+        <InnerFaq
+          data={companyformationfaq}
+          
+        />
+      </div>
     </div>
   );
 };

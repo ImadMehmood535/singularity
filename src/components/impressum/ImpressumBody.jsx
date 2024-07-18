@@ -3,7 +3,7 @@ import React from "react";
 
 const ImpressumBody = ({ content }) => {
   return (
-    <div className="ImpressumBody bg-[#0F121D]">
+    <div className="ImpressumBody bg-[#0F121D] text-white">
       <div className="containerCust">
         <div className="flex flex-col items-center gap-5 containerCust !py-12">
           {/* <div dangerouslySetInnerHTML={{ __html: content }} /> */}

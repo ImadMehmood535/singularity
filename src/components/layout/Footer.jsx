@@ -246,7 +246,8 @@ const Footer = () => {
                       </div>
 
                       <Link
-                        href={"/"}
+                        href={"https://maps.app.goo.gl/ogtxnMrFi4NX8cDu5"}
+                        target="_blank"
                         className="GeneralSans text-sm font-medium hover:text-[#32BB98] w-[80%]"
                       >
                         Goerscheider Weg 50 42579 Heiligenhaus
@@ -267,7 +268,7 @@ const Footer = () => {
                       </svg>
 
                       <Link
-                        href={"/"}
+                        href={"mailto:gethelp@singularity.tax"}
                         className="GeneralSans text-sm font-medium hover:text-[#32BB98] max-w-[295px]"
                       >
                         Write to us for any query at gethelp@singularity.tax

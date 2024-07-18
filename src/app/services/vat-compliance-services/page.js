@@ -16,8 +16,8 @@ const Index = () => {
         content={
           "At Singularity, we understand the critical role of VAT compliance within the European Union, particularly for businesses involved in cross-border transactions. Our VAT services are expertly crafted to support your business, ensuring seamless tax operations and adherence to EU regulations. By partnering with us, you gain access to comprehensive VAT compliance solutions that streamline your processes and keep your business running smoothly."
         }
-        text={"Learn More"}
-        href={"/"}
+        text={"Reach Us Out"}
+        href={"#ReachUs"}
       />
       <InnerServiceFeature
         subtitle={"Mastering VAT Compliance"}
@@ -48,12 +48,12 @@ const Index = () => {
       <div className="relative z-50 ">
         <WhyUs onlyslider={false} />
       </div>
-
-      <InnerFaq
-        data={VatComplianceFaq}
-        title="What is Lorem Ipsum?"
-        content="rem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
-      />
+      <div id="ReachUs">
+        <InnerFaq
+          data={VatComplianceFaq}
+           
+        />
+      </div>
     </div>
   );
 };

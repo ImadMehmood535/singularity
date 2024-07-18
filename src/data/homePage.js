@@ -47,11 +47,11 @@ export const trustedData = [
     pic: trusted5,
     head: (
       <>
-        Amazon <br /> Sales Tax
+        Amazon  <br /> VAT Services
       </>
     ),
 
-    para: "Managing VAT compliance can be a daunting task, but Amazon VAT Service simplifies the process for you.",
+    para: "Singularity is now on VAT Services on Amazon, helping you manage VAT compliance and filing in the UK, France, Italy, Spain, Poland, and the Czech Republic. Simplify your European VAT registration and obligations with our expertise.",
     linladdress : "/amazon-with-singularity",
   },
 ];

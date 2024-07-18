@@ -15,14 +15,16 @@ const Header = () => {
         expend ? "max-w-[330px] md:max-w-[800px]" : " max-w-[270px]"
       } mx-auto w-full  headerShadow fixed top-10 right-0 left-0 z-[100] rounded-[40px] px-6 py-3`}
     >
-      <Image
-        src={logo}
-        alt="logo"
-        width={130}
-        height={60}
-        quality={100}
-        fetchPriority="high"
-      />
+      <Link href={"/"} className="table min-w-[130px] max-w-[130px]">
+        <Image
+          src={logo}
+          alt="logo"
+          width={130}
+          height={60}
+          quality={100}
+          fetchPriority="high"
+        />
+      </Link>
 
       <div
         className={`transition-all ease-in-out overflow-hidden  hidden md:block ${

@@ -452,3 +452,9 @@
     transform: rotate(360deg);
   }
 }
+.SingleBlogBody h1, .SingleBlogBody h2, .SingleBlogBody h3, .SingleBlogBody h4, .SingleBlogBody h5, .SingleBlogBody h6{
+  margin-bottom: 20px;
+}
+.SingleBlogBody p{
+  margin-bottom: 10px;
+}

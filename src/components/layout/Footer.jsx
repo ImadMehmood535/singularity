@@ -153,8 +153,7 @@ const Footer = () => {
                     Subscribe to our newsletter
                   </h4>
                   <p className="mb-3  font-[300] text-base">
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit
-                    phasellus amet dui quam vitae quis leo.
+                  Subscribe to our newsletter for expert VAT tips, regulatory updates, and industry insights.
                   </p>
                   <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="flex flex-row justify-between items-center gap-1">
@@ -273,7 +272,7 @@ const Footer = () => {
                   <ul className="flex  flex-row gap-3 text-sm font-medium">
                     <li className="text-center">
                       <Link
-                        href={"/"}
+                        href={"/impressum-legal-notice"}
                         className=" font-[300] text-sm hover:text-[#32BB98] w-[80%]"
                       >
                         Impressum

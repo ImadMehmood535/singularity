@@ -19,7 +19,7 @@ export const navItems = [
       },
     ],
   },
-  { name: "News", href: "/news" },
+  { name: "Blogs", href: "/blogs" },
   { name: "Information", href: "/information" },
   { name: "Contact Us", href: "/contact-us" },
 ];

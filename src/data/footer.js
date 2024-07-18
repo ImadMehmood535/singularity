@@ -6,5 +6,5 @@ export const quick_links = [
 export const company_links = [
   { name: "About", link: "/about-us" },
   { name: "Careers", link: "/careers" },
-  { name: "Impressum", link: "/impressum" },
+  { name: "Impressum", link: "/impressum-legal-notice" },
 ];

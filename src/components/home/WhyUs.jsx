@@ -91,7 +91,7 @@ const WhyUs = ({ onlyslider }) => {
               </p>
               <p className="pb-4 text-left">
                 Our comprehensive services as accounting and business
-                consultantsinclude VAT registration, preparation, and submission
+                consultants include VAT registration, preparation, and submission
                 of VAT returns, as well as detailed guidance on VAT compliance.
                 We help you understand the intricacies of VAT regulations and
                 implement best practices to optimize your VAT management. Our

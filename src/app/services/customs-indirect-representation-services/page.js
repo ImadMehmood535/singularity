@@ -29,7 +29,7 @@ const Index = () => {
       />
       <InnerServiceFeature
         subtitle={"Customs Indirect Representation Services"}
-        title={"Streamlining Indirect Representation Procedures in the EU Customs System"}
+        title={"Indirect Representation Procedures in the EU Customs System"}
         content={
           "Singularity takes pride in offering top-tier Indirect Customs Representation services for businesses looking to expand into the European Union. Our seasoned professionals possess extensive knowledge of EU customs laws and regulations, ensuring your goods clear customs efficiently and accurately."
         }

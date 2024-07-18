@@ -13,6 +13,7 @@ export default function Home() {
       <TrustedPartners />
       <div className=" ">
         <ScrollHome />
+        
       </div>
       <div className="relative z-50 ">
         <VideoComponent />

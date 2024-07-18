@@ -36,7 +36,7 @@ const HomeBanner = () => {
           Singularity GmbH is your trusted partner for all tax and accounting services, from comprehensive audit management to regular VAT returns. Let us handle the complexities and ensure your financial records are impeccable. Our expert team offers a full suite of tax and accounting services designed to meet the unique needs of your business, including bookkeeping, payroll processing, and financial statement preparation.
         </p>
 
-        <LinkComponent text={"Learn More"} href={"/"} />
+        <LinkComponent text={"Learn More"} href={"/about-us"} />
       </div>
     </section>
   );

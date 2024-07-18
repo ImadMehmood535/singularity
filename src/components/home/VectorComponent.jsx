@@ -7,7 +7,7 @@ const VectorComponent = () => {
       <div className="containerCust z-30 relative">
         <div className="w-full   z-30   flex flex-col gap-8 justify-center items-center">
           <h1 className="font-bold  text-center">
-            Lorem ipsum dolor sit amet <br /> ipsum dolor sit amet
+          Are you ready to elevate <br /> your tax strategy?
           </h1>
           <LinkComponent text={"Reach Us Out"} href={"/"} />
         </div>

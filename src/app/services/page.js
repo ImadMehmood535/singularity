@@ -53,7 +53,7 @@ const Index = () => {
           "At Singularity, we provide tailored company formation services to establish your business in the UK, Germany, and EU. Our expertise ensures a smooth, compliant process, navigating the complexities of all markets. Start your enterprise on solid ground with us."
         }
         text={"Learn More"}
-        href={"services/tax-compliance"}
+        href={"services/company-formation-services"}
         data={TaxConsultingData.taxcompliance}
       />
       <ServiceCategory
@@ -62,7 +62,7 @@ const Index = () => {
           "Navigating EU customs clearance can be complex, but with our Customs Indirect Representation Services, you have a reliable partner by your side. We serve as your dedicated representative, expertly managing EU customs regulations to ensure full compliance and smooth operations for your business."
         }
         text={"Learn More"}
-        href={"services/tax-technology-solutions"}
+        href={"services/customs-indirect-representation-services"}
         data={TaxConsultingData.technologysolutions}
       />
       <ServiceCategory

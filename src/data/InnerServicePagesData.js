@@ -333,7 +333,7 @@ const technologysolutions = {
       image: Customizedtaxplanning1,
       title: "Ensuring Compliance and Timely Customs Clearance",
       content:
-        "Our commitment to staying updated with the latest regulatory changes ensures your operations remain compliant, no matter how complex the requirements. With Singularity, you benefit from proactive risk management and customised solutions tailored to your business needs. Our experienced team navigates the intricacies of customs regulations, reducing delays and ensuring timely clearance of your goods",
+        "Our commitment to staying updated with the latest regulatory changes ensures your operations remain compliant, no matter how complex the requirements. With Singularity, you benefit from proactive risk management and customised solutions tailored to your business needs. Our experienced team navigates the intricacies of customs regulations, reducing delays and ensuring timely clearance of your goods.",
     },
     {
       image: Customizedtaxplanning1,

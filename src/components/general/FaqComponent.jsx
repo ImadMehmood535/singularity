@@ -8,9 +8,9 @@ const FaqComponent = () => {
       <p className="text-[13px]">
         At Singularity, we are dedicated to providing clarity and support for
         all your queries regarding our innovative services and unique approach.
-        We strive to help your business excel. If you do&apos;t find your question
-        answered below, please feel free to contact us directly. We&apos;re always
-        here to assist you!
+        We strive to help your business excel. If you do&apos;t find your
+        question answered below, please feel free to contact us directly.
+        We&apos;re always here to assist you!
       </p>
 
       <div className="w-full flex flex-col gap-4 faq-area   ">
@@ -22,8 +22,7 @@ const FaqComponent = () => {
           <div className="collapse-content ">
             <p className="text-[12px]">
               Singularity specializes in VAT compliance, VAT registration, and a
-              range of tax and accounting services for businesses in the UK and
-              Germany.
+              range of tax and accounting services for businesses in the EU.
             </p>
           </div>
         </div>
@@ -48,22 +47,20 @@ const FaqComponent = () => {
           <div className="collapse-content ">
             <p className="text-[12px]">
               VAT registration is essential for legal compliance, avoiding
-              fines, and ensuring smooth business operations in the UK and
-              Germany.
+              fines, and ensuring smooth business operations in the UK and EU.
             </p>
           </div>
         </div>
         <div className="collapse collapse-arrow bg-[#171717]">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title  font-medium">
-            Can Singularity assist with VAT registration and inspection in both
-            the UK and Germany?
+            Can Singularity assist with VAT registration and inspection in the
+            EU?
           </div>
           <div className="collapse-content ">
             <p className="text-[12px]">
-              VAT registration is essential for legal compliance, avoiding
-              fines, and ensuring smooth business operations in the UK and
-              Germany.
+              Yes, Singularity provides expert VAT registration and inspection
+              preparation services for businesses operating in the EU.
             </p>
           </div>
         </div>
@@ -81,7 +78,7 @@ const FaqComponent = () => {
             </p>
           </div>
         </div>
-        <div className="collapse collapse-arrow bg-[#171717]">
+        {/* <div className="collapse collapse-arrow bg-[#171717]">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title  font-medium">
             How experienced is Singularity in VAT services and accounting
@@ -94,7 +91,7 @@ const FaqComponent = () => {
               accounting consulting in the UK and Germany.
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="collapse collapse-arrow bg-[#171717]">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title  font-medium">
@@ -105,7 +102,7 @@ const FaqComponent = () => {
             <p className="text-[12px]">
               Singularity boasts a team of seasoned professionals with extensive
               experience in VAT compliance, VAT inspection preparation, and
-              accounting consulting in the UK and Germany.
+              accounting consulting.
             </p>
           </div>
         </div>
@@ -143,8 +140,9 @@ const FaqComponent = () => {
           </div>
           <div className="collapse-content ">
             <p className="text-[12px]">
-              Contact us via our website or call our office to discuss your
-              needs and receive a customized VAT and accounting service plan.
+              Yes, Singularity provides continuous support, including updates on
+              regulatory changes and assistance with VAT returns, inspections,
+              and accounting consulting.
             </p>
           </div>
         </div>
@@ -152,15 +150,16 @@ const FaqComponent = () => {
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title  font-medium">
             What makes Singularity different from other VAT and accounting
-            service providers? 
+            service providers?
           </div>
           <div className="collapse-content ">
             <p className="text-[12px]">
-              Contact us via our website or call our office to discuss your
-              needs and receive a customized VAT and accounting service plan.
+              Singularity stands out with its dual focus on the EU customs and
+              markets, offering specialized, in-depth knowledge and personalized
+              financial and tax advisor services.
             </p>
           </div>
-        </div>  
+        </div>
       </div>
     </div>
   );

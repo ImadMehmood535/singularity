@@ -4,7 +4,8 @@ import InnerServiceFeature from "@/components/services/InnerServiceFeature";
 import ServiceBanner from "@/components/services/ServiceBanner";
 
 import { taxcompliance } from "@/data/InnerServicePagesData";
-import { VatComplianceFaq } from "@/data/SingleServiceData";
+import { companyformationfaq } from "@/data/SingleServiceData";
+ 
 
 import React from "react";
 
@@ -49,12 +50,12 @@ const Index = () => {
       <div className="relative z-50 ">
         <WhyUs onlyslider={false} />
       </div>
-
       <InnerFaq
-        data={VatComplianceFaq}
+        data={companyformationfaq}
         title="What is Lorem Ipsum?"
         content="rem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
       />
+       
     </div>
   );
 };

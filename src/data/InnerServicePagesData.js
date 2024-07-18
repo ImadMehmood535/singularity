@@ -1,4 +1,4 @@
-import { Customizedtaxplanning1 } from "@/assets";
+import { Customizedtaxplanning1, Customizedtaxplanning2, Customizedtaxplanning3 } from "@/assets";
 
 const taxconsulting = {
   taxplanning: [
@@ -91,13 +91,13 @@ const taxcompliance = {
         "Efficient VAT compliance often hinges on streamlined accounting processes. Our tax compliance services are designed to facilitate seamless VAT compliance. By outsourcing these critical functions to our dedicated team, you gain access to expert accounting support that ensures accuracy, compliance, and transparency in your financial records, particularly regarding VAT compliance services. This allows you to focus on your core business activities while we handle the complexities of tax and VAT obligations.",
     },
     {
-      image: Customizedtaxplanning1,
+      image: Customizedtaxplanning2,
       title: "Tax Compliance Service",
       content:
         "Efficient VAT compliance often hinges on streamlined accounting processes. Our tax compliance services are designed to facilitate seamless VAT compliance. By outsourcing these critical functions to our dedicated team, you gain access to expert accounting support that ensures accuracy, compliance, and transparency in your financial records, particularly regarding VAT compliance services. This allows you to focus on your core business activities while we handle the complexities of tax and VAT obligations.",
     },
     {
-      image: Customizedtaxplanning1,
+      image: Customizedtaxplanning3,
       title: "VAT regulations",
       content:
         "Our team stays updated on the latest VAT regulations and industry-specific tax requirements to provide you with the most current and relevant advice. We work closely with you to understand your business operations and tailor our services to meet your unique needs, ensuring that all VAT submissions are accurate and timely. With our comprehensive VAT compliance services, you can confidently manage your financial obligations, knowing that your business is in expert hands.",

@@ -6,7 +6,7 @@ import VatComponent from "@/components/about/VatComponent";
 import IndividuallyFaq from "@/components/general/IndividuallyFaq";
 import InnerBanner from "@/components/general/InnerBanner";
 import ContactForm from "@/components/home/ContactForm";
-import { VatComplianceFaq } from "@/data/SingleServiceData";
+ 
 
 import React from "react";
 

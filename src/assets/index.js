@@ -22,6 +22,9 @@ import about1 from "./images/about1.png"
 import about2 from "./images/about2.png"
 import about3 from "./images/about3.png"
 import aboutBg from "./images/aboutBg.png"
+import amazonlogo1 from "./images/amazonlogo1.png"
+import amazonlogo2 from "./images/amazonlogo2.png"
+import informationBanner from "./images/informationBanner.jpg"
 import Customizedtaxplanning1 from "./images/Customizedtaxplanning1.jpg"
 import Customizedtaxplanning2 from "./images/Customizedtaxplanning2.jpg"
 import Customizedtaxplanning3 from "./images/Customizedtaxplanning3.jpg"
@@ -31,9 +34,17 @@ import ECommerceAccounting3 from "./images/ECommerceAccounting3.jpg"
 import VATCompliance1 from "./images/VATCompliance1.jpg"
 import VATCompliance2 from "./images/VATCompliance2.jpg"
 import VATCompliance3 from "./images/VATCompliance3.jpg"
-import informationBanner from "./images/informationBanner.jpg"
-import amazonlogo1 from "./images/amazonlogo1.png"
-import amazonlogo2 from "./images/amazonlogo2.png"
+import ProfessionalExperts1 from "./images/ProfessionalExperts1.jpg"
+import ProfessionalExperts2 from "./images/ProfessionalExperts2.jpg"
+import ProfessionalExperts3 from "./images/ProfessionalExperts3.jpg"
+import GermanyCompany1 from "./images/GermanyCompany1.jpg"
+import GermanyCompany2 from "./images/GermanyCompany2.jpg"
+import GermanyCompany3 from "./images/GermanyCompany3.jpg"
+import CompanyFormation1 from "./images/CompanyFormation1.jpg"
+import CompanyFormation2 from "./images/CompanyFormation2.jpg"
+import CompanyFormation3 from "./images/CompanyFormation3.jpg"
+
+
 
 export {
   homeBg,
@@ -60,6 +71,9 @@ export {
   about2,
   about3,
   aboutBg,
+  informationBanner,
+  amazonlogo1,
+  amazonlogo2,
   Customizedtaxplanning1,
   Customizedtaxplanning2,
   Customizedtaxplanning3,
@@ -69,7 +83,14 @@ export {
   VATCompliance1,
   VATCompliance2,
   VATCompliance3,
-  informationBanner,
-  amazonlogo1,
-  amazonlogo2,
+  ProfessionalExperts1,
+  ProfessionalExperts2,
+  ProfessionalExperts3,
+  GermanyCompany1,
+  GermanyCompany2,
+  GermanyCompany3,
+  CompanyFormation1,
+  CompanyFormation2,
+  CompanyFormation3,
+ 
 };

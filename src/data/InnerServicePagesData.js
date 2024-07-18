@@ -1,4 +1,23 @@
-import { Customizedtaxplanning1, Customizedtaxplanning2, Customizedtaxplanning3, ECommerceAccounting1, ECommerceAccounting2, ECommerceAccounting3, VATCompliance1, VATCompliance2, VATCompliance3 } from "@/assets";
+import {
+  CompanyFormation1,
+  CompanyFormation2,
+  CompanyFormation3,
+  Customizedtaxplanning1,
+  Customizedtaxplanning2,
+  Customizedtaxplanning3,
+  ECommerceAccounting1,
+  ECommerceAccounting2,
+  ECommerceAccounting3,
+  GermanyCompany1,
+  GermanyCompany2,
+  GermanyCompany3,
+  ProfessionalExperts1,
+  ProfessionalExperts2,
+  ProfessionalExperts3,
+  VATCompliance1,
+  VATCompliance2,
+  VATCompliance3,
+} from "@/assets";
 
 const taxconsulting = {
   taxplanning: [
@@ -62,6 +81,70 @@ const taxconsulting = {
     },
   ],
 };
+const companyformation = {
+  formationServices: [
+    {
+      image: ProfessionalExperts1,
+      title: "Ensuring Compliance Across Europe",
+      content:
+        "Our offices and consultants across the EU are equipped with the expertise required for VAT registration, monitoring, and compliance. Our team is dedicated to staying updated with the ever-changing VAT regulations, ensuring that your business remains compliant and avoids costly penalties.",
+    },
+    {
+      image: ProfessionalExperts2,
+      title: "Company Formation Service in UK and Germany",
+      content:
+        "Our company formation services in the UK and Germany cover every aspect of the process, from VAT registrations and deregistrations to periodic VAT filings, ECSL, Intrastat filings, and tax notice management support. We also offer comprehensive audit support. Get the reliable advice and solutions you need from a trusted source. Contact our experts today to ensure a hassle-free and bulletproof setup for your business.",
+    },
+    {
+      image: ProfessionalExperts3,
+      title:
+        "Strategic Business Growth with Our Comprehensive Formation Services",
+      content:
+        "Whether you are a startup or an established business looking to expand, our comprehensive formation services are designed to meet your unique needs. With our extensive network and in-depth knowledge, we provide strategic insights and practical solutions that drive your business growth.",
+    },
+  ],
+  formationServices2: [
+    {
+      image: GermanyCompany1,
+      title: "Company Setup in UK",
+      content:
+        "Whether you're looking at company setup in the UK's vibrant markets or establishing a presence in Germany's thriving economy, we provide expert guidance and support through every step of the process.",
+    },
+
+    {
+      image: GermanyCompany2,
+      title: "Unlock Your Success in the UK Market ",
+      content:
+        "Navigating the complexities of company formation in the UK requires careful attention to legal and administrative details. At Singularity, we provide comprehensive support to help you register and establish your business in the UK. Our services ensure full compliance with regulatory requirements, assisting with all necessary documentation and advising on the best business structures to meet your objectives.",
+    },
+    {
+      image: GermanyCompany3,
+      title: "Company Formation",
+      content:
+        "At Singularity, our expertise in company formation ensures your business's smooth and compliant establishment. We assist with all necessary registrations, filings, and compliance measures, tailored to meet the specific needs of your enterprise in both the UK, Germany, and EU. Trust us to help you navigate the complexities of company formation and set your business up for success.",
+    },
+  ],
+  formationServices3: [
+    {
+      image: CompanyFormation1,
+      title: "Company Formation Process in Germany",
+      content:
+        "Our services include detailed consultations to understand your business needs and goals, allowing us to provide tailored advice on the most suitable legal structure for your company. We manage the entire company formation process in Germany, including obtaining necessary permits, drafting and filing articles of incorporation, and registering with the relevant trade and tax authorities. Our experts also assist with opening bank accounts, ensuring your business is financially ready to operate.",
+    },
+    {
+      image: CompanyFormation2,
+      title: "Compliance and Proactive Advice in Germany",
+      content:
+        " We provide ongoing support to help you navigate Germany's regulatory environment, including compliance with employment laws, data protection regulations, and industry-specific requirements. Our team stays updated on the latest legal and tax changes, offering proactive advice to keep your business compliant and competitive.",
+    },
+    {
+      image: CompanyFormation3,
+      title: "Seamless Company Formation in Germany with Singularity",
+      content:
+        "With Singularity's comprehensive support, you can efficiently manage the company formation process in Germany, guaranteeing adherence to all legal requirements and establishing a robust foundation for your business. Our goal is to make your entry into the German market as smooth as possible, allowing you to focus on business growth and success. Trust us to be your partner in achieving a successful and compliant company formation in Germany.",
+    },
+  ],
+};
 const taxcompliance = {
   taxfilings: [
     {
@@ -103,48 +186,7 @@ const taxcompliance = {
         "Our team stays updated on the latest VAT regulations and industry-specific tax requirements to provide you with the most current and relevant advice. We work closely with you to understand your business operations and tailor our services to meet your unique needs, ensuring that all VAT submissions are accurate and timely. With our comprehensive VAT compliance services, you can confidently manage your financial obligations, knowing that your business is in expert hands.",
     },
   ],
-  formationServices: [
-    {
-      image: Customizedtaxplanning1,
-      title: "Ensuring Compliance Across Europe",
-      content:
-        "Our offices and consultants across the EU are equipped with the expertise required for VAT registration, monitoring, and compliance. Our team is dedicated to staying updated with the ever-changing VAT regulations, ensuring that your business remains compliant and avoids costly penalties.",
-    },
-    {
-      image: Customizedtaxplanning1,
-      title: "Company Formation Service in UK and Germany",
-      content:
-        "Our company formation services in the UK and Germany cover every aspect of the process, from VAT registrations and deregistrations to periodic VAT filings, ECSL, Intrastat filings, and tax notice management support. We also offer comprehensive audit support. Get the reliable advice and solutions you need from a trusted source. Contact our experts today to ensure a hassle-free and bulletproof setup for your business.",
-    },
-    {
-      image: Customizedtaxplanning1,
-      title:
-        "Strategic Business Growth with Our Comprehensive Formation Services",
-      content:
-        "Whether you are a startup or an established business looking to expand, our comprehensive formation services are designed to meet your unique needs. With our extensive network and in-depth knowledge, we provide strategic insights and practical solutions that drive your business growth.",
-    },
-  ],
-  formationServices2: [
-    {
-      image: Customizedtaxplanning1,
-      title: "Company Setup in UK",
-      content:
-        "Whether you're looking at company setup in the UK's vibrant markets or establishing a presence in Germany's thriving economy, we provide expert guidance and support through every step of the process.",
-    },
 
-    {
-      image: Customizedtaxplanning1,
-      title: "Unlock Your Success in the UK Market ",
-      content:
-        "Navigating the complexities of company formation in the UK requires careful attention to legal and administrative details. At Singularity, we provide comprehensive support to help you register and establish your business in the UK. Our services ensure full compliance with regulatory requirements, assisting with all necessary documentation and advising on the best business structures to meet your objectives.",
-    },
-    {
-      image: Customizedtaxplanning1,
-      title: "Company Formation",
-      content:
-        "At Singularity, our expertise in company formation ensures your business's smooth and compliant establishment. We assist with all necessary registrations, filings, and compliance measures, tailored to meet the specific needs of your enterprise in both the UK, Germany, and EU. Trust us to help you navigate the complexities of company formation and set your business up for success.",
-    },
-  ],
   vat2: [
     {
       image: ECommerceAccounting1,
@@ -185,26 +227,7 @@ const taxcompliance = {
         "Our experts represent you during audits, providing professional support and handling inquiries.",
     },
   ],
-  formationServices3: [
-    {
-      image: Customizedtaxplanning1,
-      title: "Company Formation Process in Germany",
-      content:
-        "Our services include detailed consultations to understand your business needs and goals, allowing us to provide tailored advice on the most suitable legal structure for your company. We manage the entire company formation process in Germany, including obtaining necessary permits, drafting and filing articles of incorporation, and registering with the relevant trade and tax authorities. Our experts also assist with opening bank accounts, ensuring your business is financially ready to operate.",
-    },
-    {
-      image: Customizedtaxplanning1,
-      title: "Compliance and Proactive Advice in Germany",
-      content:
-        " We provide ongoing support to help you navigate Germany's regulatory environment, including compliance with employment laws, data protection regulations, and industry-specific requirements. Our team stays updated on the latest legal and tax changes, offering proactive advice to keep your business compliant and competitive.",
-    },
-    {
-      image: Customizedtaxplanning1,
-      title: "Seamless Company Formation in Germany with Singularity",
-      content:
-        "With Singularity's comprehensive support, you can efficiently manage the company formation process in Germany, guaranteeing adherence to all legal requirements and establishing a robust foundation for your business. Our goal is to make your entry into the German market as smooth as possible, allowing you to focus on business growth and success. Trust us to be your partner in achieving a successful and compliant company formation in Germany.",
-    },
-  ],
+
   jurisdictionalcompliance: [
     {
       image: Customizedtaxplanning1,
@@ -350,7 +373,7 @@ const technologysolutions = {
   ],
 };
 const article23 = {
-  trustedvat : [
+  trustedvat: [
     {
       image: Customizedtaxplanning1,
       title: "Expert Guidance and Compliance",
@@ -393,8 +416,7 @@ const article23 = {
   benefits: [
     {
       image: Customizedtaxplanning1,
-      title:
-        "Tailored Solutions",
+      title: "Tailored Solutions",
       content:
         "We offer customised VAT solutions that cater to the specific needs of your business, ensuring optimal compliance and efficiency. Our expert team assesses your unique requirements and provides tailored strategies to streamline your VAT processes. With our personalised approach, you can achieve significant cost savings, reduce administrative burdens, and stay ahead of regulatory changes. Trust Singularity to deliver comprehensive VAT solutions that support your business growth and operational excellence.",
     },
@@ -452,4 +474,4 @@ const article23 = {
   //   },
   // ],
 };
-export { taxconsulting, taxcompliance, technologysolutions, article23 };
+export { taxconsulting, taxcompliance, technologysolutions, article23, companyformation };

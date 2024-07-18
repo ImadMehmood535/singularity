@@ -3,7 +3,7 @@ import InnerFaq from "@/components/services/InnerFaq";
 import InnerServiceFeature from "@/components/services/InnerServiceFeature";
 import ServiceBanner from "@/components/services/ServiceBanner";
 
-import { taxcompliance } from "@/data/InnerServicePagesData";
+import { companyformation, taxcompliance } from "@/data/InnerServicePagesData";
 import { companyformationfaq } from "@/data/SingleServiceData";
  
 
@@ -27,7 +27,7 @@ const Index = () => {
         content={
           "With decades of collective knowledge, our team of professional experts and consultants at Singularity GmbH is dedicated to helping business owners to achieve their goals."
         }
-        data={taxcompliance?.formationServices}
+        data={companyformation?.formationServices}
       />
       <InnerServiceFeature
         subtitle={"Formation Services"}
@@ -36,7 +36,7 @@ const Index = () => {
           "Our dedicated services encompass UK and German company formation, meticulously addressing each jurisdiction's legal and administrative requirements."
         }
         flip={true}
-        data={taxcompliance?.formationServices2}
+        data={companyformation?.formationServices2}
       />
       <InnerServiceFeature
         subtitle={"Formation Services"}
@@ -44,7 +44,7 @@ const Index = () => {
         content={
           "Starting a company in Germany involves navigating a complex landscape of local laws, tax regulations, and administrative requirements. At Singularity, we offer bespoke services that guide you through every step of company formation in Germany."
         }
-        data={taxcompliance.formationServices3}
+        data={companyformation.formationServices3}
       />
 
       <div className="relative z-50 ">

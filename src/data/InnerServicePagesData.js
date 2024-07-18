@@ -1,4 +1,4 @@
-import { Customizedtaxplanning1, Customizedtaxplanning2, Customizedtaxplanning3 } from "@/assets";
+import { Customizedtaxplanning1, Customizedtaxplanning2, Customizedtaxplanning3, ECommerceAccounting1, ECommerceAccounting2, ECommerceAccounting3, VATCompliance1, VATCompliance2, VATCompliance3 } from "@/assets";
 
 const taxconsulting = {
   taxplanning: [
@@ -147,19 +147,19 @@ const taxcompliance = {
   ],
   vat2: [
     {
-      image: Customizedtaxplanning1,
+      image: ECommerceAccounting1,
       title: "Specialized VAT Compliance Solutions for E-Commerce",
       content:
         "The fast-paced world of e-commerce requires specialised accounting solutions, particularly for VAT compliance. At Singularity, we provide customised services designed specifically for online businesses. By choosing to outsource accounting services to us, you ensure accurate financial record-keeping, effective tax compliance, and strategic financial planning. ",
     },
     {
-      image: Customizedtaxplanning1,
+      image: ECommerceAccounting2,
       title: "Strategic VAT Compliance for E-Commerce",
       content:
         "Our team of seasoned E-Commerce accountants goes beyond traditional accounting services. We provide strategic guidance on VAT compliance, leveraging our expertise to enhance financial health and drive growth for your business. Singularity's accountant for E-Commerce offers insights and strategies that transcend numbers, ensuring your success in navigating the complexities of VAT compliance specific to the online retail landscape. Trust us to support your business with tailored solutions that address your unique needs.",
     },
     {
-      image: Customizedtaxplanning1,
+      image: ECommerceAccounting3,
       title: "Specialized VAT Compliance Services by Singularity",
       content:
         " At Singularity, we understand that e-commerce businesses face unique challenges and opportunities in the digital marketplace. Our team of seasoned e-commerce accountants is dedicated to delivering comprehensive solutions that go beyond traditional accounting. We recognize that VAT compliance can be particularly daunting for online retailers, which is why we offer specialised services to simplify and streamline this critical aspect of your business.",
@@ -227,19 +227,19 @@ const taxcompliance = {
   ],
   vat3: [
     {
-      image: Customizedtaxplanning1,
+      image: VATCompliance1,
       title: "Chartered Tax Advisor Services for the EU and UK",
       content:
         "Our chartered tax advisor EU services provide comprehensive support for those managing tax affairs across All EU countries and the UK. This dual expertise ensures seamless compliance and financial optimization in both regions, addressing the unique tax challenges that expatriates face. We assist with cross-border tax planning, double taxation relief, and ensure that all tax filings are accurately completed and submitted on time.",
     },
     {
-      image: Customizedtaxplanning1,
+      image: VATCompliance2,
       title: "Expert VAT Compliance in the EU and UK",
       content:
         "As a trusted EU and UK tax advisor, we assist expats in understanding their VAT obligations and devise strategies to optimise their financial standing. Our services include detailed VAT registration assistance, filing accurate VAT returns, and providing ongoing compliance monitoring to prevent any regulatory issues.",
     },
     {
-      image: Customizedtaxplanning1,
+      image: VATCompliance3,
       title: "Navigating EU and UK Compliance with Singularity",
       content:
         "Our personalised services are tailored to meet the unique needs of each client. Whether you are an individual expatriate or a business with international operations, we provide the insights and support necessary to navigate the complexities of tax compliance in the EU and UK. Trust Singularity to be your partner in achieving seamless tax management and financial optimization, allowing you to focus on your personal and professional goals with confidence.",

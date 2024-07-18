@@ -25,6 +25,12 @@ import aboutBg from "./images/aboutBg.png"
 import Customizedtaxplanning1 from "./images/Customizedtaxplanning1.jpg"
 import Customizedtaxplanning2 from "./images/Customizedtaxplanning2.jpg"
 import Customizedtaxplanning3 from "./images/Customizedtaxplanning3.jpg"
+import ECommerceAccounting1 from "./images/ECommerceAccounting1.jpg"
+import ECommerceAccounting2 from "./images/ECommerceAccounting2.jpg"
+import ECommerceAccounting3 from "./images/ECommerceAccounting3.jpg"
+import VATCompliance1 from "./images/VATCompliance1.jpg"
+import VATCompliance2 from "./images/VATCompliance2.jpg"
+import VATCompliance3 from "./images/VATCompliance3.jpg"
 import informationBanner from "./images/informationBanner.jpg"
 import amazonlogo1 from "./images/amazonlogo1.png"
 import amazonlogo2 from "./images/amazonlogo2.png"
@@ -57,6 +63,12 @@ export {
   Customizedtaxplanning1,
   Customizedtaxplanning2,
   Customizedtaxplanning3,
+  ECommerceAccounting1,
+  ECommerceAccounting2,
+  ECommerceAccounting3,
+  VATCompliance1,
+  VATCompliance2,
+  VATCompliance3,
   informationBanner,
   amazonlogo1,
   amazonlogo2,

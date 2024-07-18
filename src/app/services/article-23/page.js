@@ -3,7 +3,7 @@ import WhyUs from "@/components/home/WhyUs";
 import InnerFaq from "@/components/services/InnerFaq";
 import InnerServiceFeature from "@/components/services/InnerServiceFeature";
 import ServiceBanner from "@/components/services/ServiceBanner";
-import { taxcompliance } from "@/data/InnerServicePagesData";
+import { article23, taxcompliance } from "@/data/InnerServicePagesData";
 import { VatComplianceFaq } from "@/data/SingleServiceData";
 
 const page = () => {
@@ -11,39 +11,38 @@ const page = () => {
     <div>
       <ServiceBanner
         subtitle={"Services: Article 23"}
-        title={"Article 23"}
+        title={"Article 23 Services"}
         content={
-          "At Singularity, we understand the critical role of VAT compliance within the European Union, particularly for businesses involved in cross-border transactions. Our VAT services are expertly crafted to support your business, ensuring seamless tax operations and adherence to EU regulations. By partnering with us, you gain access to comprehensive VAT compliance solutions that streamline your processes and keep your business running smoothly."
+          "At Singularity, we offer specialised Article 23 services, positioning ourselves as leading article 23 providers in the UK and Germany. Our services are designed to help businesses leverage the benefits of the Article 23 mechanism, optimising VAT management and enhancing cash flow efficiency."
         }
         text={"Learn More"}
         href={"/"}
       />
       <InnerServiceFeature
-        subtitle={"Mastering VAT Compliance"}
-        title={"Tax and Accounting Services"}
+        subtitle={"Article 23"}
+        title={"Trusted VAT Compliance Partner"}
         content={
-          "Our comprehensive VAT compliance services form a vital part of our broader tax and accounting offerings. As VAT specialists, we leverage our extensive tax management and accounting expertise to deliver tailored VAT solutions that meet your business needs. Our team of VAT experts ensures that your VAT obligations are managed efficiently, minimising risks and optimising your tax processes within the EU market."
+          "Trust Singularity for your Article 23 services and experience the benefits of working with seasoned professionals dedicated to your business's success in VAT management and compliance"
         }
-        data={taxcompliance?.vat1}
+        data={article23?.trustedvat}
       />
       <InnerServiceFeature
-        subtitle={"VAT Compliance Service"}
-        title={"E-Commerce Accounting Solutions"}
+        subtitle={"Article 23"}
+        title={"VAT Deferment Across the EU, UK, and Germany"}
         content={
-          "Our expertise addresses the unique challenges of the e-commerce landscape, making VAT compliance straightforward and efficient. Trust our outsource accounting team to manage your financial needs, allowing you to focus on growing your business."
+          "Article 23 mechanism is specifically a Dutch system, similar VAT deferment schemes exist in other EU countries, including the UK and Germany."
         }
         flip={true}
-        data={taxcompliance?.vat2}
+        data={article23?.defermentacross}
       />
       <InnerServiceFeature
-        subtitle={"VAT Compliance Service"}
-        title={"EU VAT Compliance for Expats"}
+        subtitle={"Article 23"}
+        title={"Article 23 Benefits"}
         content={
-          "For expatriates navigating VAT compliance in the EU , expert guidance is essential. Singularity specialises in tailored advisory services for expats, ensuring adherence to EU VAT regulations while maximising efficiency."
+          "By partnering with Singularity, you gain access to expert VAT guidance, improved cash flow management, and dedicated support, allowing you to focus on growing your business."
         }
-        data={taxcompliance?.vat3}
+        data={article23?.benefits}
       />
-
       <div className="relative z-50 ">
         <WhyUs onlyslider={false} />
       </div>

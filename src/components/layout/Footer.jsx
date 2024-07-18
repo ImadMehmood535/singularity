@@ -9,7 +9,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { logo } from "@/assets";
 import Image from "next/image";
 import VectorComponent from "../home/VectorComponent";
-import { quick_links } from "@/data/footer";
+import { company_links, quick_links } from "@/data/footer";
 
 const Footer = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -64,7 +64,7 @@ const Footer = () => {
                       Company
                     </h4>
                     <ul className="flex flex-col gap-3 text-sm font-medium">
-                      {quick_links.map((item, key) => (
+                      {company_links.map((item, key) => (
                         <li key={key}>
                           <Link
                             href={item.link}
@@ -79,9 +79,30 @@ const Footer = () => {
 
                   <div className="useful-links">
                     <h4 className="uppercase  font-bold text-lg mb-4">
-                      Company
+                      Contact Us
                     </h4>
-                    <ul className="flex flex-col gap-3 text-sm font-medium">
+                    <div className="flex flex-col gap-3">
+
+                    <Link
+                      href={"/"}
+                      className="GeneralSans text-sm font-medium hover:text-[#32BB98] w-[80%]"
+                    >
+                      Sales
+                    </Link>
+                    <Link
+                      href={"/"}
+                      className="GeneralSans text-sm font-normal hover:text-[#32BB98] w-[80%]"
+                    >
+                      Contact Sales
+                    </Link>
+                    <Link
+                      href={"tel:+9715612345678"}
+                      className="GeneralSans text-md font-normal hover:text-[#32BB98] w-[80%]"
+                    >
+                      +971 (56) 123 45678
+                    </Link>
+                    </div>
+                    {/* <ul className="flex flex-col gap-3 text-sm font-medium">
                       {quick_links.map((item, key) => (
                         <li key={key}>
                           <Link
@@ -92,7 +113,7 @@ const Footer = () => {
                           </Link>
                         </li>
                       ))}
-                    </ul>
+                    </ul> */}
                   </div>
 
                   <div className="useful-links">

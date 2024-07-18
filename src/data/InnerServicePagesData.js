@@ -349,4 +349,107 @@ const technologysolutions = {
     },
   ],
 };
-export { taxconsulting, taxcompliance, technologysolutions };
+const article23 = {
+  trustedvat : [
+    {
+      image: Customizedtaxplanning1,
+      title: "Expert Guidance and Compliance",
+      content:
+        "Singularity ensures that your business complies with all VAT deferment regulations, providing expert guidance on navigating the complexities of the Article 23 mechanism. Our team of professionals stays updated with the latest regulatory changes to ensure seamless compliance.",
+    },
+    {
+      image: Customizedtaxplanning1,
+      title: "Tax Representation",
+      content:
+        "As part of our service, we act as your tax representative, handling all necessary documentation and applications to obtain the Article 23 permit. This representation is crucial, especially for foreign businesses that cannot directly apply for the permit themselves.",
+    },
+    {
+      image: Customizedtaxplanning1,
+      title: "Efficient VAT Management: ",
+      content:
+        "By deferring the payment of import VAT to the periodic VAT return, we help improve your company's cash flow. This means you won't need to pay VAT at the point of import, freeing up financial resources that can be better utilised in other areas of your business.",
+    },
+  ],
+  defermentacross: [
+    {
+      image: Customizedtaxplanning1,
+      title: "VAT Management and VAT Scheme",
+      content:
+        "The UK has introduced a similar system allowing businesses to defer import VAT. Singularity provides comprehensive support to navigate this system, ensuring compliance and efficient VAT management. Our expert team assists with understanding the nuances of the deferred VAT scheme, helping you optimise cash flow and reduce administrative burdens. We offer tailored solutions for your business, from initial registration to ongoing compliance monitoring, and provide detailed guidance on record-keeping and reporting requirements.",
+    },
+    {
+      image: Customizedtaxplanning1,
+      title: "VAT Deferral",
+      content:
+        "In addition to our VAT deferral services, we keep you updated with the latest regulatory changes and offer proactive advice to mitigate potential risks. Our goal is to streamline your import processes and ensure that you remain compliant with all HMRC regulations. With Singularity's support, you can confidently manage your import VAT obligations, allowing you to focus on expanding your business and achieving your strategic objectives.",
+    },
+    {
+      image: Customizedtaxplanning1,
+      title: "Germany VAT Optimization",
+      content:
+        "Germany doesn't have an exact equivalent to the Dutch Article 23, it offers various VAT deferment and compliance mechanisms. Our team assists businesses in understanding and utilising these systems to optimise their VAT processes. We provide expert guidance on VAT deferment options such as the deferment account and import VAT relief schemes, ensuring that you can manage your cash flow effectively.",
+    },
+  ],
+  benefits: [
+    {
+      image: Customizedtaxplanning1,
+      title:
+        "Tailored Solutions",
+      content:
+        "We offer customised VAT solutions that cater to the specific needs of your business, ensuring optimal compliance and efficiency. Our expert team assesses your unique requirements and provides tailored strategies to streamline your VAT processes. With our personalised approach, you can achieve significant cost savings, reduce administrative burdens, and stay ahead of regulatory changes. Trust Singularity to deliver comprehensive VAT solutions that support your business growth and operational excellence.",
+    },
+    {
+      image: Customizedtaxplanning1,
+      title: "Experienced Team",
+      content:
+        "Our experts bring extensive knowledge and experience in VAT management, making us a reliable partner for your business. With a deep understanding of local and international VAT regulations, our team ensures that your business remains compliant while optimising your VAT processes. We provide comprehensive support, from initial consultation and strategy development to implementation and ongoing monitoring.",
+    },
+    {
+      image: Customizedtaxplanning1,
+      title: "Multinational Expertise",
+      content:
+        "With a strong presence in the EU, Singularity is well-positioned to support businesses across multiple jurisdictions, ensuring seamless VAT compliance and management. Our extensive experience in these key markets allows us to provide tailored solutions that address the unique challenges and requirements of each region. We stay up-to-date with the latest regulatory developments and leverage our deep understanding of local laws to help your business navigate complex VAT landscapes.",
+    },
+  ],
+  // integrationefficiency: [
+  //   {
+  //     image: Customizedtaxplanning1,
+  //     title: "Compatibility with Major ERP Systems",
+  //     content:
+  //       "Our solutions are compatible with major ERP systems, ensuring easy integration.",
+  //   },
+  //   {
+  //     image: Customizedtaxplanning1,
+  //     title: "API-based Integrations",
+  //     content:
+  //       "We use API-based integrations to connect various systems and streamline data flow.",
+  //   },
+  //   {
+  //     image: Customizedtaxplanning1,
+  //     title: "Continuous Support and Maintenance",
+  //     content:
+  //       "We provide ongoing support and maintenance to ensure your systems operate smoothly.",
+  //   },
+  // ],
+  // customIndirect2: [
+  //   {
+  //     image: Customizedtaxplanning1,
+  //     title: "Ensuring Compliance and Timely Customs Clearance",
+  //     content:
+  //       "Our commitment to staying updated with the latest regulatory changes ensures your operations remain compliant, no matter how complex the requirements. With Singularity, you benefit from proactive risk management and customised solutions tailored to your business needs. Our experienced team navigates the intricacies of customs regulations, reducing delays and ensuring timely clearance of your goods",
+  //   },
+  //   {
+  //     image: Customizedtaxplanning1,
+  //     title: " EU Customs Needs",
+  //     content:
+  //       "Trust Singularity to handle your indirect customs representation, and We manage all aspects of customs procedures, including documentation, customs declarations, compliance with local regulations, and communication with customs authorities. Experience the peace of mind that comes with knowing your EU customs needs are in capable hands.",
+  //   },
+  //   {
+  //     image: Customizedtaxplanning1,
+  //     title: "Customs Audits",
+  //     content:
+  //       "Singularity provides support during customs audits, including preparing documentation, liaising with authorities, and offering expert advice to ensure a smooth audit process.",
+  //   },
+  // ],
+};
+export { taxconsulting, taxcompliance, technologysolutions, article23 };

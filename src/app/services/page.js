@@ -38,7 +38,7 @@ const Index = () => {
         href={"services/vat-compliance-services"}
         data={TaxConsultingData.vatcompliance}
       />
-      <ServiceCategory
+      {/* <ServiceCategory
         title={"Tax Consulting"}
         content={
           "Singularity GmbH offers top-tier tax consulting services to help you optimize your tax strategies. Our expertise ensures that your business benefits from tailored advice and strategic planning."
@@ -46,7 +46,7 @@ const Index = () => {
         text={"Learn More"}
         href={"services/tax-consulting"}
         data={TaxConsultingData.taxconsulting}
-      />
+      /> */}
       <ServiceCategory
         title={"Company Formation Services"}
         content={
@@ -64,6 +64,15 @@ const Index = () => {
         text={"Learn More"}
         href={"services/tax-technology-solutions"}
         data={TaxConsultingData.technologysolutions}
+      />
+      <ServiceCategory
+        title={"Article 23"}
+        content={
+          "At Singularity, we offer specialised Article 23 services, positioning ourselves as leading article 23 providers in the UK and Germany. Our services are designed to help businesses leverage the benefits of the Article 23 mechanism, optimising VAT management and enhancing cash flow efficiency."
+        }
+        text={"Learn More"}
+        href={"services/article-23"}
+        data={TaxConsultingData.article23}
       />
       <div className="relative z-50 ">
         <VideoComponent />

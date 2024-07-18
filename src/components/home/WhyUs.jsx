@@ -114,7 +114,7 @@ const WhyUs = ({ onlyslider }) => {
       </section>
       {onlyslider === true && (
         <div className="flex justify-between flex-wrap lg:flex-nowrap gap-10 items-start containerCust !py-[130px]">
-          <div className="w-full lg:w-[50%] sticky top-32">
+          <div className="w-full lg:w-[50%] md:sticky top-32">
             {showContactForm && <ContactForm />}
           </div>
           <div className="w-full lg:w-[50%]">

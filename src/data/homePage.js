@@ -5,10 +5,10 @@ export const trustedData = [
     pic: trusted1,
     head: (
       <>
-        VAT Compliance <br /> & Registration
+        VAT Compliance <br /> Services
       </>
     ),
-    para: "By choosing Singularity GmbH, you gain a trusted partner dedicated to simplifying the complexities of company formation and VAT compliance.",
+    para: "At Singularity, we ensure your business's smooth tax operations and compliance with EU VAT regulations, supporting cross-border transactions with meticulous VAT services.",
   },
   {
     pic: trusted1,
@@ -17,17 +17,17 @@ export const trustedData = [
         Company Formation <br /> & Services
       </>
     ),
-    para: "Our company formation services cover everything from initial consultation to post-registration support.",
+    para: "At Singularity, we specialise in smooth, legally compliant company formations in the UK, Germany, and EU. Our tailored services ensure a robust business establishment.",
   },
   {
     pic: trusted2,
     head: (
       <>
-       Custom Indirect <br /> Representative Services
+       Customs Indirect<br /> Representation Services
       </>
     ),
 
-    para: "We provide comprehensive customs indirect representation services, assisting businesses in clearing goods through customs in Germany and the UK.",
+    para: "Our Customs Indirect Representation Services simplify EU customs clearance, acting as your dedicated representative to ensure compliance and seamless operations.",
   },
   {
     pic: trusted3,
@@ -65,7 +65,7 @@ export const whyTrustData = [
     para: "Perfectly Tailored Solutions to Meet and Exceed Every Business Need.",
   },
   {
-    head: "Complete Compliance",
-    para: "Maximum potential is in your reach with consistent and second to none compliance.",
+    head: "Exceptional Service Excellence",
+    para: "Strong, Reliable, and Committed Partnerships for Mutual Success.",
   },
 ];

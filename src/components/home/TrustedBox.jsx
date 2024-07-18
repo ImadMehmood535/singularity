@@ -17,7 +17,7 @@ const TrustedBox = ({ item }) => {
             className="absolute bottom-0"
           />
         </div>
-        <h3 className="text-themeTextGray-0">{item?.head}</h3>
+        <h3 className="text-themeTextGray-0 min-h-[64px]">{item?.head}</h3>
         <p className="text-sm text-themeTextGray-0 h-[70px]">{item?.para}</p>
       </div>
     </div>

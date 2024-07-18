@@ -33,11 +33,11 @@ export const trustedData = [
     pic: trusted3,
     head: (
       <>
-        Company Formation <br /> Services
+        Article  23 
       </>
     ),
 
-    para: "Lorem ipsum dolor sit amet consectetur. At phasellus tellus id maecenas nisi egestas. Urna arcu nisi nunc enim. Urna sapien eget mattis.",
+    para: "Article 23 enables businesses to defer VAT on imports within the EU, improving cash flow by avoiding upfront VAT payments at the border.",
   },
   {
     pic: trusted5,

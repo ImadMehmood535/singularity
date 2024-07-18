@@ -9,15 +9,17 @@ export const trustedData = [
       </>
     ),
     para: "At Singularity, we ensure your business's smooth tax operations and compliance with EU VAT regulations, supporting cross-border transactions with meticulous VAT services.",
+    linladdress : "services/vat-compliance-services",
   },
   {
     pic: trusted1,
     head: (
       <>
-        Company Formation <br /> & Services
+        Company Formation <br /> Services
       </>
     ),
     para: "At Singularity, we specialise in smooth, legally compliant company formations in the UK, Germany, and EU. Our tailored services ensure a robust business establishment.",
+    linladdress : "services/company-formation-services",
   },
   {
     pic: trusted2,
@@ -28,6 +30,7 @@ export const trustedData = [
     ),
 
     para: "Our Customs Indirect Representation Services simplify EU customs clearance, acting as your dedicated representative to ensure compliance and seamless operations.",
+    linladdress : "services/customs-indirect-representation-services",
   },
   {
     pic: trusted3,
@@ -38,6 +41,7 @@ export const trustedData = [
     ),
 
     para: "Article 23 enables businesses to defer VAT on imports within the EU, improving cash flow by avoiding upfront VAT payments at the border.",
+    linladdress : "services/article-23",
   },
   {
     pic: trusted5,
@@ -48,6 +52,7 @@ export const trustedData = [
     ),
 
     para: "Managing VAT compliance can be a daunting task, but Amazon VAT Service simplifies the process for you.",
+    linladdress : "/amazon-with-singularity",
   },
 ];
 

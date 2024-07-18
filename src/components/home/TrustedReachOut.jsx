@@ -11,7 +11,7 @@ const TrustedReachOut = () => {
         Contact our team for tailor-made services just for you.
       </p>
       <div className="flex">
-        <LinkComponent text={"Reach Us Out"} href={"/"} />
+        <LinkComponent text={"Reach Us Out"} href={"/contact-us"} />
       </div>
     </div>
   );

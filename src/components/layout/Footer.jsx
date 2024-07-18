@@ -6,6 +6,7 @@ import { FaTiktok } from "react-icons/fa";
 import { PiInstagramLogo } from "react-icons/pi";
 import { RiFacebookFill } from "react-icons/ri";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 import { logo } from "@/assets";
 import Image from "next/image";
 import VectorComponent from "../home/VectorComponent";
@@ -82,25 +83,24 @@ const Footer = () => {
                       Contact Us
                     </h4>
                     <div className="flex flex-col gap-3">
-
-                    <Link
-                      href={"/"}
-                      className="GeneralSans text-sm font-medium hover:text-[#32BB98] w-[80%]"
-                    >
-                      Sales
-                    </Link>
-                    <Link
-                      href={"/"}
-                      className="GeneralSans text-sm font-normal hover:text-[#32BB98] w-[80%]"
-                    >
-                      Contact Sales
-                    </Link>
-                    <Link
-                      href={"tel:+9715612345678"}
-                      className="GeneralSans text-md font-normal hover:text-[#32BB98] w-[80%]"
-                    >
-                      +971 (56) 123 45678
-                    </Link>
+                      <Link
+                        href={"/"}
+                        className="GeneralSans text-sm font-medium hover:text-[#32BB98] w-[80%]"
+                      >
+                        Sales
+                      </Link>
+                      <Link
+                        href={"/"}
+                        className="GeneralSans text-sm font-normal hover:text-[#32BB98] w-[80%]"
+                      >
+                        Contact Sales
+                      </Link>
+                      <Link
+                        href={"tel:+9715612345678"}
+                        className="GeneralSans text-md font-normal hover:text-[#32BB98] w-[80%]"
+                      >
+                        +971 (56) 123 45678
+                      </Link>
                     </div>
                     {/* <ul className="flex flex-col gap-3 text-sm font-medium">
                       {quick_links.map((item, key) => (
@@ -122,26 +122,48 @@ const Footer = () => {
                     </h4>
                     <div className="social-list mt-5">
                       <ul className="flex flex-row gap-2 justify-start">
-                        <li
-                          className={`p-3 rounded-2xl bg-[#464646] hover:bg-[#32BB98] text-white hover:text-black   transition-all duration-200 `}
+                        <Link
+                          href={
+                            "https://www.facebook.com/SingularityGmbh/?_rdc=1&_rdr"
+                          }
+                          target="_blank"
                         >
-                          <FaTiktok />
-                        </li>
+                          <li
+                            className={`p-3 rounded-2xl bg-[#464646] hover:bg-[#32BB98] text-white hover:text-black   transition-all duration-200 `}
+                          >
+                            <RiFacebookFill />
+                          </li>
+                        </Link>
+                        <Link
+                          href={"https://twitter.com/singularitygmbh"}
+                          target="_blank"
+                        >
+                          <li
+                            className={`p-3 rounded-2xl bg-[#464646] hover:bg-[#32BB98] text-white hover:text-black   transition-all duration-200 `}
+                          >
+                            <FaTwitter />
+                          </li>
+                        </Link>
+                        <Link
+                          href={"https://www.instagram.com/singularitygmbh/"}
+                          target="_blank"
+                        >
                         <li
                           className={`p-3 rounded-2xl bg-[#464646] hover:bg-[#32BB98] text-white hover:text-black   transition-all duration-200 `}
                         >
                           <PiInstagramLogo />
                         </li>
-                        <li
-                          className={`p-3 rounded-2xl bg-[#464646] hover:bg-[#32BB98] text-white hover:text-black   transition-all duration-200 `}
+                        </Link>
+                        <Link
+                          href={"https://www.linkedin.com/company/singularity-gmbh"}
+                          target="_blank"
                         >
-                          <RiFacebookFill />
-                        </li>
                         <li
                           className={`p-3 rounded-2xl bg-[#464646] hover:bg-[#32BB98] text-white hover:text-black   transition-all duration-200 `}
                         >
                           <FaLinkedinIn />
                         </li>
+                        </Link>
                       </ul>
                     </div>
                   </div>
@@ -153,7 +175,8 @@ const Footer = () => {
                     Subscribe to our newsletter
                   </h4>
                   <p className="mb-3  font-[300] text-base">
-                  Subscribe to our newsletter for expert VAT tips, regulatory updates, and industry insights.
+                    Subscribe to our newsletter for expert VAT tips, regulatory
+                    updates, and industry insights.
                   </p>
                   <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="flex flex-row justify-between items-center gap-1">

@@ -42,7 +42,7 @@ const Index = () => {
         content={
           "Choosing Singularity as your indirect customs representative means partnering with a team that prioritises compliance, reduces risks, and minimises errors."
         }
-        data={technologysolutions.customIndirect2}
+        data={technologysolutions.integrationefficiency}
       />
 
       <div className="relative z-50 ">

@@ -43,6 +43,15 @@ import GermanyCompany3 from "./images/GermanyCompany3.jpg"
 import CompanyFormation1 from "./images/CompanyFormation1.jpg"
 import CompanyFormation2 from "./images/CompanyFormation2.jpg"
 import CompanyFormation3 from "./images/CompanyFormation3.jpg"
+import IndirectCustoms1 from "./images/IndirectCustoms1.jpg"
+import IndirectCustoms2 from "./images/IndirectCustoms2.jpg"
+import IndirectCustoms3 from "./images/IndirectCustoms3.jpg"
+import IndirectRepresentation1 from "./images/IndirectRepresentation1.jpg"
+import IndirectRepresentation2 from "./images/IndirectRepresentation2.jpg"
+import IndirectRepresentation3 from "./images/IndirectRepresentation3.jpg"
+import SingularityRisk1 from "./images/SingularityRisk1.jpg"
+import SingularityRisk2 from "./images/SingularityRisk2.jpg"
+import SingularityRisk3 from "./images/SingularityRisk3.jpg"
 
 
 
@@ -92,5 +101,14 @@ export {
   CompanyFormation1,
   CompanyFormation2,
   CompanyFormation3,
+  IndirectCustoms1,
+  IndirectCustoms2,
+  IndirectCustoms3,
+  IndirectRepresentation1,
+  IndirectRepresentation2,
+  IndirectRepresentation3,
+  SingularityRisk1,
+  SingularityRisk2,
+  SingularityRisk3,
  
 };

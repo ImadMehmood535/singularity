@@ -11,9 +11,18 @@ import {
   GermanyCompany1,
   GermanyCompany2,
   GermanyCompany3,
+  IndirectCustoms1,
+  IndirectCustoms2,
+  IndirectCustoms3,
+  IndirectRepresentation1,
+  IndirectRepresentation2,
+  IndirectRepresentation3,
   ProfessionalExperts1,
   ProfessionalExperts2,
   ProfessionalExperts3,
+  SingularityRisk1,
+  SingularityRisk2,
+  SingularityRisk3,
   VATCompliance1,
   VATCompliance2,
   VATCompliance3,
@@ -81,6 +90,7 @@ const taxconsulting = {
     },
   ],
 };
+
 const companyformation = {
   formationServices: [
     {
@@ -145,6 +155,7 @@ const companyformation = {
     },
   ],
 };
+
 const taxcompliance = {
   taxfilings: [
     {
@@ -269,7 +280,69 @@ const taxcompliance = {
     },
   ],
 };
+
 const technologysolutions = {
+  customIndirect: [
+    {
+      image: IndirectCustoms1,
+      title: "Streamlined European Customs Clearance",
+      content:
+        "Navigating the intricate landscape of European customs clearance is challenging, given the diverse regulations across member states. Singularity's custom clearance UK and European customs clearance services are specifically designed to alleviate these complexities. We take pride in our meticulous attention to detail and unwavering commitment to customs compliance. Our comprehensive approach ensures that all procedures are optimised, significantly reducing delays and minimising complications in your import and export operations within the EU.",
+    },
+    {
+      image: IndirectCustoms2,
+      title: "European customs requirements",
+      content:
+        " With Singularity, you benefit from our deep understanding of both UK and European customs requirements. Our expert team manages every aspect of the customs clearance process, from accurate documentation to timely filings and thorough inspections. We stay updated with the latest regulatory changes to ensure your business remains compliant and efficient.",
+    },
+    {
+      image: IndirectCustoms3,
+      title: "Enhance Your European Market Efficiency with Singularity",
+      content:
+        "By partnering with Singularity, you gain a strategic advantage in the competitive European market. Our streamlined customs services not only facilitate smooth and hassle-free clearance but also enhance the overall efficiency of your supply chain. Let us handle the complexities of customs so you can focus on growing your business across Europe. Trust Singularity to be your dedicated partner in achieving seamless and successful customs operations.",
+    },
+  ],
+  realtimereporting: [
+    {
+      image: IndirectRepresentation1,
+      title:
+        "Personalized EU Customs Solutions for Seamless Business Expansion",
+      content:
+        "We understand the complexities of EU customs regulations and offer personalised solutions to meet your specific needs. By leveraging our expertise, you can rest assured that your goods will clear customs quickly and without issues, allowing you to focus on expanding your business in the European market",
+    },
+    {
+      image: IndirectRepresentation2,
+      title: "Customs Compliance with Singularity's Expertise",
+      content:
+        "We handle all the intricate details of customs procedures, from documentation to compliance, so you don't have to. Our commitment to excellence means we stay up-to-date with the latest regulatory changes, ensuring your operations remain compliant at all times. Choose Singularity for a seamless and reliable indirect customs representation experience, and watch your business flourish in the competitive EU market.",
+    },
+    {
+      image: IndirectRepresentation3,
+      title: "Complete Solutions for Indirect Customs Representation",
+      content:
+        "At Singularity, our Indirect Customs Representation services are designed to cover every aspect of EU customs compliance with precision and efficiency. Our team of experienced customs representatives is dedicated to managing all your customs processes, from accurate declarations to timely filings, ensuring a smooth and hassle-free experience for your business..",
+    },
+  ],
+  integrationefficiency: [
+    {
+      image: SingularityRisk1,
+      title: "Compatibility with Major ERP Systems",
+      content:
+        "Our solutions are compatible with major ERP systems, ensuring easy integration.",
+    },
+    {
+      image: SingularityRisk2,
+      title: "API-based Integrations",
+      content:
+        "We use API-based integrations to connect various systems and streamline data flow.",
+    },
+    {
+      image: SingularityRisk3,
+      title: "Continuous Support and Maintenance",
+      content:
+        "We provide ongoing support and maintenance to ensure your systems operate smoothly.",
+    },
+  ],
   taxprocesses: [
     {
       image: Customizedtaxplanning1,
@@ -288,67 +361,6 @@ const technologysolutions = {
       title: "Reduction in Manual Errors",
       content:
         "Automation significantly reduces the likelihood of manual errors, ensuring more accurate tax processes.",
-    },
-  ],
-  customIndirect: [
-    {
-      image: Customizedtaxplanning1,
-      title: "Streamlined European Customs Clearance",
-      content:
-        "Navigating the intricate landscape of European customs clearance is challenging, given the diverse regulations across member states. Singularity's custom clearance UK and European customs clearance services are specifically designed to alleviate these complexities. We take pride in our meticulous attention to detail and unwavering commitment to customs compliance. Our comprehensive approach ensures that all procedures are optimised, significantly reducing delays and minimising complications in your import and export operations within the EU.",
-    },
-    {
-      image: Customizedtaxplanning1,
-      title: "European customs requirements",
-      content:
-        " With Singularity, you benefit from our deep understanding of both UK and European customs requirements. Our expert team manages every aspect of the customs clearance process, from accurate documentation to timely filings and thorough inspections. We stay updated with the latest regulatory changes to ensure your business remains compliant and efficient.",
-    },
-    {
-      image: Customizedtaxplanning1,
-      title: "Enhance Your European Market Efficiency with Singularity",
-      content:
-        "By partnering with Singularity, you gain a strategic advantage in the competitive European market. Our streamlined customs services not only facilitate smooth and hassle-free clearance but also enhance the overall efficiency of your supply chain. Let us handle the complexities of customs so you can focus on growing your business across Europe. Trust Singularity to be your dedicated partner in achieving seamless and successful customs operations.",
-    },
-  ],
-  realtimereporting: [
-    {
-      image: Customizedtaxplanning1,
-      title:
-        "Personalized EU Customs Solutions for Seamless Business Expansion",
-      content:
-        "We understand the complexities of EU customs regulations and offer personalised solutions to meet your specific needs. By leveraging our expertise, you can rest assured that your goods will clear customs quickly and without issues, allowing you to focus on expanding your business in the European market",
-    },
-    {
-      image: Customizedtaxplanning1,
-      title: "Customs Compliance with Singularity's Expertise",
-      content:
-        "We handle all the intricate details of customs procedures, from documentation to compliance, so you don't have to. Our commitment to excellence means we stay up-to-date with the latest regulatory changes, ensuring your operations remain compliant at all times. Choose Singularity for a seamless and reliable indirect customs representation experience, and watch your business flourish in the competitive EU market.",
-    },
-    {
-      image: Customizedtaxplanning1,
-      title: "Complete Solutions for Indirect Customs Representation",
-      content:
-        "At Singularity, our Indirect Customs Representation services are designed to cover every aspect of EU customs compliance with precision and efficiency. Our team of experienced customs representatives is dedicated to managing all your customs processes, from accurate declarations to timely filings, ensuring a smooth and hassle-free experience for your business..",
-    },
-  ],
-  integrationefficiency: [
-    {
-      image: Customizedtaxplanning1,
-      title: "Compatibility with Major ERP Systems",
-      content:
-        "Our solutions are compatible with major ERP systems, ensuring easy integration.",
-    },
-    {
-      image: Customizedtaxplanning1,
-      title: "API-based Integrations",
-      content:
-        "We use API-based integrations to connect various systems and streamline data flow.",
-    },
-    {
-      image: Customizedtaxplanning1,
-      title: "Continuous Support and Maintenance",
-      content:
-        "We provide ongoing support and maintenance to ensure your systems operate smoothly.",
     },
   ],
   customIndirect2: [
@@ -372,6 +384,7 @@ const technologysolutions = {
     },
   ],
 };
+
 const article23 = {
   trustedvat: [
     {
@@ -393,6 +406,7 @@ const article23 = {
         "By deferring the payment of import VAT to the periodic VAT return, we help improve your company's cash flow. This means you won't need to pay VAT at the point of import, freeing up financial resources that can be better utilised in other areas of your business.",
     },
   ],
+
   defermentacross: [
     {
       image: Customizedtaxplanning1,
@@ -413,6 +427,7 @@ const article23 = {
         "Germany doesn't have an exact equivalent to the Dutch Article 23, it offers various VAT deferment and compliance mechanisms. Our team assists businesses in understanding and utilising these systems to optimise their VAT processes. We provide expert guidance on VAT deferment options such as the deferment account and import VAT relief schemes, ensuring that you can manage your cash flow effectively.",
     },
   ],
+
   benefits: [
     {
       image: Customizedtaxplanning1,
@@ -433,6 +448,7 @@ const article23 = {
         "With a strong presence in the EU, Singularity is well-positioned to support businesses across multiple jurisdictions, ensuring seamless VAT compliance and management. Our extensive experience in these key markets allows us to provide tailored solutions that address the unique challenges and requirements of each region. We stay up-to-date with the latest regulatory developments and leverage our deep understanding of local laws to help your business navigate complex VAT landscapes.",
     },
   ],
+
   // integrationefficiency: [
   //   {
   //     image: Customizedtaxplanning1,
@@ -474,4 +490,10 @@ const article23 = {
   //   },
   // ],
 };
-export { taxconsulting, taxcompliance, technologysolutions, article23, companyformation };
+export {
+  taxconsulting,
+  taxcompliance,
+  technologysolutions,
+  article23,
+  companyformation,
+};

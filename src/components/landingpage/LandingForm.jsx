@@ -66,7 +66,7 @@ const LandingForm = () => {
 
       <p className="text-white text-lg font-normal">
         Submit your details below, and our VAT experts will reach out to you
-        shortly to discuss how we can optimize your business's VAT strategy.
+        shortly to discuss how we can optimize your business&apos;s VAT strategy.
       </p>
 
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">

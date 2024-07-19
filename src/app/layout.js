@@ -1,17 +1,18 @@
 import { Inter } from "next/font/google";
 import "../styles/globals.css";
-import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import VectorComponent from "@/components/home/VectorComponent";
 import SmoothScrolling from "@/components/layout/SmoothScrolling";
 import CircularProgressBar from "@/components/layout/CircularProgressbar";
 import ProgressComponent from "@/components/layout/ProgressComponent";
+import BothHeader from "@/components/layout/BothHeader";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Comprehensive Tax and Accounting Services | Singularity Tax",
-  description: "Discover top-tier tax and accounting services at Singularity Tax. Our expert team specializes in providing tailored solutions for businesses in the tech industry. Ensure compliance and optimize your financial strategy with our trusted services.",
+  description:
+    "Discover top-tier tax and accounting services at Singularity Tax. Our expert team specializes in providing tailored solutions for businesses in the tech industry. Ensure compliance and optimize your financial strategy with our trusted services.",
 };
 
 export default function RootLayout({ children }) {
@@ -26,7 +27,7 @@ export default function RootLayout({ children }) {
           <CircularProgressBar />
         </div>
 
-        <Header />
+        <BothHeader />
         <SmoothScrolling>{children}</SmoothScrolling>
         <Footer />
       </body>

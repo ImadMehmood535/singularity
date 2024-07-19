@@ -136,7 +136,7 @@ const PrivacyPolicyBody = () => {
             If appropriate consent has been obtained, the processing is carried
             out exclusively on the basis of Art. 6(1)(a) GDPR and § 25 (1)
             TTDSG, insofar the consent includes the storage of cookies or the
-            access to information in the user's end device (e.g., device
+            access to information in the user&apos;s end device (e.g., device
             fingerprinting) within the meaning of the TTDSG. This consent can be
             revoked at any time.
           </p>

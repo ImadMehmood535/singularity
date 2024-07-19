@@ -134,7 +134,7 @@ const VATCompliance = {
       image: Customizedtaxplanning2,
       title: "Tax Compliance Service",
       content:
-        "Efficient VAT compliance often hinges on streamlined accounting processes. Our tax compliance services are designed to facilitate seamless VAT compliance. By outsourcing these critical functions to our dedicated team, you gain access to expert accounting support that ensures accuracy, compliance, and transparency in your financial records, particularly regarding VAT compliance services. This allows you to focus on your core business activities while we handle the complexities of tax and VAT obligations.",
+        "VAT compliance is crucial for smooth accounting. Our tax compliance solutions make the VAT process straightforward, guaranteeing precise and transparent financial management. By entrusting our expert team, you receive accurate, compliant support, enabling you to concentrate on your primary business activities while we handle your tax and VAT requirements.",
     },
     {
       image: Customizedtaxplanning3,
@@ -254,7 +254,7 @@ const CustomsIndirectRepresentation = {
       title:
         "Personalized EU Customs Solutions for Seamless Business Expansion",
       content:
-        "We understand the complexities of EU customs regulations and offer personalised solutions to meet your specific needs. By leveraging our expertise, you can rest assured that your goods will clear customs quickly and without issues, allowing you to focus on expanding your business in the European market",
+        "We understand the complexities of EU customs regulations and offer personalised solutions to meet your specific needs. By leveraging our expertise, you can rest assured that your goods will clear customs quickly and without issues, allowing you to focus on expanding your business in the European market.",
     },
     {
       image: IndirectRepresentation2,
@@ -272,21 +272,21 @@ const CustomsIndirectRepresentation = {
   integrationefficiency: [
     {
       image: SingularityRisk1,
-      title: "Compatibility with Major ERP Systems",
+      title: "Ensuring Compliance and Timely Customs Clearance",
       content:
-        "Our solutions are compatible with major ERP systems, ensuring easy integration.",
+        "Our commitment to staying updated with the latest regulatory changes ensures your operations remain compliant, no matter how complex the requirements. With Singularity, you benefit from proactive risk management and customised solutions tailored to your business needs. Our experienced team navigates the intricacies of customs regulations, reducing delays and ensuring timely clearance of your goods. ",
     },
     {
       image: SingularityRisk2,
-      title: "API-based Integrations",
+      title: "EU Customs Needs",
       content:
-        "We use API-based integrations to connect various systems and streamline data flow.",
+        "Trust Singularity to handle your indirect customs representation, and We manage all aspects of customs procedures, including documentation, customs declarations, compliance with local regulations, and communication with customs authorities. Experience the peace of mind that comes with knowing your EU customs needs are in capable hands.",
     },
     {
       image: SingularityRisk3,
-      title: "Continuous Support and Maintenance",
+      title: "Customs Audits",
       content:
-        "We provide ongoing support and maintenance to ensure your systems operate smoothly.",
+        "Singularity provides support during customs audits, including preparing documentation, liaising with authorities, and offering expert advice to ensure a smooth audit process.",
     },
   ],
 };

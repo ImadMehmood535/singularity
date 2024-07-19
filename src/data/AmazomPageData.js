@@ -91,7 +91,8 @@ const SalesFeatureData = [
     block: [
       {
         title: "Overview Of Amazon Sales Tax",
-        content: "Amazon sales tax is a tax collected on sales transactions made through Amazon. Sellers must comply with state-specific tax laws, collect the correct amount of tax from buyers, and remit it to the appropriate tax authorities. ",
+        content:
+          "Amazon sales tax is a tax collected on sales transactions made through Amazon. Sellers must comply with state-specific tax laws, collect the correct amount of tax from buyers, and remit it to the appropriate tax authorities. ",
         // points: [
         //   {
         //     point:
@@ -255,7 +256,7 @@ const resourcesData = [
 ];
 const faqData = [
   {
-    title: "What is VAT Service on Amazon with Singularity? ",
+    title: "What is the VAT Service on Amazon with Singularity? ",
     content:
       "VAT Service on Amazon with Singularity is a comprehensive solution that helps sellers manage their VAT registration and compliance across multiple European countries, ensuring they meet all regulatory requirements.",
   },
@@ -290,7 +291,7 @@ const faqData = [
   {
     title: "What is the cost of Singularity’s VAT Service on Amazon?",
     content:
-      "The cost varies based on the specific needs of your business. Contact Singularity for a personalized quote tailored to your requirements.",
+      "The cost varies based on the specific needs of your business. Contact Singularity for a personalised quote tailored to your requirements.",
   },
   {
     title: "Can Singularity help me obtain an EORI number?",
@@ -305,7 +306,7 @@ const faqData = [
   {
     title: "Why should I choose Singularity for VAT Service on Amazon? ",
     content:
-      "Singularity offers extensive experience, personalized support, and a seamless integration with Amazon’s VAT services, ensuring efficient and accurate VAT management for your business.",
+      "Singularity offers extensive experience, personalised support, and a seamless integration with Amazon’s VAT services, ensuring efficient and accurate VAT management for your business.",
   },
 ];
 export { SalesFeatureData, resourcesData, faqData };

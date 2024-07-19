@@ -50,8 +50,8 @@ const Index = () => {
         content={
           "Explore Singularity GmbH's wide range of tax services designed to meet your business needs. Our experts are ready to assist you with personalized solutions. Learn more about our services today."
         }
-        text={"Learn More"}
-        href={"/"}
+        text={"Reach Us Out"}
+        href={"/contact-us"}
       />
       <div className="bg-[#0F121D]">
         <Ticker />

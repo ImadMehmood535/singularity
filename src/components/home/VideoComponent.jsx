@@ -3,6 +3,7 @@ import React, { useRef, useState } from "react";
 import Ticker from "./Ticker";
 import Image from "next/image";
 import { play, videoPic } from "@/assets";
+import { IoIosPause } from "react-icons/io";
 
 const VideoComponent = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -18,7 +19,7 @@ const VideoComponent = () => {
   };
 
   return (
-    <div className="w-full h-full bg-[#0f121d] relative">
+    <div className="w-full h-full bg-[#0f121d] relative group">
       <Ticker />
 
       <video
@@ -28,7 +29,7 @@ const VideoComponent = () => {
         preload="none"
         controls={false}
         poster={videoPic.src}
-        className="w-full h-[620px]   object-cover object-center"
+        className="w-full h-[620px]   object-cover object-center "
       >
         <source src={"video1.mp4"} type="video/mp4" />
         Your browser does not support the video tag.
@@ -39,6 +40,8 @@ const VideoComponent = () => {
         onClick={handlePlayPause}
       >
         {!isPlaying && <Image src={play} alt="play" width={80} height={80} />}
+        {isPlaying && <IoIosPause className="hidden group-hover:block text-4xl p-5 w-[60px] h-[60px] text-themeGreen-0 bg-white rounded-full"/>}
+
       </div>
     </div>
   );

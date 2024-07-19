@@ -303,20 +303,13 @@ const Footer = () => {
                     </li>
                     <li className="text-center">
                       <Link
-                        href={"/"}
+                        href={"/privacy-policy"}
                         className=" font-[300] text-sm hover:text-[#32BB98]"
                       >
                         Privacy Policy
                       </Link>
                     </li>
-                    <li className="text-center">
-                      <Link
-                        href={"/"}
-                        className=" font-[300] text-sm hover:text-[#32BB98]"
-                      >
-                        FAQs
-                      </Link>
-                    </li>
+                     
                   </ul>
                 </div>
               </div>

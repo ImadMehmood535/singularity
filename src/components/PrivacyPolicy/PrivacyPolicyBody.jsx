@@ -19,7 +19,7 @@ const PrivacyPolicyBody = () => {
           <p>
             The following information will provide you with an easy to navigate
             overview of what will happen with your personal data when you visit
-            this website. The term "personal data" comprises all data that can
+            this website. The term &quot;personal data&quot; comprises all data that can
             be used to personally identify you. For detailed information about
             the subject matter of data protection, please consult our Data
             Protection Declaration, which we have included beneath this copy.
@@ -29,14 +29,14 @@ const PrivacyPolicyBody = () => {
 
           <h5>
             Who is the responsible party for the recording of data on this
-            website (i.e., the "controller")?
+            website (i.e., the &quot;controller&quot;)?
           </h5>
 
           <p>
             The data on this website is processed by the operator of the
             website, whose contact information is available under section
-            "Information about the responsible party (referred to as the
-            "controller" in the GDPR)" in this Privacy Policy.
+            &quot;Information about the responsible party (referred to as the
+            &quot;controller&quot; in the GDPR)&quot; in this Privacy Policy.
           </p>
 
           <h5>How do we record your data?</h5>
@@ -104,7 +104,7 @@ const PrivacyPolicyBody = () => {
 
           <p>
             We host our website at Wix.com Ltd., 40 Namal Tel Aviv St., Tel Aviv
-            6350671, Israel (hereinafter: "WIX").
+            6350671, Israel (hereinafter: &quot;WIX&quot;).
           </p>
 
           <p>
@@ -181,7 +181,7 @@ const PrivacyPolicyBody = () => {
 
           <h3>
             Information about the responsible party (referred to as the
-            "controller" in the GDPR)
+            &quot;controller&quot; in the GDPR)
           </h3>
 
           <p>The data processing controller on this website is:</p>
@@ -366,7 +366,7 @@ const PrivacyPolicyBody = () => {
             the website operator, this website uses either an SSL or a TLS
             encryption program. You can recognize an encrypted connection by
             checking whether the address line of the browser switches from
-            "http://" to "https://" and also by the appearance of the lock icon
+            &quot;http://&quot; to &quot;https://&quot; and also by the appearance of the lock icon
             in the browser line.
           </p>
 

@@ -284,9 +284,8 @@ const Footer = () => {
             <div className="bottom-footer flex-wrap mb-6 font-[300] text-sm w-full flex flex-col justify-between md:flex-row  items-center">
               <div className="rights-text">
                 <p className=" whitespace-nowrap text-base">
-                  <span className="font-[300] text-sm">Copyright © 2024 </span>
                   <span className="font-[300] text-sm">
-                    Copyright © 2024 Singularity GmbH. All Rights Reserved. <br/>Design and Developed by<Link className="text-themeGreen-0 hover:text-white transition-all duration-200" href={"https://www.clicktap.ae/"} target="_blank"> Clicktap Digital</Link>.
+                    Copyright © 2024 Singularity GmbH. All Rights Reserved. <br/>Design and Developed by <Link className="text-themeGreen-0 hover:text-white transition-all duration-200" href={"https://www.clicktap.ae/"} target="_blank"> Clicktap Digital</Link>.
                   </span>
                 </p>
               </div>

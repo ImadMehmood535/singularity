@@ -11,7 +11,7 @@ const LandingPageHeader = () => {
   return (
     <div
       className={`glass-effect flex-col md:flex-row gap-2 md:gap-0 flex justify-between items-center transition-all  ${
-        expend ? "max-w-[330px] md:max-w-[600px]" : " max-w-[270px]"
+        expend ? "max-w-[330px] md:max-w-[767px]" : " max-w-[270px]"
       } mx-auto w-full  headerShadow fixed top-10 right-0 left-0 z-[100] rounded-[40px] px-6 py-3`}
     >
       <Link href={"/"} className="table min-w-[130px] max-w-[130px]">

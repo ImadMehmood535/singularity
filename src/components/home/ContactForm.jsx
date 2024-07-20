@@ -73,11 +73,11 @@ const ContactForm = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-2">
             <p className="font-medium">Phone Number</p>
 
             {country && (
-              <div className="w-full flex flex-col gap-4">
+              <div className="w-full flex flex-col gap-2">
                 <Controller
                   control={control}
                   name="phone"

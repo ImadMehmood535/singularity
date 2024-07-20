@@ -66,32 +66,31 @@ const LandingPageHeader = () => {
       >
         <p className="text-themeGreen-0 group-hover:text-white text-sm">Menu</p>
       </div>
-
-      <div
-        className={`${
-          expend ? "block" : "hidden"
-        } flex justify-end items-center gap-3`}
-      >
-        <div className="  transition-all  group rounded-full px-4 py-2 hidden md:block">
-          <Link
-            href={"/"}
-            className="text-lg text-white group-hover:text-themeGreen-0 flex flex-row gap-3 items-center"
-          >
-            <FaEnvelope className="text-3xl"/>
-            welcome@singularity.tax
-          </Link>
+      <div className="hidden md:block">
+        <div
+          className={`${
+            expend ? "block" : "hidden"
+          } flex justify-end items-center gap-3 `}
+        >
+          <div className="  transition-all  group rounded-full px-4 py-2 hidden md:block">
+            <Link
+              href={"/"}
+              className="text-lg text-white group-hover:text-themeGreen-0 flex flex-row gap-3 items-center"
+            >
+              <FaEnvelope className="text-3xl" />
+              welcome@singularity.tax
+            </Link>
+          </div>
+          <div className="bg-[#32BB98] transition-all hover:bg-white group rounded-full px-4 py-2 hidden md:block">
+            <Link
+              href={"/"}
+              className="text-lg text-white group-hover:text-themeGreen-0 flex flex-row gap-1 items-center"
+            >
+              <FaWhatsapp className="text-3xl" />
+              Whatsapp
+            </Link>
+          </div>
         </div>
-        <div className="bg-[#32BB98] transition-all hover:bg-white group rounded-full px-4 py-2 hidden md:block">
-          <Link
-            href={"/"}
-            className="text-lg text-white group-hover:text-themeGreen-0 flex flex-row gap-1 items-center"
-          >
-            <FaWhatsapp className="text-3xl"/>
-            Whatsapp
-          </Link>
-        </div>
-        
-         
       </div>
       {/* <div
         className={`transition-all bg-white/60 border-[5px] border-black/10 ease-in-out overflow-hidden block md:hidden absolute top-20 rounded-xl left-0 w-full p-4 ${

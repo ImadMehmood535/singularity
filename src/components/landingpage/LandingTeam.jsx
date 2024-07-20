@@ -6,7 +6,7 @@ const LandingTeam = () => {
   return (
     <div>
       <div className=" bg-cover bg-center bg-no-repeat">
-        <div className="containerCust">
+        <div className="containerCust lg:px-[10%]">
           <div className="w-full flex flex-col gap-7  text-center   h-full ">
             <div className="content-area mb-12 flex flex-col gap-7 ">
               <h2>What Is VAT Compliance?</h2>

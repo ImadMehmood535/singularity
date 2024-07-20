@@ -12,26 +12,26 @@ import FormInputSelect from "../general/FormInputSelect";
 const LandingForm = () => {
   const options = [
     {
-      value : "select option",
-      name : "select option",
+      value: "select option",
+      name: "select option",
     },
     {
-      value : "VAT Compliance",
-      name : "VAT Compliance",
+      value: "VAT Compliance",
+      name: "VAT Compliance",
     },
     {
-      value : "Company Formation Services",
-      name : "Company Formation Services",
+      value: "Company Formation Services",
+      name: "Company Formation Services",
     },
     {
-      value : "Customs Indirect Representation",
-      name : "Customs Indirect Representation",
+      value: "Customs Indirect Representation",
+      name: "Customs Indirect Representation",
     },
     {
-      value : "Article 23",
-      name : "Article 23",
+      value: "Article 23",
+      name: "Article 23",
     },
-  ]
+  ];
   const {
     handleSubmit,
     control,
@@ -62,14 +62,15 @@ const LandingForm = () => {
   }, []);
   return (
     <div className="contactBg rounded-[25px] py-8 px-4 md:p-8 flex flex-col gap-4  h-full  ">
-      <h3 className="font-bold text-3xl tracking-widest	 text-white">Reach out to Us</h3>
+      <h3 className="font-medium text-3xl 	 text-white">Reach out to Us</h3>
 
-      <p className="text-white text-lg font-normal">
+      <p className="text-white text-base font-light">
         Submit your details below, and our VAT experts will reach out to you
-        shortly to discuss how we can optimize your business&apos;s VAT strategy.
+        shortly to discuss how we can optimize your business&apos;s VAT
+        strategy.
       </p>
 
-      <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">
+      <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-2">
         <div className="grid grid-cols-1  gap-2">
           <FormInput
             type="text"
@@ -83,8 +84,8 @@ const LandingForm = () => {
         </div>
 
         <div className="grid grid-cols-1  gap-2">
-          <div className="flex flex-col gap-4">
-            <p className="font-medium">Phone Number</p>
+          <div className="flex flex-col gap-2">
+            <p className="font-medium  ">Phone Number</p>
 
             {country && (
               <div className="w-full flex flex-col gap-4">
@@ -100,6 +101,7 @@ const LandingForm = () => {
                     />
                   )}
                 />
+                <p className="text-red-500"></p>
                 {errors.phone && (
                   <p className="text-red-500">{errors.phone.message}</p>
                 )}
@@ -130,11 +132,10 @@ const LandingForm = () => {
             error={errors}
           />
         </div>
- 
 
         <button
           type="submit"
-          className="bg-[#32BB98] hover:bg-themeGray-0 hover:text-white transition-all relative customLink rounded-full w-[240px] py-6 text-center text-sm text-white"
+          className="bg-[#32BB98] hover:bg-themeGray-0 hover:text-white transition-all relative customLink rounded-full w-[180px] py-4 text-center text-sm text-white"
         >
           Submit
           <span className="gradientBorder"></span>

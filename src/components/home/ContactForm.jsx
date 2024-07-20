@@ -39,7 +39,7 @@ const ContactForm = () => {
   }, []);
 
   return (
-    <div className="contactBg   rounded-[25px] px-4 py-12 flex flex-col gap-4  h-full lg:h-[690px]">
+    <div className="contactBg   rounded-[25px] px-4 py-12 flex flex-col gap-4  h-full  ">
       <h3 className="font-bold text-white">We would love to hear from you</h3>
 
       <p className="text-white">
@@ -47,7 +47,7 @@ const ContactForm = () => {
       </p>
 
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
           <FormInput
             type="text"
             placeholder="Name"
@@ -69,7 +69,7 @@ const ContactForm = () => {
           />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
           <div className="flex flex-col gap-4">
             <p className="font-medium">Phone Number</p>
 

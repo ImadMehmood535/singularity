@@ -6,6 +6,7 @@ import SmoothScrolling from "@/components/layout/SmoothScrolling";
 import CircularProgressBar from "@/components/layout/CircularProgressbar";
 import ProgressComponent from "@/components/layout/ProgressComponent";
 import BothHeader from "@/components/layout/BothHeader";
+import BothFooter from "@/components/layout/BothFooter";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,13 +24,13 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>
         <ProgressComponent />
-        <div className="fixed z-[999]  bottom-[50px] right-12">
+        <div className="fixed z-[999]  bottom-5 md:bottom-[50px] right-6 md:right-12">
           <CircularProgressBar />
         </div>
 
         <BothHeader />
         <SmoothScrolling>{children}</SmoothScrolling>
-        <Footer />
+        <BothFooter />
       </body>
     </html>
   );

@@ -70,7 +70,7 @@ const LandingFormAndFaq = ({ title, content }) => {
   ];
   return (
     <div className="Faq  ">
-      <div className="containerCust">
+      <div className="containerCust lg:px-[10%]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 justify-between items-start ">
           <div className="content-area md:sticky md:top-4">
             <ContactForm />

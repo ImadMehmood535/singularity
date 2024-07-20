@@ -29,7 +29,7 @@ const LandingFooter = () => {
           isDarkMode ? "bg-black text-white" : "bg-white text-black"
         }`}
       >
-        <div className="containerCust">
+        <div className="containerCust xl:px-[10%]">
           <div className="flex justify-between items-start flex-col md:flex-row  gap-8">
             <div className="">
               <h2 className=" font-bold mb-8 md:mb-14">

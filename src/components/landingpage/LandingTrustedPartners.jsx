@@ -30,7 +30,7 @@ const LandingTrustedPartners = () => {
   ];
   return (
     <div className="bg-[#0f121d] h-full py-12 flex flex-col gap-10 ">
-      <div className="containerCust lg:px-[10%] flex flex-col gap-14">
+      <div className="containerCust xl:px-[10%] flex flex-col gap-14">
         <div className="w-full md:w-[600px] mx-auto">
           <div className="flex flex-col gap-4 text-center items-center">
             <div className="bg-themeGray-0 rounded-[28px] px-6 py-1 w-fit">

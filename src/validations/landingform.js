@@ -11,5 +11,5 @@ export const landingcontactSchema = yup.object().shape({
     .string()
     .min(4, "Phone number is required")
     .required("Phone number is required"),
-  message: yup.string().required("Message is required"),
+    select: yup.string().required("Service is required"),
 });

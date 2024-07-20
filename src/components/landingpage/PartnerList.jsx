@@ -29,7 +29,7 @@ const PartnerList = () => {
   ];
   return (
     <section className=" h-full  flex flex-col gap-10 ">
-      <div className="containerCust lg:px-[10%]">
+      <div className="containerCust xl:px-[10%]">
         <div className="flex pb-12 flex-wrap md:flex-nowrap gap-2 justify-start  ">
           <div className="flex flex-col gap-4">
             <div className="bg-themeGray-0 rounded-[28px] px-6 py-1 w-fit">

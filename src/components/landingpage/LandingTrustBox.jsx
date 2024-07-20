@@ -21,7 +21,7 @@ const LandingTrustBox = ({ item }) => {
             />
           </div>
           <h3 className="text-themeTextGray-0 min-h-[64px]">{item?.head}</h3>
-          <p className="text-base text-themeTextGray-0  ">{item?.para}</p>
+          <p className="text-base text-themeTextGray-0  min-h-[240px] xl:min-h-[120px]">{item?.para}</p>
           <div className="flex">
             <LinkComponent text={item.btntext} href={item.linladdress} bannerbtn={true} />
           </div>

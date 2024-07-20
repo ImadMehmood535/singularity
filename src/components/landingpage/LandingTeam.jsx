@@ -9,23 +9,14 @@ const LandingTeam = () => {
         <div className="containerCust lg:px-[10%]">
           <div className="w-full flex flex-col gap-7  text-center   h-full ">
             <div className="content-area mb-12 flex flex-col gap-7 ">
-              <h2>What Is VAT Compliance?</h2>
+              <h2>Meet Our Expert and Committed Team</h2>
               <p>
-                VAT, or Value-Added Tax, is a consumption tax applied at each
-                stage of production, distribution, or sale of goods and
-                services. It is calculated incrementally based on the
-                product&apos;s or service&apos;s price at each stage. Ensuring
-                VAT compliance involves regularly submitting VAT returns to the
-                relevant tax authorities according to specific guidelines that
-                vary based on the nature and size of the business.
-              </p>
-              <p>
-                In essence, VAT compliance means adhering to the prescribed
-                regulations for filing and reporting an entity&apos;s VAT
-                returns within the stipulated deadlines set by the designated
-                VAT authority. This ensures that businesses accurately account
-                for the tax collected and paid at each stage of their
-                operations.
+                Our team is composed of seasoned professionals dedicated to
+                delivering exceptional results. With extensive expertise and a
+                passion for excellence, we ensure the highest standards in every
+                project. Trust our commitment to quality and innovation. Join
+                Singularity and experience the difference of working with true
+                experts.
               </p>
             </div>
 
@@ -45,7 +36,6 @@ const LandingTeam = () => {
                 className="w-full"
               />
             </div>
-             
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ import Head from "next/head";
 
 const HomeBanner = () => {
   return (
-    <section className="homeBackground h-screen md:h-[120vh] w-full relative">
+    <section className="homeBackground h-screen md:h-[120vh] w-full relative pt-[230px] md:pt-[140px] lg:pt-[0px] pb-[80px] ">
    
       <Image
         src={homeBg}

@@ -8,10 +8,10 @@ const LandingTrustedPartners = () => {
       pic: trusted1,
       head: (
         <>
-          VAT Compliance <br /> & Registration
+          VAT <br /> Compliance
         </>
       ),
-      para: "By choosing Singularity GmbH, you gain a trusted partner dedicated to simplifying the complexities of company formation and VAT compliance. With our comprehensive services, we ensure that every step of establishing your business is seamless and hassle-free. From navigating legal requirements to providing expert advice on tax obligations, Singularity GmbH stands by your side to optimize efficiency and minimize risks.",
+      para: "At Singularity, we understand the vital importance of VAT compliance within the EU for businesses engaged in cross-border transactions. Trust us to simplify your VAT processes and navigate the European market with confidence.",
       btntext : "Reach Us Out",
       linladdress: "services/vat-compliance-services",
     },
@@ -19,10 +19,10 @@ const LandingTrustedPartners = () => {
       pic: trusted2,
       head: (
         <>
-          Custom Indirect  <br /> Representative
+          Customs Indirect <br /> Representative
         </>
       ),
-      para: "By choosing Singularity GmbH, you gain a trusted partner dedicated to simplifying the complexities of company formation and VAT compliance. With our comprehensive services, we ensure that every step of establishing your business is seamless and hassle-free. From navigating legal requirements to providing expert advice on tax obligations, Singularity GmbH stands by your side to optimize efficiency and minimize risks.",
+      para: "Navigating EU customs clearance can be complex, but with our Customs Indirect Representation Services, you have a reliable partner by your side. We serve as your dedicated representative, expertly managing EU customs regulations to ensure full compliance and smooth operations for your business.",
       btntext : "Reach Us Out",
       linladdress: "services/company-formation-services",
     },

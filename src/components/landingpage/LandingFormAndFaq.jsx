@@ -7,7 +7,7 @@ const LandingFormAndFaq = ({ title, content }) => {
     {
       title: "What tax and accounting services does Singularity offer?",
       content:
-        "Singularity specializes in VAT compliance, VAT registration, and a range of tax and accounting services for businesses in the UK and Germany.",
+        "Singularity specializes in VAT compliance, VAT registration, and a range of tax and accounting services for businesses in the EU.",
     },
     {
       title: "How can Singularity help with VAT compliance and VAT inspection?",
@@ -17,13 +17,13 @@ const LandingFormAndFaq = ({ title, content }) => {
     {
       title: "Why is VAT registration important for my business?",
       content:
-        "VAT registration is essential for legal compliance, avoiding fines, and ensuring smooth business operations in the UK and Germany.",
+        "VAT registration is essential for legal compliance, avoiding fines, and ensuring smooth business operations in the UK and EU.",
     },
     {
       title:
-        "Can Singularity assist with VAT registration and inspection in both the UK and Germany?",
+        "Can Singularity assist with VAT registration and inspection in the EU?",
       content:
-        "VAT registration is essential for legal compliance, avoiding fines, and ensuring smooth business operations in the UK and Germany.",
+        "Yes, Singularity provides expert VAT registration and inspection preparation services for businesses operating in the EU.",
     },
     {
       title:
@@ -35,13 +35,7 @@ const LandingFormAndFaq = ({ title, content }) => {
       title:
         "How experienced is Singularity in VAT services and accounting consulting?",
       content:
-        "Singularity boasts a team of seasoned professionals with extensive experience in VAT compliance, VAT inspection preparation, and accounting consulting in the UK and Germany.",
-    },
-    {
-      title:
-        "How experienced is Singularity in VAT services and accounting consulting?",
-      content:
-        "Singularity boasts a team of seasoned professionals with extensive experience in VAT compliance, VAT inspection preparation, and accounting consulting in the UK and Germany.",
+        "Singularity boasts a team of seasoned professionals with extensive experience in VAT compliance, VAT inspection preparation, and accounting consulting.",
     },
     {
       title:
@@ -57,15 +51,15 @@ const LandingFormAndFaq = ({ title, content }) => {
     },
     {
       title:
-        "9. Does Singularity offer ongoing support for VAT compliance and accounting consulting?",
+        "Does Singularity offer ongoing support for VAT compliance and accounting consulting?",
       content:
-        "Contact us via our website or call our office to discuss your needs and receive a customized VAT and accounting service plan.",
+        "Yes, Singularity provides continuous support, including updates on regulatory changes and assistance with VAT returns, inspections, and accounting consulting.",
     },
     {
       title:
-        "10. What makes Singularity different from other VAT and accounting service  providers? ",
+        "What makes Singularity different from other VAT and accounting service providers?",
       content:
-        "Contact us via our website or call our office to discuss your needs and receive a customized VAT and accounting service plan.",
+        "Singularity stands out with its dual focus on the EU customs and markets, offering specialized, in-depth knowledge and personalized financial and tax advisor services.",
     },
   ];
   return (

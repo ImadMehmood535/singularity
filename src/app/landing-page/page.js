@@ -26,7 +26,7 @@ const page = () => {
         <LandingFormAndFaq
           title={"Frequently Asked Questions"}
           content={
-            "At Singularity, we are dedicated to providing clarity and support for all your queries regarding our innovative services and unique approach. We strive to help your business excel. If you don't find your question answered below, please feel free to contact us directly. We're always here to assist you!"
+            "At Singularity, we are dedicated to providing clarity and support for all your queries regarding our innovative services and unique approach. We strive to help your business excel. If you do't find your question answered below, please feel free to contact us directly. We're always here to assist you!"
           }
         />
       </div>

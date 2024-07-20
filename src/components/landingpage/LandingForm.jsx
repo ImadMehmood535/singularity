@@ -61,17 +61,17 @@ const LandingForm = () => {
     getCountry();
   }, []);
   return (
-    <div className="contactBg rounded-[25px] py-8 px-4 md:p-8 flex flex-col gap-4  h-full  ">
+    <div className="contactBg rounded-[25px] py-6 px-4 md:py-4 md:px-6 flex flex-col gap-4  h-full  ">
       <h3 className="font-medium text-3xl 	 text-white">Reach out to Us</h3>
 
-      <p className="text-white text-base font-light">
+      <p className="text-white text-sm font-light">
         Submit your details below, and our VAT experts will reach out to you
         shortly to discuss how we can optimize your business&apos;s VAT
         strategy.
       </p>
 
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-2">
-        <div className="grid grid-cols-1  gap-2">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-2">
           <FormInput
             type="text"
             placeholder="Name"
@@ -81,9 +81,19 @@ const LandingForm = () => {
             register={register}
             error={errors}
           />
+        
+          <FormInput
+            type="text"
+            placeholder="Company name here"
+            control={control}
+            name="company"
+            label="Company"
+            register={register}
+            error={errors}
+          />
         </div>
 
-        <div className="grid grid-cols-1  gap-2">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-2">
           <div className="flex flex-col gap-2">
             <p className="font-medium  ">Phone Number</p>
 
@@ -108,8 +118,7 @@ const LandingForm = () => {
               </div>
             )}
           </div>
-        </div>
-        <div className="grid grid-cols-1  gap-2">
+         
           <FormInput
             type="email"
             placeholder="example@gmail.com"

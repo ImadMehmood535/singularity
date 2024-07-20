@@ -10,10 +10,10 @@ const FormInputSelect = ({
   label,
 }) => {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-2">
       <p className="font-medium">{label}</p>
       <select
-        className="bg-[#EDEDED] border-[1px] border-white bg-opacity-10 rounded-[10px] px-4 h-[3.5rem] text-white placeholder-white outline-none  transition duration-300"
+        className="bg-[#EDEDED] round border-[1px] border-white bg-opacity-10 rounded-[10px] px-4 h-[3.5rem] text-white placeholder-white outline-none  transition duration-300"
         {...register(name)}
       >
         {options.map((item, index) => (

@@ -32,7 +32,7 @@ const Index = () => {
     {
       title: "Which regions does Singularity GmbH provide VAT support for?",
       content:
-        "Singularity GmbH provides VAT support for all EU customs, assisting businesses in navigating the complexities of VAT regulations.",
+        "Singularity  provides Tax compliance and registration support for all EU countries.",
     },
     {
       title: "What type of VAT support does Singularity GmbH offer?",
@@ -74,7 +74,7 @@ const Index = () => {
       <ServiceCategory
         title={"VAT Compliance"}
         content={
-          "At Singularity, we understand the vital importance of VAT compliance within the EU for businesses engaged in cross-border transactions. Trust us to simplify your VAT processes and navigate the European market with confidence."
+          "At Singularity, we understand the vital importance of VAT compliance within the EU for businesses engaged in cross-border transactions. Trust us to simplify your VAT processes, VAT registration, VAT Filings and navigate the European market with confidence."
         }
         text={"Learn More"}
         href={"services/vat-compliance-services"}
@@ -84,7 +84,7 @@ const Index = () => {
       <ServiceCategory
         title={"Company Formation Services"}
         content={
-          "At Singularity, we provide tailored company formation services to establish your business in the UK, Germany, and EU. Our expertise ensures a smooth, compliant process, navigating the complexities of all markets. Start your enterprise on solid ground with us."
+          "At Singularity, we provide tailored company formation services to establish your business  EU. Our expertise ensures a smooth, compliant process, navigating the complexities of all markets. Start your enterprise on solid ground with us."
         }
         text={"Learn More"}
         href={"services/company-formation-services"}

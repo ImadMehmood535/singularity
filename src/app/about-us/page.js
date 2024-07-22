@@ -32,7 +32,7 @@ const Index = () => {
     {
       title: "Which regions does Singularity GmbH provide VAT support for?",
       content:
-        "Singularity GmbH provides VAT support for all EU customs, assisting businesses in navigating the complexities of VAT regulations.",
+        "Singularity  provides Tax compliance and registration support for all EU countries.",
     },
     {
       title: "What type of VAT support does Singularity GmbH offer?",

@@ -9,6 +9,8 @@ import { PiInstagramLogo } from "react-icons/pi";
 import { useForm } from "react-hook-form";
 import { logo } from "@/assets";
 import Image from "next/image";
+import { errorToast, successToast } from "@/hooks/useToast";
+import { API } from "@/api";
 
 const LandingFooter = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -16,9 +18,25 @@ const LandingFooter = () => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data) => console.log(data);
+
+  const [loading, setLoading] = useState(false);
+
+  const onSubmit = async (data) => {
+    setLoading(true);
+    try {
+      const response = await API.newsLetter(data);
+      reset();
+      successToast(response?.data?.message);
+      setLoading(false);
+    } catch (error) {
+      setLoading(false);
+      errorToast(error, "You can not subscribe to our newsletter");
+    }
+  };
+
   return (
     <>
       <div className="relative z-50 ">
@@ -131,183 +149,6 @@ const LandingFooter = () => {
           </div>
 
           <div className="  relative z-20">
-            {/* <div className="flex flex-col md:flex-row justify-between gap-5">
-              <div className="left-area w-full md:w-5/6">
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-                  <div className="useful-links">
-                    <h4 className="uppercase  font-bold text-lg mb-4">
-                      Quick Links
-                    </h4>
-                    <ul className="flex flex-col gap-3 text-sm font-medium">
-                      {quick_links.map((item, key) => (
-                        <li key={key}>
-                          <Link
-                            href={item.link}
-                            className=" text-sm font-[300] hover:text-[#32BB98]"
-                          >
-                            {item.name}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div className="useful-links">
-                    <h4 className="uppercase  font-bold text-lg mb-4">
-                      Company
-                    </h4>
-                    <ul className="flex flex-col gap-3 text-sm font-medium">
-                      {company_links.map((item, key) => (
-                        <li key={key}>
-                          <Link
-                            href={item.link}
-                            className=" text-sm font-[300] hover:text-[#32BB98]"
-                          >
-                            {item.name}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div className="useful-links">
-                    <h4 className="uppercase  font-bold text-lg mb-4">
-                      Contact Us
-                    </h4>
-                    <div className="flex flex-col gap-3">
-                      <Link
-                        href={"/"}
-                        className="GeneralSans text-sm font-medium hover:text-[#32BB98] w-[80%]"
-                      >
-                        Sales
-                      </Link>
-                      <Link
-                        href={"/"}
-                        className="GeneralSans text-sm font-normal hover:text-[#32BB98] w-[80%]"
-                      >
-                        Contact Sales
-                      </Link>
-                      <Link
-                        href={"tel:+9715612345678"}
-                        className="GeneralSans text-md font-normal hover:text-[#32BB98] w-[80%]"
-                      >
-                        +971 (56) 123 45678
-                      </Link>
-                    </div>
-                    <ul className="flex flex-col gap-3 text-sm font-medium">
-                      {quick_links.map((item, key) => (
-                        <li key={key}>
-                          <Link
-                            href={item.link}
-                            className=" text-sm font-[300] hover:text-[#32BB98]"
-                          >
-                            {item.name}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div className="useful-links">
-                    <h4 className="uppercase  font-bold text-lg mb-4">
-                      Follow us on
-                    </h4>
-                    <div className="social-list mt-5">
-                      <ul className="flex flex-row gap-2 justify-start">
-                        <Link
-                          href={
-                            "https://www.facebook.com/SingularityGmbh/?_rdc=1&_rdr"
-                          }
-                          target="_blank"
-                        >
-                          <li
-                            className={`p-3 rounded-2xl bg-[#464646] hover:bg-[#32BB98] text-white hover:text-black   transition-all duration-200 `}
-                          >
-                            <RiFacebookFill />
-                          </li>
-                        </Link>
-                        <Link
-                          href={"https://twitter.com/singularitygmbh"}
-                          target="_blank"
-                        >
-                          <li
-                            className={`p-3 rounded-2xl bg-[#464646] hover:bg-[#32BB98] text-white hover:text-black   transition-all duration-200 `}
-                          >
-                            <FaTwitter />
-                          </li>
-                        </Link>
-                        <Link
-                          href={"https://www.instagram.com/singularitygmbh/"}
-                          target="_blank"
-                        >
-                          <li
-                            className={`p-3 rounded-2xl bg-[#464646] hover:bg-[#32BB98] text-white hover:text-black   transition-all duration-200 `}
-                          >
-                            <PiInstagramLogo />
-                          </li>
-                        </Link>
-                        <Link
-                          href={
-                            "https://www.linkedin.com/company/singularity-gmbh"
-                          }
-                          target="_blank"
-                        >
-                          <li
-                            className={`p-3 rounded-2xl bg-[#464646] hover:bg-[#32BB98] text-white hover:text-black   transition-all duration-200 `}
-                          >
-                            <FaLinkedinIn />
-                          </li>
-                        </Link>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="right-area w-full md:w-2/6">
-                <div className="newsletter">
-                  <h4 className="uppercase  font-bold text-lg mb-4">
-                    Subscribe to our newsletter
-                  </h4>
-                  <p className="mb-3  font-[300] text-base">
-                    Subscribe to our newsletter for expert VAT tips, regulatory
-                    updates, and industry insights.
-                  </p>
-                  <form onSubmit={handleSubmit(onSubmit)}>
-                    <div className="flex flex-row justify-between items-center gap-1">
-                      <div className="field-wrapper w-5/6">
-                        <input
-                          type="text"
-                          className={` rounded-full py-3 px-6 focus:border-none focus:outline-none w-full ${
-                            isDarkMode
-                              ? "bg-white text-black"
-                              : "bg-black text-white"
-                          }`}
-                          placeholder="Your email, please"
-                          {...register("Email", {
-                            required: "Enter your email",
-                            pattern: {
-                              value: /^\S+@\S+$/i,
-                              message: "Please enter a valid email address",
-                            },
-                          })}
-                        />
-                        {errors.Email && (
-                          <span className="error text-red-500 text-sm mt-1">
-                            {errors.Email.message}
-                          </span>
-                        )}
-                      </div>
-                      <div className="button-wrapper  w-1/3">
-                        <button className="bg-black w-full rounded-full font-medium text-white  table py-3 transition-all duration-200 cursor-pointer text-center hover:bg-[#32BB98]">
-                          Suscribe
-                        </button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div> */}
-
             <div className="flex justify-between flex-wrap items-center py-10  gap-10">
               <div className="w-full md:w-1/5">
                 <Image

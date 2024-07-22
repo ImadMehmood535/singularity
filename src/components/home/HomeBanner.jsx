@@ -15,7 +15,7 @@ const HomeBanner = () => {
         fetchPriority="high"
         loading="eager"
       />
-      <div className="flex flex-col items-center justify-center h-full gap-12 containerCust relative z-10 top-4 md:top-8">
+      <div className="flex z-40 flex-col items-center justify-center h-full gap-12 containerCust relative top-4 md:top-8">
         <div className="flex flex-col items-center gap-2">
           <p className="text-[#FAFAFA]/80 text-lg">We are</p>
           <h1 className="text-animation w-[220px] md:w-[360px]">

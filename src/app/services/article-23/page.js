@@ -6,6 +6,18 @@ import ServiceBanner from "@/components/services/ServiceBanner";
 import { article23 } from "@/data/InnerServicePagesData";
 import { article23faq } from "@/data/SingleServiceData";
 
+export const metadata = {
+  title: "Article 23 VAT Services | Simplified Tax Solutions",
+  description:
+    "Simplify your VAT processes with our Article 23 VAT services. Expert solutions for efficient VAT management.",
+  keyword: [
+    "Article 23 providers",
+    "VAT services",
+    "VAT registration",
+    "VAT management",
+  ],
+};
+
 const page = () => {
   return (
     <div>

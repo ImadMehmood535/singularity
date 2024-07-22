@@ -4,8 +4,20 @@ import InnerServiceFeature from "@/components/services/InnerServiceFeature";
 import ServiceBanner from "@/components/services/ServiceBanner";
 import { VATCompliance } from "@/data/InnerServicePagesData";
 import { VatComplianceFaq } from "@/data/SingleServiceData";
-
 import React from "react";
+
+export const metadata = {
+  title: " VAT Compliance Services | Expert VAT Specialists",
+  description:
+    " Ensure full VAT compliance with our expert VAT services. Trusted VAT specialists for businesses of all sizes.",
+  keyword: [
+    "VAT compliance services",
+    "VAT specialists",
+    "VAT experts",
+    "tax compliance services",
+    "outsource accounting service",
+  ],
+};
 
 const Index = () => {
   return (

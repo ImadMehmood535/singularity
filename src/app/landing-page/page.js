@@ -9,6 +9,21 @@ import LandingTrustedPartners from "@/components/landingpage/LandingTrustedPartn
 import PartnerList from "@/components/landingpage/PartnerList";
 import React from "react";
 
+export const metadata = {
+  title: "Singularity VAT Management Services | Efficient VAT Solutions (60 characters)",
+  description:
+    "Efficient VAT management services by Singularity to streamline your VAT processes. Trust our experts for comprehensive VAT solutions and compliance. (158 characters)",
+  keyword: [
+    "VAT management services",
+    "VAT solutions",
+    "VAT compliance",
+    "VAT management",
+    "VAT experts",
+    "tax services",
+    "Singularity VAT services",
+  ],
+};
+
 const page = () => {
   return (
     <div className="landing-page">

@@ -71,7 +71,7 @@ const LandingContactForm = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
           <FormInput
             type="text"
-            placeholder="Name"
+            placeholder="Full name"
             control={control}
             name="name"
             label="Name"
@@ -81,7 +81,7 @@ const LandingContactForm = () => {
 
           <FormInput
             type="text"
-            placeholder="Company name here"
+            placeholder="Company name"
             control={control}
             name="company"
             label="Company"
@@ -115,7 +115,7 @@ const LandingContactForm = () => {
           </div>
           <FormInput
             type="email"
-            placeholder="example@gmail.com"
+            placeholder="email"
             control={control}
             name="email"
             label="Email"

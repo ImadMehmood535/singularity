@@ -148,7 +148,7 @@ const LandingForm = () => {
         <div className="grid grid-cols-1 xl:grid-cols-1 gap-2">
           <FormInputSelect
             type="select"
-            placeholder="Select Country"
+            placeholder="Select your country"
             control={control}
             name="country"
             label="Country"

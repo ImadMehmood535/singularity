@@ -40,7 +40,7 @@ const LandingFooter = () => {
   return (
     <>
       <div className="relative z-50 ">
-        <VectorComponent />
+        <VectorComponent linking={false} />
       </div>
       <div
         className={`Footer overflow-hidden  relative py-10 md:pt-20 md:pb-10 px-0 mx-auto ${
@@ -234,28 +234,6 @@ const LandingFooter = () => {
                   </Link>
                   .
                 </p>
-              </div>
-              <div className="payments flex flex-row gap-1 items-start md:items-center justify-start md:justify-end">
-                <div className="link-list">
-                  <ul className="flex  flex-row gap-3 text-sm font-medium">
-                    <li className="text-center">
-                      <Link
-                        href={"/impressum-legal-notice"}
-                        className=" font-[300] text-sm hover:text-[#32BB98] w-[80%]"
-                      >
-                        Impressum
-                      </Link>
-                    </li>
-                    <li className="text-center">
-                      <Link
-                        href={"/privacy-policy"}
-                        className=" font-[300] text-sm hover:text-[#32BB98]"
-                      >
-                        Privacy Policy
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>

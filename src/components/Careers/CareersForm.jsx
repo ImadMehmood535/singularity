@@ -94,7 +94,7 @@ const CareersForm = () => {
         <div className="grid grid-cols-1 lg:grid-cols-1 gap-2">
           <FormInput
             type="email"
-            placeholder="example@gmail.com"
+            placeholder="Email"
             control={control}
             name="email"
             label="Email"

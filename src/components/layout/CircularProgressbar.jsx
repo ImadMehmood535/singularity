@@ -96,13 +96,7 @@ const CircularProgressBar = () => {
               </defs>
             </svg>
           </Link>
-          <Link
-            href={"mailto:welcome@singularity.tax"}
-            target="_blank"
-            className="block md:hidden bg-themeGreen-0 p-4 rounded-full hover:bg-themeGray-0   transition-all duration-300"
-          >
-            <FaEnvelope className="text-2xl md:text-[40px] text-white" />
-          </Link>
+
           <Link
             href={"https://wa.me/+971566290808"}
             target="_blank"

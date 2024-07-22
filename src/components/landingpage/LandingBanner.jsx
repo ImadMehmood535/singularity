@@ -42,6 +42,7 @@ const LandingBanner = () => {
         <div className="form-area order-1 md:order-2 ">
           <LandingForm />
         </div>
+        
       </div>
     </section>
   );

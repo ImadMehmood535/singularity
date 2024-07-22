@@ -34,5 +34,5 @@ export const careerSchema = yup.object().shape({
     .string()
     .email("Invalid email format")
     .required("Email is required"),
-  message: yup.string().required("Message is required"),
+  message: yup.string().required("Message is required"),
 });

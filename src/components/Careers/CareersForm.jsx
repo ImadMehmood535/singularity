@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Controller, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import FormInput from "../general/FormInput";
@@ -23,7 +23,6 @@ const CareersForm = () => {
   const [loading, setLoading] = useState(false);
   const onSubmit = async (data) => {
     setLoading(true);
-
     try {
       const formData = new FormData();
       formData.append("file", data.file[0]);
@@ -74,20 +73,22 @@ const CareersForm = () => {
               error={errors}
             />
           </div>
-          <Controller
-            name="file"
-            control={control}
-            render={({ field }) => (
-              <FormInput
-                type="file"
-                label="Attach Your CV"
-                register={register}
-                name="file"
-                error={errors}
-                field={field}
-              />
-            )}
-          />
+          <div className="col-span-1">
+            <Controller
+              name="file"
+              control={control}
+              render={({ field }) => (
+                <FormInput
+                  type="file"
+                  label="Attach Your CV"
+                  register={register}
+                  name="file"
+                  error={errors}
+                  field={field}
+                />
+              )}
+            />
+          </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-1 gap-2">

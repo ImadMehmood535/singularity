@@ -2,12 +2,10 @@ import Image from "next/image";
 import BannerBoxes from "./BannerBoxes";
 import { homeBg } from "@/assets";
 import LinkComponent from "../general/LinkComponent";
-import Head from "next/head";
 
 const HomeBanner = () => {
   return (
     <section className="homeBackground h-screen md:h-[120vh] w-full relative pt-[230px] md:pt-[140px] lg:pt-[0px] pb-[80px] ">
-   
       <Image
         src={homeBg}
         alt="Background Image"
@@ -32,8 +30,12 @@ const HomeBanner = () => {
         </div>
         <BannerBoxes />
         <p className="text-base text-center max-w-[800px] w-full">
-           
-          Singularity GmbH is your trusted partner for all tax and accounting services, from comprehensive audit management to regular VAT returns. Let us handle the complexities and ensure your financial records are impeccable. Our expert team offers a full suite of tax and accounting services designed to meet the unique needs of your business, including bookkeeping, payroll processing, and financial statement preparation.
+          Singularity GmbH is your trusted partner for all tax and accounting
+          services, from comprehensive audit management to regular VAT returns.
+          Let us handle the complexities and ensure your financial records are
+          impeccable. Our expert team offers a full suite of tax and accounting
+          services designed to meet the unique needs of your business, including
+          bookkeeping, payroll processing, and financial statement preparation.
         </p>
 
         <LinkComponent text={"Learn More"} href={"/about-us"} />

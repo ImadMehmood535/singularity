@@ -29,34 +29,7 @@ const LandingPageHeader = () => {
         className={`transition-all ease-in-out overflow-hidden  hidden md:block ${
           expend ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
-      >
-        {/* <ul className={`flex flex-col sm:flex-row gap-4`}>
-          {navItems?.map((item, index) => (
-            <li key={index} className="relative group">
-              <Link
-                href={item.href}
-                className={`text-white whitespace-nowrap hover:text-themeGreen-0 transition-all text-sm`}
-              >
-                {item.name}
-              </Link>
-              {item?.subLinks && (
-                <ul className="group-hover:block hidden absolute z-[999] left-0 top-full bg-white text-black w-max p-2 mt-2 shadow-lg rounded-md">
-                  {item.subLinks.map((subItem, subIndex) => (
-                    <li key={subIndex}>
-                      <Link
-                        href={subItem.href}
-                        className="block whitespace-nowrap hover:text-themeGreen-0 transition-all text-sm p-2"
-                      >
-                        {subItem.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </li>
-          ))}
-        </ul> */}
-      </div>
+      ></div>
       {}
       <div
         onClick={() => setExpend(!expend)}
@@ -74,7 +47,8 @@ const LandingPageHeader = () => {
         >
           <div className="  transition-all  group rounded-full px-4 py-2 hidden md:block">
             <Link
-              href={"/"}
+              href={"mailto:welcome@singularity.tax"}
+              target="_blank"
               className="text-lg text-white group-hover:text-themeGreen-0 flex flex-row gap-3 items-center"
             >
               <FaEnvelope className="text-3xl" />
@@ -83,7 +57,8 @@ const LandingPageHeader = () => {
           </div>
           <div className="bg-[#32BB98] transition-all hover:bg-white group rounded-full px-4 py-2 hidden md:block">
             <Link
-              href={"/"}
+              href={"https://wa.me/+971566290808"}
+              target="_blank"
               className="text-lg text-white group-hover:text-themeGreen-0 flex flex-row gap-1 items-center"
             >
               <FaWhatsapp className="text-3xl" />
@@ -92,24 +67,6 @@ const LandingPageHeader = () => {
           </div>
         </div>
       </div>
-      {/* <div
-        className={`transition-all bg-white/60 border-[5px] border-black/10 ease-in-out overflow-hidden block md:hidden absolute top-20 rounded-xl left-0 w-full p-4 ${
-          expend ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-        }`}
-      >
-        <ul className={`flex flex-col sm:flex-row gap-4`}>
-          {navItems?.map((item, index) => (
-            <li key={index}>
-              <Link
-                href={item.href}
-                className="text-white whitespace-nowrap hover:text-themeGreen-0 transition-all text-sm"
-              >
-                {item.name}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div> */}
     </div>
   );
 };

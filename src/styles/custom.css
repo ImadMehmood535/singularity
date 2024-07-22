@@ -458,18 +458,14 @@
 .SingleBlogBody p{
   margin-bottom: 10px;
 }
+.ImpressumBody h1, .SingleBlogBody h2, .SingleBlogBody h3, .SingleBlogBody h4, .SingleBlogBody h5, .SingleBlogBody h6{
+  margin-bottom: 20px;
+}
+.ImpressumBody p{
+  margin-bottom: 10px;
+}
 select {
-
- 
-  background-color: white;
-  border: thin solid blue;
-  border-radius: 4px;
-  display: inline-block;
-  font: inherit;
-  line-height: 1.5em;
-  padding: 0.5em 3.5em 0.5em 1em;
-
-  /* reset */
+    
 
   margin: 0;      
   -webkit-box-sizing: border-box;
@@ -513,10 +509,6 @@ select.round:focus {
   border-color: green;
   outline: 0;
 }
-
-
-
- 
 
 select:-moz-focusring {
   color: transparent;

@@ -93,20 +93,6 @@ const SalesFeatureData = [
         title: "Overview Of Amazon Sales Tax",
         content:
           "Amazon sales tax is a tax collected on sales transactions made through Amazon. Sellers must comply with state-specific tax laws, collect the correct amount of tax from buyers, and remit it to the appropriate tax authorities. ",
-        // points: [
-        //   {
-        //     point:
-        //       "California: Requires sales tax on all physical goods except groceries.",
-        //   },
-        //   {
-        //     point:
-        //       "Texas: Taxable items include physical goods and certain services.",
-        //   },
-        //   {
-        //     point:
-        //       "New York: Sales tax applies to tangible personal property and some services",
-        //   },
-        // ],
       },
       {
         title: "Singularity and Amazon VAT service",

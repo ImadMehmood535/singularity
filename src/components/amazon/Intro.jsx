@@ -14,23 +14,7 @@ const Intro = ({ subtitle, title, content }) => {
           </div>
           
         </div>
-        {/* <div className="service-area pt-8 ">
-          <div className="flex flex-col lg:flex-row gap-4 ">
-            {data.map((item, key) => (
-              <div
-                key={key}
-                className=" w-full lg:w-[33.33%] p-8 rounded-2xl overflow-hidden relative custom-gradent bg-[#19161A] "
-              >
-                <div className="relative z-30">
-                  <h4 className="text-xl md:text-2xl mb-10 text-[#A4A4A4] w-full lg:max-w-[70%]">
-                    {item.title}
-                  </h4>
-                  <p className="text-[#A4A4A4] text-lg">{item.content}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div> */}
+        
       </div>
     </div>
   );

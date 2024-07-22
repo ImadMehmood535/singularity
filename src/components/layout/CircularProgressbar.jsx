@@ -35,38 +35,7 @@ const CircularProgressBar = () => {
 
   return (
     <div className="flex items-center justify-center gap-4 flex-col">
-      {/* <div className="relative">
-        <svg className="w-24 h-24">
-          <circle
-            className="progress-ring"
-            stroke="rgba(0, 0, 0, 0.1)"
-            strokeWidth={strokeWidth}
-            fill="transparent"
-            r={radius}
-            cx="50%"
-            cy="50%"
-          />
-          <circle
-            className="progress-ring-circle"
-            stroke="#32BB98"
-            strokeWidth={strokeWidth}
-            strokeLinecap="round"
-            fill="transparent"
-            r={radius}
-            cx="50%"
-            cy="50%"
-            style={{
-              strokeDasharray: circumference,
-              strokeDashoffset: offset,
-            }}
-          />
-        </svg>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <span className="block text-lg font-bold text-themeGreen-0">
-            {Math.round(progress)}%
-          </span>
-        </div>
-      </div> */}
+      
       {isLandingPage ? (
         <>
           <Link

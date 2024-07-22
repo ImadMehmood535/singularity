@@ -1,4 +1,4 @@
-import { trusted1, trusted2, trusted3, trusted4, trusted5 } from "@/assets";
+import { trusted1, trusted2, trusted3, trusted5 } from "@/assets";
 
 export const trustedData = [
   {
@@ -9,7 +9,7 @@ export const trustedData = [
       </>
     ),
     para: "At Singularity, we ensure your business's smooth tax operations and compliance with EU VAT regulations, supporting cross-border transactions with meticulous VAT services.",
-    linladdress : "services/vat-compliance-services",
+    linladdress: "services/vat-compliance-services",
   },
   {
     pic: trusted1,
@@ -19,40 +19,37 @@ export const trustedData = [
       </>
     ),
     para: "At Singularity, we specialise in smooth, legally compliant company formations in the UK, Germany, and EU. Our tailored services ensure a robust business establishment.",
-    linladdress : "services/company-formation-services",
+    linladdress: "services/company-formation-services",
   },
   {
     pic: trusted2,
     head: (
       <>
-       Customs Indirect<br /> Representation Services
+        Customs Indirect
+        <br /> Representation Services
       </>
     ),
 
     para: "Our Customs Indirect Representation Services simplify EU customs clearance, acting as your dedicated representative to ensure compliance and seamless operations.",
-    linladdress : "services/customs-indirect-representation-services",
+    linladdress: "services/customs-indirect-representation-services",
   },
   {
     pic: trusted3,
-    head: (
-      <>
-        Article  23 
-      </>
-    ),
+    head: <>Article 23</>,
 
     para: "Article 23 enables businesses to defer VAT on imports within the EU, improving cash flow by avoiding upfront VAT payments at the border.",
-    linladdress : "services/article-23",
+    linladdress: "services/article-23",
   },
   {
     pic: trusted5,
     head: (
       <>
-        Amazon  <br /> VAT Services
+        Amazon <br /> VAT Services
       </>
     ),
 
     para: "Singularity is now on VAT Services on Amazon, helping you manage VAT compliance and filing in the UK, France, Italy, Spain, Poland, and the Czech Republic. Simplify your European VAT registration and obligations with our expertise.",
-    linladdress : "/amazon-with-singularity",
+    linladdress: "/amazon-with-singularity",
   },
 ];
 

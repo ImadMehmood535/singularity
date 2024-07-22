@@ -1,7 +1,6 @@
 import HomeBanner from "@/components/home/HomeBanner";
 import ScrollHome from "@/components/home/ScrollHome";
 import TrustedPartners from "@/components/home/TrustedPartners";
-import VectorComponent from "@/components/home/VectorComponent";
 import VideoComponent from "@/components/home/VideoComponent";
 import WhyUs from "@/components/home/WhyUs";
 

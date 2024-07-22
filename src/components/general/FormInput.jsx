@@ -1,16 +1,15 @@
 import React from "react";
 
-const FormInput = ({ type, placeholder, register, name, error, label }) => {
+const FormInput = ({ type, placeholder, register, name, error, label, field }) => {
   return (
     <div className="flex flex-col gap-2">
       <p className="font-medium">{label}</p>
       {type == "file" ? (
         <input
           type="file"
-          name="file"
-          register={register}
-          error={error}
-          className="file-input file-input-bordered file-input-[#0000] w-full max-w-xs   h-[3.5rem] bg-[#EDEDED] border-[1px] border-white bg-opacity-10 rounded-[10px]"
+          name={name}
+          onChange={(e) => field.onChange(e.target.files)}
+          className="file-input file-input-bordered file-input-[#0000] w-full max-w-xs h-[3.5rem] bg-[#EDEDED] border-[1px] border-white bg-opacity-10 rounded-[10px]"
         />
       ) : (
         <input

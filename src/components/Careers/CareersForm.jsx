@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Controller, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import FormInput from "../general/FormInput";
@@ -22,7 +22,6 @@ const CareersForm = () => {
   const [loading, setLoading] = useState(false);
   const onSubmit = async (data) => {
     setLoading(true);
-
     try {
       const response = await API.contact(data);
       successToast(response?.data?.message);
@@ -39,8 +38,7 @@ const CareersForm = () => {
       <h3 className="font-bold text-white mb-4 text-4xl">
         Want to Join the Team?
       </h3>
-      {/* 
-      <p className="text-white">
+      {/* <p className="text-white">
         Contact Singularity GmbH today for more information about our
         comprehensive tax services or to schedule a consultation with our
         experienced team. We are committed to providing tailored solutions to
@@ -71,14 +69,22 @@ const CareersForm = () => {
               error={errors}
             />
           </div>
-          <FormInput
-            type="file"
-            label="Attatch Your CV"
-            control={control}
-            name="file"
-            register={register}
-            error={errors}
-          />
+          <div className="col-span-1">
+            <Controller
+              name="file"
+              control={control}
+              render={({ field }) => (
+                <FormInput
+                  type="file"
+                  label="Attach Your CV"
+                  register={register}
+                  name="file"
+                  error={errors}
+                  field={field}
+                />
+              )}
+            />
+          </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-1 gap-2">

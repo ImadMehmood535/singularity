@@ -5,7 +5,7 @@ import Bloglist from "@/components/Blogs/Bloglist";
 import React from "react";
 
 export const metadata = {
-  title: " Blogs | Latest Insights on Tax & VAT",
+  title: "Blogs | Latest Insights on Tax & VAT",
   description:
     "Stay updated with our latest blogs on VAT regulations, compliance, business strategies, and financial insights.",
   keywords: [
@@ -18,12 +18,12 @@ export const metadata = {
 };
 
 const page = async () => {
-  const { data: blogs } = await getAllBlogs();
+  // const { data: blogsData } = await getAllBlogs();
 
   return (
     <div className="text-center w-full">
-      <AboutBanner subtitle="Our Blogs" title="Publications/Articles" />
-      <Bloglist data={blogs} />
+      {/* <AboutBanner subtitle="Our Blogs" title="Publications/Articles" />
+      <Bloglist data={blogsData} /> */}
     </div>
   );
 };

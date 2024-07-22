@@ -4,7 +4,20 @@ import KeyResources from "@/components/Information/KeyResources";
 import TableList from "@/components/Information/TableList";
 import { informationlistdata, tabledata } from "@/data/informationdata";
 import React from "react";
- 
+
+export const metadata = {
+  title: " Information Center | Tax & VAT Resources",
+  description:
+    "Access valuable resources and information on VAT, tax, accounting, and business consultancy. Stay informed with Singularity",
+  keyword: [
+    " VAT resources",
+    " business information",
+    " VAT compliance resources",
+    "accounting guides",
+    " business consultancy tips",
+  ],
+};
+
 const Index = () => {
   return (
     <div className="Information w-full">
@@ -21,7 +34,7 @@ const Index = () => {
         title={"Key Resources"}
         data={informationlistdata}
       />
-      <TableList data={tabledata}/>
+      <TableList data={tabledata} />
     </div>
   );
 };

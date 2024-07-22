@@ -9,6 +9,19 @@ import ServiceCategory from "@/components/services/ServiceCategory";
 import { TaxConsultingData } from "@/data/TaxConsultingData";
 import React from "react";
 
+export const metadata = {
+  title: " Our Services | VAT Compliance & Business Solutions",
+  description:
+    " Explore our comprehensive services including VAT compliance, company formation, customs representation, and more. Expertise in VAT and business solutions.",
+  keyword: [
+    "VAT compliance services",
+    " company formation services",
+    "customs representation",
+    "business solutions",
+    "VAT services",
+  ],
+};
+
 const Index = () => {
   const faq = [
     {

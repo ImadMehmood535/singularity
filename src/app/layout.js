@@ -11,12 +11,6 @@ import Toaster from "@/components/general/Toaster";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Comprehensive Tax and Accounting Services | Singularity Tax",
-  description:
-    "Discover top-tier tax and accounting services at Singularity Tax. Our expert team specializes in providing tailored solutions for businesses in the tech industry. Ensure compliance and optimize your financial strategy with our trusted services.",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

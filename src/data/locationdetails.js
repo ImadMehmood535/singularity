@@ -84,7 +84,7 @@ const locationdetails = [
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clip-path="url(#clip0_344_4109)">
+        <g clipPath="url(#clip0_344_4109)">
           <path d="M50 8.33301H0V41.6667H50V8.33301Z" fill="#F0F0F0" />
           <path
             d="M28.125 8.33301H21.875V21.8746H0V28.1246H21.875V41.6662H28.125V28.1246H50V21.8746H28.125V8.33301Z"
@@ -227,7 +227,7 @@ const locationdetails = [
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clip-path="url(#clip0_344_4136)">
+        <g clipPath="url(#clip0_344_4136)">
           <path d="M52 8.33301H0V41.6667H52V8.33301Z" fill="#F0F0F0" />
           <path
             d="M29.25 8.33301H22.75V21.8746H0V28.1246H22.75V41.6662H29.25V28.1246H52V21.8746H29.25V8.33301Z"

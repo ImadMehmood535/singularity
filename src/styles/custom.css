@@ -1,3 +1,4 @@
+ 
 .homeBackground {
   background-image: url(../assets/images/bg.webp);
 }
@@ -412,14 +413,7 @@ section.homeBackground:before {
   background-position: top right;
   z-index: 20;
 }
-@media only screen and (max-width: 600px) {
-  .VectorComponent:before {
-    width: 50%;
-  }
-  .VectorComponent::after {
-    width: 50%;
-  }
-}
+
 .custom-gradent:before {
   border-radius: 512px;
   opacity: 0.35;
@@ -524,4 +518,16 @@ select:-moz-focusring {
 .customShortDescriptionStyling p span {
   background-color: transparent !important;
   color: white !important;
+}
+@media only screen and (max-width: 600px) {
+  .VectorComponent:before {
+    width: 50%;
+  }
+  .VectorComponent::after {
+    width: 50%;
+  }
+  .floty-icon svg {
+    width: 24px;
+    height: 24px;
+  }
 }

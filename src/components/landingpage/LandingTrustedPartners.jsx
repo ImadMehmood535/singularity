@@ -13,7 +13,7 @@ const LandingTrustedPartners = () => {
       ),
       para: "At Singularity, we understand the vital importance of VAT compliance within the EU for businesses engaged in cross-border transactions. Trust us to simplify your VAT processes and navigate the European market with confidence.",
       btntext : "Reach Us Out",
-      linladdress: "services/vat-compliance-services",
+      linladdress: "#banner",
     },
     {
       pic: trusted2,
@@ -24,7 +24,7 @@ const LandingTrustedPartners = () => {
       ),
       para: "Navigating EU customs clearance can be complex, but with our Customs Indirect Representation Services, you have a reliable partner by your side. We serve as your dedicated representative, expertly managing EU customs regulations to ensure full compliance and smooth operations for your business.",
       btntext : "Reach Us Out",
-      linladdress: "services/company-formation-services",
+      linladdress: "#banner",
     },
      
   ];

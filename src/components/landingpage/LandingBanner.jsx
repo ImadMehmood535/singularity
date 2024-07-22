@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const LandingBanner = () => {
   return (
-    <section className="homeBackground  w-full relative pt-[140px] pb-[100px]  ">
+    <section id="banner" className="homeBackground  w-full relative pt-[140px] pb-[100px]  ">
       <Image
         src={homeBg}
         alt="Background Image"

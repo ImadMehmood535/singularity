@@ -1,6 +1,6 @@
-import React from "react";
-import ContactForm from "../home/ContactForm";
+import React from "react"; 
 import IndividuallyFaq from "../general/IndividuallyFaq";
+import LandingContactForm from "./LandingContactForm";
 
 const LandingFormAndFaq = ({ title, content }) => {
   const faq = [
@@ -67,7 +67,7 @@ const LandingFormAndFaq = ({ title, content }) => {
       <div className="containerCust xl:px-[10%]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 justify-between items-start ">
           <div className="content-area md:sticky md:top-4">
-            <ContactForm />
+            <LandingContactForm />
           </div>
           <div className="faq-area  ">
             <div className="  bg-black  text-white rounded-[25px] px-4 py-12 flex flex-col gap-4 h-full">

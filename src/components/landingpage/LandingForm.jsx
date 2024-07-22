@@ -48,7 +48,7 @@ const LandingForm = () => {
     setLoading(true);
 
     try {
-      const response = await API.contact(data);
+      const response = await API.landingContact(data);
       successToast(response?.data?.message);
       setLoading(false);
     } catch (error) {

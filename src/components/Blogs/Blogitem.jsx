@@ -22,7 +22,7 @@ const Blogitem = ({ item }) => {
               quality={75}
               loading="eager"
               fetchPriority="high"
-              className="w-full  group-hover:scale-105 transition-all duration-300  bottom-0 rounded-none"
+              className="w-full group-hover:scale-105 transition-all duration-300  bottom-0 rounded-none"
             />
           </div>
           <div className="content-area text-left px-4 py-6">

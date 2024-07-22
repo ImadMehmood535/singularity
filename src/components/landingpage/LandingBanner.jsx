@@ -17,7 +17,7 @@ const LandingBanner = () => {
         fetchPriority="high"
         loading="eager"
       />
-      <div className="grid grid-cols-1  lg:grid-cols-2 items-center justify-center h-full gap-6 md:gap-12 containerCust xl:px-[10%] relative z-10 top-4 md:top-8  ">
+      <div className="grid grid-cols-1  lg:grid-cols-2 items-center z-50 justify-center h-full gap-6 md:gap-12 containerCust xl:px-[10%] relative z-10 top-4 md:top-8  ">
         <div className="flex flex-col items-left gap-2 text-center md:text-left order-2 md:order-1">
           <h1 className="mb-4  text-4xl md:text-5xl leading-[40px] md:leading-[58px]  ">
             Effortless VAT <br /> Mastery for <br />

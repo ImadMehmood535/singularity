@@ -9,7 +9,8 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const CircularProgressBar = () => {
   const pathname = usePathname();
-  const isLandingPage = pathname === "/landing-page";
+  const isLandingPage =
+    pathname === "/vat-compliance-and-customs-indirect-representative-services";
   const [progress, setProgress] = useState(0);
 
   const handleScroll = () => {

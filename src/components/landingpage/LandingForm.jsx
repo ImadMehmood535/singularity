@@ -34,6 +34,11 @@ const LandingForm = () => {
       name: "Article 23",
     },
   ];
+
+  const [countryOptions, setCountryOptions] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [defaultCountry, setDefaultCountry] = useState("");
+
   const {
     handleSubmit,
     control,
@@ -43,7 +48,6 @@ const LandingForm = () => {
     resolver: yupResolver(landingcontactSchema),
   });
 
-  const [loading, setLoading] = useState(false);
   const onSubmit = async (data) => {
     setLoading(true);
 
@@ -58,10 +62,28 @@ const LandingForm = () => {
     }
   };
 
-  return (
-    <div className="contactBg rounded-[25px] py-6 px-4 md:py-4 md:px-6 flex flex-col gap-4  h-full  ">
-      <h3 className="font-medium text-3xl 	 text-white">Reach out to Us</h3>
+  const getCountry = async () => {
+    try {
+      const response = await axios.get("https://restcountries.com/v3.1/all");
+      const countryData = response.data.map((country) => ({
+        value: country.cca2,
+        name: country.name.common,
+      }));
+      setCountryOptions(countryData);
+      const userCountry = await axios.get("https://api.country.is");
+      setDefaultCountry(userCountry?.data?.country.toLowerCase());
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
+  useEffect(() => {
+    getCountry();
+  }, []);
+
+  return (
+    <div className="contactBg rounded-[25px] py-6 px-4 md:py-4 md:px-6 flex flex-col gap-4 h-full">
+      <h3 className="font-medium text-3xl text-white">Reach out to Us</h3>
       <p className="text-white text-sm font-light">
         Submit your details below, and our VAT experts will reach out to you
         shortly to discuss how we can optimize your business&apos;s VAT
@@ -79,7 +101,6 @@ const LandingForm = () => {
             register={register}
             error={errors}
           />
-
           <FormInput
             type="text"
             placeholder="Company name "
@@ -90,31 +111,29 @@ const LandingForm = () => {
             error={errors}
           />
         </div>
-
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-2">
           <div className="flex flex-col gap-2">
-            <p className="font-medium  ">Phone Number</p>
-
-            <div className="w-full flex flex-col gap-4">
-              <Controller
-                control={control}
-                name="phone"
-                render={({ field: { onChange, value } }) => (
-                  <PhoneInput
-                    value={value}
-                    onChange={onChange}
-                    defaultCountry={"de"}
-                    placeholder="Enter phone number"
-                  />
+            <p className="font-medium">Phone Number</p>
+            {defaultCountry && (
+              <div className="w-full flex flex-col gap-4">
+                <Controller
+                  control={control}
+                  name="phone"
+                  render={({ field: { onChange, value } }) => (
+                    <PhoneInput
+                      value={value}
+                      onChange={onChange}
+                      defaultCountry={"de"}
+                      placeholder="Enter phone number"
+                    />
+                  )}
+                />
+                {errors.phone && (
+                  <p className="text-red-500">{errors.phone.message}</p>
                 )}
-              />
-              <p className="text-red-500"></p>
-              {errors.phone && (
-                <p className="text-red-500">{errors.phone.message}</p>
-              )}
-            </div>
+              </div>
+            )}
           </div>
-
           <FormInput
             type="email"
             placeholder="Email"
@@ -125,13 +144,26 @@ const LandingForm = () => {
             error={errors}
           />
         </div>
-        <div className="grid grid-cols-1  gap-2">
+
+        <div className="grid grid-cols-1 xl:grid-cols-1 gap-2">
+          <FormInputSelect
+            type="select"
+            placeholder="Select Country"
+            control={control}
+            name="country"
+            label="Country"
+            register={register}
+            options={countryOptions}
+            error={errors}
+          />
+        </div>
+        <div className="grid grid-cols-1 xl:grid-cols-1 gap-2">
           <FormInputSelect
             type="select"
             placeholder="Select Service"
             control={control}
             name="service"
-            label="Service Required"
+            label="Service"
             register={register}
             options={options}
             error={errors}

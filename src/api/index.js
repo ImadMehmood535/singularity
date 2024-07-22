@@ -18,5 +18,8 @@ API.contact = (data) => {
 API.landingContact = (data) => {
   return API.post("/contact/landing-page", data);
 };
+API.careerForm = (data) => {
+  return API.post("/contact/career", data);
+};
 
 export { API };

@@ -14,6 +14,7 @@ const CareersForm = () => {
     handleSubmit,
     control,
     register,
+    reset,
     formState: { errors },
   } = useForm({
     resolver: yupResolver(careerSchema),
@@ -24,9 +25,18 @@ const CareersForm = () => {
     setLoading(true);
 
     try {
-      const response = await API.contact(data);
+      const formData = new FormData();
+      formData.append("file", data.file[0]);
+
+      formData.append("firstName", data.firstName);
+      formData.append("lastName", data.lastName);
+      formData.append("email", data.email);
+      formData.append("message", data.message);
+
+      const response = await API.careerForm(formData);
       successToast(response?.data?.message);
       setLoading(false);
+      reset();
     } catch (error) {
       console.log(error);
       errorToast(error, "Can not submit form at the moment");
@@ -39,13 +49,6 @@ const CareersForm = () => {
       <h3 className="font-bold text-white mb-4 text-4xl">
         Want to Join the Team?
       </h3>
-      {/* 
-      <p className="text-white">
-        Contact Singularity GmbH today for more information about our
-        comprehensive tax services or to schedule a consultation with our
-        experienced team. We are committed to providing tailored solutions to
-        help your business succeed.
-      </p> */}
 
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-2">
@@ -71,13 +74,19 @@ const CareersForm = () => {
               error={errors}
             />
           </div>
-          <FormInput
-            type="file"
-            label="Attatch Your CV"
-            control={control}
+          <Controller
             name="file"
-            register={register}
-            error={errors}
+            control={control}
+            render={({ field }) => (
+              <FormInput
+                type="file"
+                label="Attach Your CV"
+                register={register}
+                name="file"
+                error={errors}
+                field={field}
+              />
+            )}
           />
         </div>
 

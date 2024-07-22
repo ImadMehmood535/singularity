@@ -23,7 +23,7 @@ const PartnerList = () => {
       para: "Perfectly Tailored Solutions to Meet and Exceed Every Business Need.",
     },
     {
-      head: "Exceptional Service Excellence",
+      head: <>Exceptional Service <br/> Excellence</>,
       para: "Strong, Reliable, and Committed Partnerships for Mutual Success.",
     },
   ];

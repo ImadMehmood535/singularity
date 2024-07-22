@@ -16,7 +16,7 @@ API.contact = (data) => {
 };
 
 API.landingContact = (data) => {
-  return API.post("/landing-page", data);
+  return API.post("/contact/landing-page", data);
 };
 
 export { API };

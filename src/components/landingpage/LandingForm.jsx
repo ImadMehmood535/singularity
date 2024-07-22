@@ -8,6 +8,8 @@ import { PhoneInput } from "react-international-phone";
 import "react-international-phone/style.css";
 import { landingcontactSchema } from "@/validations/landingform";
 import FormInputSelect from "../general/FormInputSelect";
+import { API } from "@/api";
+import { errorToast, successToast } from "@/hooks/useToast";
 
 const LandingForm = () => {
   const options = [
@@ -41,10 +43,20 @@ const LandingForm = () => {
     resolver: yupResolver(landingcontactSchema),
   });
 
-  const onSubmit = (data) => {
-    console.log(data);
-  };
+  const [loading, setLoading] = useState(false);
+  const onSubmit = async (data) => {
+    setLoading(true);
 
+    try {
+      const response = await API.contact(data);
+      successToast(response?.data?.message);
+      setLoading(false);
+    } catch (error) {
+      console.log(error);
+      errorToast(error, "Can not submit form at the moment");
+      setLoading(false);
+    }
+  };
   const [country, setCountry] = useState("");
 
   const getCountry = async () => {
@@ -81,7 +93,7 @@ const LandingForm = () => {
             register={register}
             error={errors}
           />
-        
+
           <FormInput
             type="text"
             placeholder="Company name here"
@@ -118,7 +130,7 @@ const LandingForm = () => {
               </div>
             )}
           </div>
-         
+
           <FormInput
             type="email"
             placeholder="example@gmail.com"
@@ -134,7 +146,7 @@ const LandingForm = () => {
             type="select"
             placeholder="Select Service"
             control={control}
-            name="select"
+            name="service"
             label="Service Required"
             register={register}
             options={options}
@@ -143,6 +155,7 @@ const LandingForm = () => {
         </div>
 
         <button
+          disabled={loading}
           type="submit"
           className="bg-[#32BB98] hover:bg-themeGray-0 hover:text-white transition-all relative customLink rounded-full w-[180px] py-4 text-center text-sm text-white"
         >

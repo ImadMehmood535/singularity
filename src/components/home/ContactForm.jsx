@@ -7,6 +7,8 @@ import axios from "axios";
 import { PhoneInput } from "react-international-phone";
 import "react-international-phone/style.css";
 import { contactSchema } from "@/validations/contact";
+import { API } from "@/api";
+import { errorToast, successToast } from "@/hooks/useToast";
 
 const ContactForm = () => {
   const {
@@ -18,8 +20,19 @@ const ContactForm = () => {
     resolver: yupResolver(contactSchema),
   });
 
-  const onSubmit = (data) => {
-    console.log(data);
+  const [loading, setLoading] = useState(false);
+  const onSubmit = async (data) => {
+    setLoading(true);
+
+    try {
+      const response = await API.contact(data);
+      successToast(response?.data?.message);
+      setLoading(false);
+    } catch (error) {
+      console.log(error);
+      errorToast(error, "Can not submit form at the moment");
+      setLoading(false);
+    }
   };
 
   const [country, setCountry] = useState("");
@@ -123,6 +136,7 @@ const ContactForm = () => {
 
         <button
           type="submit"
+          disabled={loading}
           className="bg-black hover:bg-white hover:text-black transition-all relative customLink rounded-full w-[160px] py-4 text-center text-sm text-white"
         >
           Send message

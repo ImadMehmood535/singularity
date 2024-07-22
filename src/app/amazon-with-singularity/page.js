@@ -12,6 +12,19 @@ import {
 } from "@/data/AmazomPageData";
 import React from "react";
 
+export const metadata = {
+  title: "Amazon VAT Service | Hassle-Free VAT Compliance",
+  description:
+    "Hassle-free VAT compliance for Amazon sellers. Ensure smooth VAT registration and management with our expert services.",
+  keyword: [
+    "Amazon VAT service",
+    "VAT registration Amazon",
+    "VAT services on Amazon",
+    "Amazon UK tax",
+    "VAT compliance",
+  ],
+};
+
 const Index = () => {
   return (
     <div className="amazon-with-singularity  w-full">

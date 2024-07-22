@@ -7,8 +7,21 @@ import {
   technologysolutions,
 } from "@/data/InnerServicePagesData";
 import { customsindirectfaq } from "@/data/SingleServiceData";
-
 import React from "react";
+
+export const metadata = {
+  title: " Customs Indirect Representation | Expert VAT & Customs Services",
+  description:
+    "Expert customs indirect representation and VAT services. Ensure smooth customs clearance and VAT compliance with our professional team.",
+  keyword: [
+    "customs indirect representation",
+    "indirect representation customs",
+    "customs representative",
+    "custom clearance UK",
+    "European customs clearance",
+    "VAT services",
+  ],
+};
 
 const Index = () => {
   return (

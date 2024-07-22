@@ -2,11 +2,22 @@ import WhyUs from "@/components/home/WhyUs";
 import InnerFaq from "@/components/services/InnerFaq";
 import InnerServiceFeature from "@/components/services/InnerServiceFeature";
 import ServiceBanner from "@/components/services/ServiceBanner";
-
 import { companyformation, taxcompliance } from "@/data/InnerServicePagesData";
 import { companyformationfaq } from "@/data/SingleServiceData";
-
 import React from "react";
+
+export const metadata = {
+  title: " Company Formation Services | Setup in UK & Germany",
+  description:
+    "Professional company formation services in the UK and Germany. Simplify your business setup with our expert guidance.",
+  keyword: [
+    "company formation services",
+    "company setup in UK",
+    "register company in Germany",
+    "company formation UK",
+    "VAT services",
+  ],
+};
 
 const Index = () => {
   return (

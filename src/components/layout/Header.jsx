@@ -89,7 +89,7 @@ const Header = () => {
         />
       </div>
       <div
-        className={`transition-all bg-white/60 border-[5px] border-black/10 ease-in-out overflow-hidden block md:hidden absolute top-20 rounded-xl left-0 w-full p-4 ${
+        className={`transition-all bg-black/80 border-[5px] border-black/10 ease-in-out overflow-hidden block md:hidden absolute top-20 rounded-xl left-0 w-full p-4 ${
           expend ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
       >

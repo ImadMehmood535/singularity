@@ -22,7 +22,7 @@ const page = async () => {
 
   return (
     <div className="text-center w-full">
-      <AboutBanner subtitle="Our Blogs" title="Blogs" />
+      <AboutBanner subtitle="Our Blogs" title="Publications/Articles" />
       <Bloglist data={blogs} />
     </div>
   );

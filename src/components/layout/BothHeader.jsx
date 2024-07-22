@@ -6,7 +6,7 @@ import Header from "./Header";
 
 const BothHeader = () => {
   const pathname = usePathname();
-  const isLandingPage = pathname === "/landing-page";
+  const isLandingPage = pathname === "/vat-compliance-and-customs-indirect-representative-services";
 
   return <div>{isLandingPage ? <LandingPageHeader /> : <Header />}</div>;
 };

@@ -35,7 +35,6 @@ const CircularProgressBar = () => {
 
   return (
     <div className="flex items-center justify-center gap-4 flex-col">
-      
       {isLandingPage ? (
         <>
           <Link

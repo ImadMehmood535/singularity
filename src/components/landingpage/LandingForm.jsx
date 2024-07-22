@@ -57,21 +57,7 @@ const LandingForm = () => {
       setLoading(false);
     }
   };
-  const [country, setCountry] = useState("");
 
-  const getCountry = async () => {
-    try {
-      const response = await axios.get("https://api.country.is");
-      const code = response?.data?.country;
-      setCountry(String(code?.toLowerCase()));
-    } catch (error) {
-      console.log(error);
-    }
-  };
-
-  useEffect(() => {
-    getCountry();
-  }, []);
   return (
     <div className="contactBg rounded-[25px] py-6 px-4 md:py-4 md:px-6 flex flex-col gap-4  h-full  ">
       <h3 className="font-medium text-3xl 	 text-white">Reach out to Us</h3>
@@ -86,7 +72,7 @@ const LandingForm = () => {
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-2">
           <FormInput
             type="text"
-            placeholder="Name"
+            placeholder="Full name"
             control={control}
             name="name"
             label="Name"
@@ -96,7 +82,7 @@ const LandingForm = () => {
 
           <FormInput
             type="text"
-            placeholder="Company name here"
+            placeholder="Company name "
             control={control}
             name="company"
             label="Company"
@@ -109,31 +95,29 @@ const LandingForm = () => {
           <div className="flex flex-col gap-2">
             <p className="font-medium  ">Phone Number</p>
 
-            {country && (
-              <div className="w-full flex flex-col gap-4">
-                <Controller
-                  control={control}
-                  name="phone"
-                  render={({ field: { onChange, value } }) => (
-                    <PhoneInput
-                      value={value}
-                      onChange={onChange}
-                      defaultCountry={country}
-                      placeholder="Enter phone number"
-                    />
-                  )}
-                />
-                <p className="text-red-500"></p>
-                {errors.phone && (
-                  <p className="text-red-500">{errors.phone.message}</p>
+            <div className="w-full flex flex-col gap-4">
+              <Controller
+                control={control}
+                name="phone"
+                render={({ field: { onChange, value } }) => (
+                  <PhoneInput
+                    value={value}
+                    onChange={onChange}
+                    defaultCountry={"de"}
+                    placeholder="Enter phone number"
+                  />
                 )}
-              </div>
-            )}
+              />
+              <p className="text-red-500"></p>
+              {errors.phone && (
+                <p className="text-red-500">{errors.phone.message}</p>
+              )}
+            </div>
           </div>
 
           <FormInput
             type="email"
-            placeholder="example@gmail.com"
+            placeholder="Email"
             control={control}
             name="email"
             label="Email"

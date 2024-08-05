@@ -33,7 +33,7 @@ const Index = () => {
         subtitle={"VAT Services on Amazon with Singularity"}
         title={"Simplifying Amazon Sales Tax Compliance for Sellers"}
         btntext="Get Started With Our Free Consultation"
-        btnlink="/conact-us"
+        btnlink="/contact-us"
         bannerbtn={true}
       />
       <Intro

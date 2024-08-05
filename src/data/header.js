@@ -4,20 +4,20 @@ export const navItems = [
   {
     name: "Our Services",
     href: "/services",
-    subLinks: [
-      {
-        name: "Tax Consulting",
-        href: "tax-consulting",
-      },
-      {
-        name: "Tax Compliance",
-        href: "tax-compliance",
-      },
-      {
-        name: "Tax Technology Solutions",
-        href: "tax-technology-solutions",
-      },
-    ],
+    // subLinks: [
+    //   {
+    //     name: "Tax Consulting",
+    //     href: "tax-consulting",
+    //   },
+    //   {
+    //     name: "Tax Compliance",
+    //     href: "tax-compliance",
+    //   },
+    //   {
+    //     name: "Tax Technology Solutions",
+    //     href: "tax-technology-solutions",
+    //   },
+    // ],
   },
   { name: "Blogs", href: "#" },
   { name: "Information", href: "/information" },

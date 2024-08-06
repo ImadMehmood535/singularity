@@ -4,7 +4,7 @@ import React from "react";
 export const metadata = {
   title: "Privacy Policy | Singularity",
   description:
-    "Review Singularity's privacy policy to understand how we handle your data. Learn about our data protection practices and your rights.",
+    "Review Singularity's privacy policy to understand how we handle your data. Learn about our data protection practices and your rights.",  
 };
 const page = () => {
   const item = {

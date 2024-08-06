@@ -1,7 +1,11 @@
 import AboutBanner from "@/components/about/AboutBanner";
 import PrivacyPolicyBody from "@/components/PrivacyPolicy/PrivacyPolicyBody";
 import React from "react";
-
+export const metadata = {
+  title: "Privacy Policy | Singularity",
+  description:
+    "Review Singularity's privacy policy to understand how we handle your data. Learn about our data protection practices and your rights.",
+};
 const page = () => {
   const item = {
     content: `<p>Please see the Singularity GmbH Privacy Policy below.</p>
@@ -272,9 +276,9 @@ const page = () => {
             <Link href="mailto:datenschutz@tcsec.de">datenschutz@tcsec.de</Link>
           </address>
 
-          <h1>
+          <h2>
             Information on data transfer to the USA and other non-EU countries
-          </h1>
+          </h2>
 
           <p>
             Among other things, we use tools of companies domiciled in the

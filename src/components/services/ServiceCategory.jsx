@@ -8,9 +8,9 @@ const ServiceCategory = ({ title, content, data, text, href }) => {
         <div className="py-10 md:py-16 lg:py-20 border-t-2 border-[#2C3246]">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-20 justify-between items-start lg:items-end">
             <div className="content-area md:sticky md:top-4">
-              <h1 className="service-heading mb-4 text-2xl md:text-4xl text-gradent leading-[78px]">
+              <h2 className="service-heading mb-4 text-2xl md:text-4xl text-gradent leading-[78px]">
                 {title}
-              </h1>
+              </h2>
               <p className="text-lg max-w-[720px] text-[#C1C1C1] w-full mb-6">
                 {content}
               </p>

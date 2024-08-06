@@ -5,7 +5,11 @@ import MapArea from "@/components/contact/MapArea";
 import ContactForm from "@/components/home/ContactForm";
 import { locationdetails } from "@/data/locationdetails";
 import React from "react";
-
+export const metadata = {
+  title: "Careers at Singularity | Join Our Team",
+  description:
+    "Explore exciting career opportunities at Singularity. Join our innovative team and contribute to cutting-edge technology and digital transformation projects.",
+};
 const Index = () => {
   return (
     <div className="contactpage  w-full ">

@@ -37,13 +37,15 @@ const ContactForm = () => {
 
   return (
     <div className="contactBg   rounded-[25px] px-4 py-12 flex flex-col gap-4  h-full  ">
-      <h3 className="font-bold text-white">We would love to hear from you</h3>
+      <h3 className="font-bold text-white">
+        We would also like to hear from you.
+      </h3>
 
       <p className="text-white">
-        Contact Singularity GmbH today for more information about our
-        comprehensive tax services or to schedule a consultation with our
-        experienced team. We are committed to providing tailored solutions to
-        help your business succeed.
+        The specific details regarding the offered tax services can be discussed
+        by our team of experts at Singularity GmbH; we can schedule a meeting
+        with us. It is our business to ensure you reach your business goals
+        through solutions made just for you.
       </p>
 
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">

@@ -25,11 +25,10 @@ const ScrollHome = () => {
           <BoxScroll4 />
         </div>
         <p className="text-center pb-6 hidden md:block z-[998] relative  ">
-        Reach out to Singularity GmbH today to learn more about our extensive
-        tax services or to book a consultation with our expert team. We are
-        dedicated to offering customized solutions to ensure your business
-        thrives.
-      </p>
+          Reach out to Singularity GmbH today to learn more about our extensive
+          tax services or to book a consultation with our expert team. We aim to
+          provide specialized services that will make your business successful.
+        </p>
       </div>
     </>
   );

@@ -8,8 +8,8 @@ const BoxScroll = () => {
       <div className="md:col-span-1 mt-[45%]  lg:mt-[50%]">
         <SBox
           pic={b1}
-          head={<>Global Exposure</>}
-          paragh={"Our international consultants know what’s best for you."}
+          head={<>Global Reach</>}
+          paragh={"Our consultants around the world understand your needs."}
         />
       </div>
 

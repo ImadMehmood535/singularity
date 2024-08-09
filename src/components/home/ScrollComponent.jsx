@@ -18,7 +18,7 @@ const ScrollComponent = () => {
 
       <div className="max-w-[350px] w-full relative py-20  z-50">
         <h2 className="mb-3">What sets us apart from the rest?</h2>
-        <p>Continuous commitment for excellence has gotten us this far</p>
+        <p>Continuous commitment to excellence has gotten us this far.</p>
       </div>
     </div>
   );

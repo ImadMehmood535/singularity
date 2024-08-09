@@ -86,27 +86,26 @@ const WhyUs = ({ onlyslider }) => {
                 Singularity GmbH provides support at every stage. As expert
                 accounting and business consultants, we simplify your VAT
                 processes from start to finish, ensuring your financial records
-                are flawless and compliant. Trust us to handle the complexities
-                while you focus on growing your business.
+                are flawless and compliant. Leave the details to us so you can
+                concentrate on nurturing your business.
               </p>
               <p className="pb-4 text-left">
-                Our comprehensive services as accounting and business
-                consultants include VAT registration, preparation, and submission
-                of VAT returns, as well as detailed guidance on VAT compliance.
-                We help you understand the intricacies of VAT regulations and
-                implement best practices to optimize your VAT management. Our
-                team also offers VAT audit support, ensuring that you are
-                well-prepared for any inspections or reviews by tax authorities.
+                Our complete solutions for accounting and business consultancy
+                include VAT registration, preparation, and submission of VAT
+                returns, as well as extensive advice on VAT compliance. We
+                assist you in unraveling essential concepts of VAT and improving
+                your organization's VAT management. We also provide VAT audits;
+                thus, our team ensures you are prepared for the tax department's
+                inspection and review.
               </p>
               <p className="pb-4 text-left">
-                Singularity GmbH is committed to providing personalized tax and
-                accounting services tailored to your specific needs. Our goal is
-                to relieve you of the burdensome administrative tasks, allowing
-                you to focus on growing your business. With our comprehensive
-                tax and accounting services, you can rest assured that your
-                financial affairs are in expert hands. Trust us to deliver
-                reliable, efficient, and compliant financial solutions for your
-                business
+                Singularity GmbH offers customized tax and accounting services
+                based on the client’s needs. Our concern is to ease the burden
+                of all the paperwork that comes with your business's growth.
+                Regarding your taxes and consolidations, you are in the best
+                hands with our outstanding tax and accounting services. Let us
+                provide reliable, efficient, and, most of all, legal and
+                financial solutions for your company.
               </p>
             </div>
           )}

@@ -17,15 +17,14 @@ const TrustedPartners = () => {
             </div>
 
             <h2>
-              Your trusted partner <br /> for taxation
+              Your Reliable Solution <br /> for Taxation
             </h2>
           </div>
 
           <div className="max-w-[500px] w-full">
             <p>
-              From complete Audit handling to routine VAT Returns, Singularity
-              GmbH is ready to tackle any challenge and set your Tax records
-              straight.
+              From a full-service Audit to the simplest VAT Returns, Singularity
+              GmbH is here to meet the challenge and get your Tax in shape.
             </p>
           </div>
         </div>
@@ -34,12 +33,15 @@ const TrustedPartners = () => {
         {trustedData?.map((item, index) => (
           <TrustedBox item={item} key={index} />
         ))}
-        
-        <TrustedReachOut/>
+
+        <TrustedReachOut />
       </div>
       <div className=" containerCust text-center">
         <p>
-        Contact Singularity GmbH today for more information about our comprehensive tax services or to schedule a consultation with our experienced team. We are committed to providing tailored solutions to help your business succeed.
+          To learn more about Singularity for our broad range of tax solutions
+          or to book a consultation with our specialists, contact us at
+          Singularity GmbH now. We are enthusiastic about offering business
+          solutions to enable organizations to flourish.
         </p>
       </div>
     </section>

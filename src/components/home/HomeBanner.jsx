@@ -33,9 +33,9 @@ const HomeBanner = () => {
           Regarding tax and accounting services, Singularity GmbH can offer you
           everything from complete audit management to submitting everyday VAT
           returns. Leave it to us and be assured of clean books of account for
-          your company's business. We have a professional staff of specialists
+          your company&apos;s business. We have a professional staff of specialists
           who aim to provide comprehensive taxation and accountancy solutions
-          optimized for your company’s requirements, encompassing such services
+          optimized for your company&apos;s requirements, encompassing such services
           as bookkeeping, payroll services, and preparation of financial
           statements.
         </p>

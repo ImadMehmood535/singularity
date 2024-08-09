@@ -94,14 +94,14 @@ const WhyUs = ({ onlyslider }) => {
                 include VAT registration, preparation, and submission of VAT
                 returns, as well as extensive advice on VAT compliance. We
                 assist you in unraveling essential concepts of VAT and improving
-                your organization's VAT management. We also provide VAT audits;
-                thus, our team ensures you are prepared for the tax department's
+                your organization&apos;s VAT management. We also provide VAT audits;
+                thus, our team ensures you are prepared for the tax department&apos;s
                 inspection and review.
               </p>
               <p className="pb-4 text-left">
                 Singularity GmbH offers customized tax and accounting services
-                based on the client’s needs. Our concern is to ease the burden
-                of all the paperwork that comes with your business's growth.
+                based on the client&apos;s needs. Our concern is to ease the burden
+                of all the paperwork that comes with your business&apos;s growth.
                 Regarding your taxes and consolidations, you are in the best
                 hands with our outstanding tax and accounting services. Let us
                 provide reliable, efficient, and, most of all, legal and

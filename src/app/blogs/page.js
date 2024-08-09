@@ -24,6 +24,7 @@ const page = async () => {
     <div className="text-center w-full">
       {/* <AboutBanner subtitle="Our Blogs" title="Publications/Articles" />
       <Bloglist data={blogsData} /> */}
+      
     </div>
   );
 };

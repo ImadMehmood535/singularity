@@ -42,10 +42,8 @@ const ContactForm = () => {
       </h3>
 
       <p className="text-white">
-        The specific details regarding the offered tax services can be discussed
-        by our team of experts at Singularity GmbH; we can schedule a meeting
-        with us. It is our business to ensure you reach your business goals
-        through solutions made just for you.
+        Our tax experts can tailor solutions for your business needs. Contact us
+        by filling out the form below.
       </p>
 
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">

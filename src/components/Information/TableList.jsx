@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 
@@ -7,7 +7,7 @@ const TableList = ({ data }) => {
   const [entriesPerPage, setEntriesPerPage] = useState(50);
 
   // Calculate indexes for pagination
-  const indexOfLastEntry = currentPage * entriesPerPage;
+  const indexOfLastEntry = currentPage * entriesPerPage; 
   const indexOfFirstEntry = indexOfLastEntry - entriesPerPage;
   const currentEntries = data.slice(indexOfFirstEntry, indexOfLastEntry);
 
@@ -85,7 +85,10 @@ const TableList = ({ data }) => {
               </thead>
               <tbody>
                 {currentEntries.map((item, index) => (
-                  <tr key={index} className="my-2 md:my-0 border-b border-[#4B4D55] md:border-none">
+                  <tr
+                    key={index}
+                    className="my-2 md:my-0 border-b border-[#4B4D55] md:border-none"
+                  >
                     <td className="py-2 px-2 text-white text-base">
                       {item.country}
                     </td>
@@ -115,14 +118,18 @@ const TableList = ({ data }) => {
           <div className="btn-area flex justify-between items-center gap-3 max-w-[150px]">
             <button
               onClick={handlePrevious}
-              className={`flex flex-row items-center justify-between gap-1 text-white ${currentPage === 1 && 'opacity-50 cursor-not-allowed'}`}
+              className={`flex flex-row items-center justify-between gap-1 text-white ${
+                currentPage === 1 && "opacity-50 cursor-not-allowed"
+              }`}
               disabled={currentPage === 1}
             >
               <FaAngleLeft /> Previous
             </button>
             <button
               onClick={handleNext}
-              className={`flex flex-row items-center justify-between gap-1 text-white ${currentPage === totalPages && 'opacity-50 cursor-not-allowed'}`}
+              className={`flex flex-row items-center justify-between gap-1 text-white ${
+                currentPage === totalPages && "opacity-50 cursor-not-allowed"
+              }`}
               disabled={currentPage === totalPages}
             >
               Next <FaAngleRight />

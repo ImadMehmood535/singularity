@@ -18,7 +18,7 @@ export const trustedData = [
         Company Formation <br /> Services
       </>
     ),
-    para: "At Singularity, we specialize in smooth, legally compliant company formations in the UK, EU, and the EU. Our tailored services ensure a robust business establishment.",
+    para: "At Singularity, we specialize in smooth, legally compliant company formations in the UK and the EU. Our tailored services ensure a robust business establishment.",
     linladdress: "services/company-formation-services",
   },
   {
@@ -64,7 +64,7 @@ export const whyTrustData = [
   },
   {
     head: "Ultimate Flexibility",
-    para: "Achieving All the Business Requirements with ere’s a company with immaculate fitting solutions.",
+    para: "Achieving all business requirements with perfectly tailored solutions.x",
   },
   {
     head: "Exceptional Service Excellence",

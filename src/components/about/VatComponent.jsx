@@ -12,19 +12,19 @@ const VatComponent = () => {
             <p>
               VAT, also known as Value-Added Tax, is a consumption tax charged
               at every stage of production, distribution, or supply of goods and
-              services. It is computed in each step and depends upon the
-              product&apos;s price or the provided service. Maintaining VAT
-              compliance entails forwarding VAT returns to the appropriate
-              taxation bodies within some stipulated guidelines that rely on the
-              characteristics of the trading company as well as the size of the
-              business.
+              services. It is computed in each step and depends on the product&apos;s
+              price or the provided service. Maintaining VAT compliance entails
+              forwarding VAT returns to the appropriate taxation bodies within
+              some stipulated guidelines that rely on the characteristics of the
+              trading company as well as the size of the business.
             </p>
             <p>
               In a nutshell, VAT compliance entails staying up to scratch with
-              the requirements for filing and reporting an entity&apos;s VAT returns
-              by the required deadlines awarded by the relevant VAT authority.
-              This enables the formulation of the correct tax amount collected
-              and paid by any business at every point in its operations.
+              the requirements for filing and reporting an entity&apos;s VAT
+              returns by the required deadlines awarded by the relevant VAT
+              authority. This enables the formulation of the correct tax amount
+              collected and paid by any business at every point in its
+              operations.
             </p>
           </div>
 
@@ -57,10 +57,10 @@ const VatComponent = () => {
             <p>
               There are variations in the percentage of VAT for every country
               and some limitations while entering a foreign country; therefore,
-              it is essential to be conversant with the country&apos;s legislation.
-              The second level of complication is that some jurisdictions
-              provide standard, reduced or zero rates or exemptions on some
-              goods and services.
+              it is essential to be conversant with the country&apos;s
+              legislation. The second level of complication is that some
+              jurisdictions provide standard, reduced or zero rates or
+              exemptions on some goods and services.
             </p>
             <p>
               Most VAT rules must be followed to avoid stiff penalties,

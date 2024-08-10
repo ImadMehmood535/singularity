@@ -13,12 +13,10 @@ const InnerFaq = ({ data, title, content }) => {
             <div className="faq-area  ">
               <div className="  bg-black  text-white rounded-[25px] px-4 py-12 flex flex-col gap-4 h-full">
                 <div className="w-full flex flex-col gap-4">
-                  {title && content && (
-                    <div className="pb-8 border-b-2 border-white">
-                      <h3 className="font-bold  ">{title}</h3>
-                      <p className="text-[13px]">{content}</p>
-                    </div>
-                  )}
+                  <div className="pb-8 border-b-2 border-white">
+                    {title && <h3 className="font-bold  ">{title}</h3>}
+                    {content && <p className="text-[13px]">{content}</p>}
+                  </div>
 
                   {data.map((item, key) => (
                     <div

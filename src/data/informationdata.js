@@ -1,21 +1,21 @@
 const informationlistdata = [
   {
     id: 1,
-    title: "Stay Informed with the Latest Tax Changes",
+    title: "Updated Information with the Current Changes in Taxation",
     content:
-      "Stay up-to-date with the latest changes in tax laws and regulations that may impact your business. Our experts provide insightful analysis and practical advice to help you adapt and comply, ensuring your business remains ahead of the curve.",
+      "Regulate the tax changes that you know may impact your firm's operations. Our consultants offer practical observations and recommendations to help your business's change and compliance processes stay relevant.",
   },
   {
     id: 2,
-    title: "Tailored Tools and Guides for Your Business",
+    title: "Products Specifically Relating to Your Company",
     content:
-      "Access a wealth of resources tailored to your needs, including guides, templates, and best practices to streamline your tax processes and ensure accuracy. Our client resources are designed to support your unique requirements and help you achieve optimal tax management.",
+      "Here, you can find various materials containing detailed instructions, checklists, and recommendations on improving your business's taxation processes. Our client resources are created to meet your specific needs and assist you in getting the best tax results.",
   },
   {
     id: 3,
-    title: "Get Clear Answers to Your Tax Questions",
+    title: "Tax's – Get Straight Forward Answers To Your Questions",
     content:
-      "Find answers to common questions about our services, tax regulations, and compliance requirements. Our FAQ section is designed to address your concerns and provide clarity on complex tax issues, making it easier for you to navigate your tax obligations with confidence.",
+      "Get information about our services, taxes, and compliance rules that can help you decide or solve your problems. This puts a lot of effort into answering your questions by creating a set of standard frequently asked questions that will enlighten you on the murky tax issues to ease your burden in the taxation process.",
   },
 ];
 

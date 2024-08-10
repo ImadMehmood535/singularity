@@ -6,12 +6,11 @@ import "swiper/css/navigation";
 import "swiper/css/free-mode";
 
 import { FreeMode } from "swiper/modules";
-import { whyTrustData } from "@/data/homePage";
 import WhyTrustBox from "./WhyTrustBox";
 import ContactForm from "./ContactForm";
 import FaqComponent from "../general/FaqComponent";
 
-const WhyUs = ({ onlyslider }) => {
+const WhyUs = ({ onlyslider, whyusdata }) => {
   const [showContactForm, setShowContactForm] = useState(false);
 
   useEffect(() => {
@@ -72,7 +71,7 @@ const WhyUs = ({ onlyslider }) => {
               }}
               className="mySwiper"
             >
-              {whyTrustData?.map((item, key) => (
+              {whyusdata?.map((item, key) => (
                 <SwiperSlide key={key}>
                   <WhyTrustBox head={item?.head} para={item?.para} />
                 </SwiperSlide>

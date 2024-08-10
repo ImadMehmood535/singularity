@@ -18,6 +18,24 @@ export const metadata = {
     "VAT services",
   ],
 };
+const whyusdata =[
+  {
+    head : "Worldwide Visibility",
+    para : "Availing Expert International Consultants with Subject Specific Knowledge and Credible Information.",
+  },
+  {
+    head : "Absolute Compliance",
+    para : "Go Further Faster with Unparalleled and Predictable Compliance Solutions.",
+  },
+  {
+    head : "Ultimate Flexibility",
+    para : "Professional and Business Solutions to Fulfill and Surpass All the Expectations of Any Enterprise.",
+  },
+  {
+    head : "Exceptional Service Excellence",
+    para : "The foundation for the accomplishment of Strong, Rreliable, and Comitted Relationship will be based on strong, reliable, and committed partnerships that foster mutual success.",
+  },
+]
 
 const Index = () => {
   return (
@@ -26,7 +44,7 @@ const Index = () => {
         subtitle={"Services: Company Formation Services"}
         title={"Company Formation Services"}
         content={
-          "At Singularity, we excel in providing comprehensive and customised company formation services, guiding businesses to establish a strong foothold in the United Kingdom and EU."
+          "Company formation is one of the core services offered by Singularity, which specializes in providing integrated and specialized services for forming a new company and helping companies lay down a proper foundation in the UK and EU."
         }
         text={"Reach Us Out"}
         href={"#ReachUs"}
@@ -35,33 +53,34 @@ const Index = () => {
         subtitle={"Formation Services"}
         title={"Professional Experts and Consultants"}
         content={
-          "With decades of collective knowledge, our team of professional experts and consultants at Singularity GmbH is dedicated to helping business owners to achieve their goals."
+          "This is what our professional staff of experienced consultants at Singularity GmbH, with over thirty years of practical expertise, collectively offers business owners to register company in germany."
         }
         data={companyformation?.formationServices}
       />
       <InnerServiceFeature
         subtitle={"Formation Services"}
-        title={"UK And Germany Company Formation Services"}
+        title={"UK And EU Company Formation Services"}
         content={
-          "Our dedicated services encompass UK and German company formation, meticulously addressing each jurisdiction's legal and administrative requirements."
+          "Our specialized services include UK and German incorporations, for which we pay meticulous attention to both places’ legal and bureaucratic peculiarities."
         }
         flip={true}
         data={companyformation?.formationServices2}
       />
       <InnerServiceFeature
         subtitle={"Formation Services"}
-        title={"Germany Company Formation"}
+        title={"EU Company Formation"}
         content={
-          "Starting a company in Germany involves navigating a complex landscape of local laws, tax regulations, and administrative requirements. At Singularity, we offer bespoke services that guide you through every step of company formation in Germany."
+          "When launching a company in EU, German laws, taxes, and bureaucratic procedures are significant issues. As a client of Singularity, you receive individualized services that help you with each phase of company formation in EU."
         }
         data={companyformation.formationServices3}
       />
 
       <div className="relative z-50 ">
-        <WhyUs onlyslider={false} />
+        <WhyUs whyusdata={whyusdata} onlyslider={false} />
       </div>
       <div id="ReachUs">
         <InnerFaq
+        title={"Frequently Asked Questions"}
           data={companyformationfaq}
           
         />

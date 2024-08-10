@@ -3,6 +3,7 @@ import ScrollHome from "@/components/home/ScrollHome";
 import TrustedPartners from "@/components/home/TrustedPartners";
 import VideoComponent from "@/components/home/VideoComponent";
 import WhyUs from "@/components/home/WhyUs";
+import { whyTrustData } from "@/data/homePage";
 
 export const metadata = {
   title: "Tax & VAT Services | Business Consultants",
@@ -30,7 +31,7 @@ export default function Home() {
         <VideoComponent />
       </div>
       <div className="relative z-50 ">
-        <WhyUs onlyslider={true} />
+        <WhyUs onlyslider={true} whyusdata={whyTrustData} />
       </div>
     </>
   );

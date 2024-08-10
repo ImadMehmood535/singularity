@@ -26,7 +26,7 @@ const Index = () => {
         subtitle={"Information"}
         title={"Essential Information for Our Clients"}
         content={
-          "Welcome to the Singularity GmbH Information Center. Here, you will find vital resources and updates designed to keep you informed and prepared for the dynamic world of tax regulations and compliance. Our goal is to provide you with clear, concise, and relevant information to help you navigate your tax responsibilities with confidence."
+          "This page is the official Information Center of Singularity GmbH. Here, you shall get a compass to new materials and changes that were crafted to help and inform about the unpredictable nature of tax laws. We want to equip you with as much information as possible to enable you to understand how best to approach taxation issues."
         }
       />
       <KeyResources

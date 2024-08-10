@@ -17,7 +17,7 @@ const FaqComponent = () => {
         <div className="collapse collapse-arrow bg-[#171717]">
           <input type="radio" name="my-accordion-2" defaultChecked />
           <div className="collapse-title  font-medium">
-            What detail services does Singularity offer in taxation and
+            What detailed services does Singularity offer in taxation and
             accounting consultation?
           </div>
           <div className="collapse-content ">

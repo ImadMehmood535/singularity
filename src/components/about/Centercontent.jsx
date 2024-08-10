@@ -37,7 +37,7 @@ const Centercontent = () => {
             <p>
               The legal translation services as indirect representation are
               available in Germany, the United Kingdom, and other EU countries.
-              Our staff's extensive experience in managing customs formalities
+              Our staff&apos;s extensive experience in managing customs formalities
               guarantees that our clients can focus on their primary business
               processes. To register for our services, you must meet the
               following criteria:

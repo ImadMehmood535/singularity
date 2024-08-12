@@ -30,7 +30,7 @@ const whyusdata =[
   },
   {
     head : "Ultimate Flexibility",
-    para : "We offer precisely what your company wants and have highly high-quality products that exceed those needs.",
+    para : "We offer precisely what your company wants and have high-quality products that exceed those needs.",
   },
   {
     head : "Exceptional Service Excellence",
@@ -41,10 +41,10 @@ const Index = () => {
   return (
     <div>
       <ServiceBanner
-        subtitle={"Services: Vat Compliance Service"}
+        subtitle={"Services: VAT Compliance Service"}
         title={"Vat Compliance Service"}
         content={
-          "At Singularity, we work comprehensively and responsibly and realize how vital VAT compliance is in the EU, especially regarding cross-border contracts. These vat specialists are designed to help your business run smoothly, particularly in terms of taxation and within the European Union standards. As a partner of ours, you get to take advantage of the best VAT compliance services that ensure the efficiency of your operations."
+          "At Singularity, we work comprehensively and responsibly and realize how vital VAT compliance is in the EU, especially regarding cross-border contracts. These VAT specialists are designed to help your business run smoothly, particularly in terms of taxation and within the European Union standards. As a partner of ours, you get to take advantage of the best VAT compliance services that ensure the efficiency of your operations."
         }
         text={"Reach Us Out"}
         href={"#ReachUs"}
@@ -70,7 +70,7 @@ const Index = () => {
         subtitle={"VAT Compliance Service"}
         title={"VAT Obligations of an Expatriate Living in the EU"}
         content={
-          "When it comes to VAT compliance in the EU, specifically for expatriates, it is prudent to seek the services of an expert. An expert is an individual consultant company that provides professional advisory services for expats to meet the legal requirements of the EU VAT laws and optimize their strategies."
+          "When it comes to VAT compliance in the EU, specifically for expatriates, it is prudent to seek the services of an expert. an expert or a specialized consultancy firm that provides professional advisory services for expats to meet the legal requirements of the EU VAT laws and optimize their strategies."
         }
         data={VATCompliance?.vat3}
       />

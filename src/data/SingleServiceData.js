@@ -180,7 +180,7 @@ const article23faq = [
       "Products sold through Singularity’s Article 23 services enable firms to delay import VAT payments and improve cash flow by paying VAT at the periodic VAT return rather than at the point of import.",
   },
   {
-    title: "To whom can Singularity’s Article 23 services be valuable?",
+    title: "Who can benefit from Singularity’s Article 23 services?",
     content:
       "Any company that imports products to the UK or Germany can benefit from these services, including most companies that deal with high-value or huge-quantity imports.",
   },

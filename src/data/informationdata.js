@@ -13,9 +13,9 @@ const informationlistdata = [
   },
   {
     id: 3,
-    title: "Tax's – Get Straight Forward Answers To Your Questions",
+    title: "Taxes – Get Straightforward Answers to Your Questions",
     content:
-      "Get information about our services, taxes, and compliance rules that can help you decide or solve your problems. This puts a lot of effort into answering your questions by creating a set of standard frequently asked questions that will enlighten you on the murky tax issues to ease your burden in the taxation process.",
+      "Get information about our services, taxes, and compliance rules that can help you decide or solve your problems. We put a lot of effort into answering your questions by creating a set of standard frequently asked questions that will enlighten you on the murky tax issues to ease your burden in the taxation process.",
   },
 ];
 

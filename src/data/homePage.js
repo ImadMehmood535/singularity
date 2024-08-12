@@ -64,7 +64,7 @@ export const whyTrustData = [
   },
   {
     head: "Ultimate Flexibility",
-    para: "Achieving all business requirements with perfectly tailored solutions.x",
+    para: "Achieving all business requirements with perfectly tailored solutions.",
   },
   {
     head: "Exceptional Service Excellence",

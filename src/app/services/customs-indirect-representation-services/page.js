@@ -25,7 +25,7 @@ export const metadata = {
 const whyusdata = [
   {
     head: "Worldwide Visibility",
-    para: "Specialized Global Consultants with Thorough Understanding and Sound Counselling.",
+    para: "Specialized Global Consultants with Thorough Understanding and Sound Counseling.",
   },
   {
     head: "Absolute Compliance",

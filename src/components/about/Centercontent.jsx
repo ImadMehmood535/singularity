@@ -27,7 +27,7 @@ const Centercontent = () => {
             laws and practices of the country of destination. Therefore,
             classifications, valuation, and origin can change any country&apos;s
             importation course. Also, they must understand certain smart
-            documents that enhance automated custom clearance uk, such as
+            documents that enhance automated custom clearance UK, such as
             certificates of origin, commercial invoices, packing lists, etc.
           </p>
           <div className="px-0 md:px-[10%] flex flex-col gap-5">

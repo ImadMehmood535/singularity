@@ -51,18 +51,18 @@ const companyformation = {
           <br /> Through this relationship, you will benefit from the comfort of
           having your VAT issues handled professionally. Our tireless staff
           ensures that they keep abreast of the existing VAT trends,
-          safeguarding your enterprise from possible penalties or unpleasant
-          compliance instances. <br />
+          safeguarding your enterprise from possible penalties or compliance
+          issues. <br />
           <br /> Leave the work of handling the numerous aspects of VAT
-          compliance to us so you can concentrate on the business end. SC&apos;s vast
-          experience helps you run an efficient business within the much-favored
-          EU market.
+          compliance to us so you can concentrate on the business end. SC&apos;s
+          vast experience helps you run an efficient business within the
+          much-favored EU market.
         </>
       ),
     },
     {
       image: ProfessionalExperts2,
-      title: "Company formation service UK & EU",
+      title: "Company Formation Services in the UK & EU",
       content:
         "The company formation services in UK and EU we provide include VAT registrations and deregistrations, periodic VAT filings, ECSL, Intrastat filings, and management of VAT tax notices. We also have other related audit support services. Find reliable information and advice for your business issues from a trustworthy source. Reflect on it and turn to the specialists at TDS to prevent these mistakes and bring your business an optimal and almost bullet-proof integrated work system for your company.",
     },
@@ -81,12 +81,12 @@ const companyformation = {
         <>
           Globalization has become the order of the day, and technology is the
           engine. Embracing innovations ranging from artificial intelligence to
-          virtual reality is changing industries and people&apos;s lives. It appears
-          that in today&apos;s world, it is crucial to accept new technologies, as
-          the path toward success is filled with constant changes. <br />
+          virtual reality is changing industries and people&apos;s lives. It
+          appears that in today&apos;s world, it is crucial to accept new
+          technologies, as the path toward success is filled with constant
+          changes. <br />
           <br />
-          Global warming is one of the leading problems in the world and poses a
-          threat to the existence of our planet. Our issues include climate
+          Our issues include climate
           change implications, which include an increase in sea levels, an
           increase in extreme weather conditions, and the loss of species&apos;
           habitats. Climate change has had negative impacts on the environment;
@@ -94,7 +94,6 @@ const companyformation = {
           essential.
           <br />
           <br />
-          The state of mind is considered to be a problem all over the globe.
           The youth and adults of today are not immune to stress, anxiety, or
           even depression. Getting professional help where necessary, promoting
           the Rights to Talk campaign, and other similar efforts are some
@@ -122,8 +121,8 @@ const companyformation = {
       title: "Stakeholder analysis of generic business in EU",
       content: (
         <>
-          Consultation services are used to share our client&apos;s business plans
-          and advise them on the most suitable legal structure for the
+          Consultation services are used to share our client&apos;s business
+          plans and advise them on the most suitable legal structure for the
           enterprise. In the services rendered, the complete facilitation of all
           legal formalities and documentation for company formation, procurement
           of permits, and preparation of documents and their submission is
@@ -198,9 +197,9 @@ const VATCompliance = {
           for your business, you can rely on us to help you with all your VAT
           concerns so that you can concentrate on business developments. <br />{" "}
           <br /> Our detailed report provides vital information for a sharp view
-          of your business&apos;s financial status. When choosing our company as your
-          partner, you obtain VAT compliance and receive a reliable framework
-          for the economic decision-making process.
+          of your business&apos;s financial status. When choosing our company as
+          your partner, you obtain VAT compliance and receive a reliable
+          framework for the economic decision-making process.
         </>
       ),
     },
@@ -228,12 +227,12 @@ const VATCompliance = {
           e-commerce business environment during record-keeping and maintaining
           the accuracy of financial computations and VAT is quite challenging.
           This means that Singularity has perfected a range of accounting
-          solutions that are altered to meet e-commerce companies&apos; needs. <br />{" "}
-          <br /> To provide overall accounting services, you should contact
-          Singularity. When you leave your financial issues in our hands, you
-          get clean and updated data to help you in your financial books. Every
-          client receives individual attention regarding VAT compliance, leaving
-          one to concentrate on the core business. <br />
+          solutions that are altered to meet e-commerce companies&apos; needs.{" "}
+          <br /> <br /> To provide overall accounting services, you should
+          contact Singularity. When you leave your financial issues in our
+          hands, you get clean and updated data to help you in your financial
+          books. Every client receives individual attention regarding VAT
+          compliance, leaving one to concentrate on the core business. <br />
           <br />
           Enable your company to rely on facts and statistics as the basis for
           its solutions. Our accounting services are great business tools
@@ -324,7 +323,7 @@ const VATCompliance = {
       image: VATCompliance2,
       title: "VAT Advice for EU and UK Business",
       content:
-        "We are professional UK and German tax advisor and help ex-pats clear their VAT dilemmas to enhance their position to taxes as much as possible. We offer extensive assistance in VAT registration and submission of correct and complete VAT returns and compliance check services to avoid problems.",
+        "We are professional UK and German tax advisors and help ex-pats clear their VAT dilemmas to enhance their position to taxes as much as possible. We offer extensive assistance in VAT registration and submission of correct and complete VAT returns and compliance check services to avoid problems.",
     },
     {
       image: VATCompliance3,
@@ -346,8 +345,8 @@ const CustomsIndirectRepresentation = {
           numerous and diverse regulatory measures differing significantly from
           one country to another. This complicated environment presents
           significant problems to companies involved in imports and exports.
-          Singularity&apos;s specialists advise on customs clearance issues for the
-          United Kingdom and the European Union to manage the above
+          Singularity&apos;s specialists advise on customs clearance issues for
+          the United Kingdom and the European Union to manage the above
           difficulties.
           <br />
           <br />
@@ -362,9 +361,9 @@ const CustomsIndirectRepresentation = {
           customs clearance course, and the documentation or information
           concerning the company is optimal. This renders us the competencies to
           obtain control over our procedures and decrease costs in accordance
-          with regulation by the EU. Let&apos;s learn from the case how Singularity
-          could assist you to get more control over your customs clearance
-          problems and, therefore, cut costs.
+          with regulation by the EU. Let&apos;s learn from the case how
+          Singularity could assist you to get more control over your customs
+          clearance problems and, therefore, cut costs.
         </>
       ),
     },
@@ -404,12 +403,12 @@ const CustomsIndirectRepresentation = {
           <br />
           In venturing with Singularity as your customs partner, you are assured
           of short clearance periods, less paperwork, and probable risks. Our
-          team of professionals who are involved in the company is fully aware
-          that when dealing with customs issues, they need to ensure that the
-          process flows as smoothly as possible. Hence, you can seize new
-          markets, do not put up with the unnecessary challenges. Some of the
-          operations that require customs services are provided by Singularity
-          based on concrete business specifics.
+          team of professionals who are is fully aware that when dealing with
+          customs issues, they need to ensure that the process flows as smoothly
+          as possible. Hence, you can seize new markets, do not put up with the
+          unnecessary challenges. Some of the operations that require customs
+          services are provided by Singularity based on concrete business
+          specifics.
           <br />
           <br />
           AMBER assists your company in a special manner, because we know the
@@ -422,7 +421,7 @@ const CustomsIndirectRepresentation = {
       image: IndirectRepresentation2,
       title: "Customs Compliance with the Expertise of Singularity",
       content:
-        "You can leave all the complications to us, from the documents necessary to fill in the requirements of customs laws. This means that our work is high quality because we observe all the regulatory procedures of your line of business. Choose Singularity – the most suitable service provider of indirect customs representation – to bring your company to the new level of growth and get prepared for further thriving in the intensively developing EU market.",
+        "You can leave all the complications to us, from the documents necessary to fulfill the requirements of customs laws of customs laws. This means that our work is high quality because we observe all the regulatory procedures of your line of business. Choose Singularity – the most suitable service provider of indirect customs representation – to bring your company to the new level of growth and get prepared for further thriving in the intensively developing EU market.",
     },
     {
       image: IndirectRepresentation3,
@@ -531,18 +530,18 @@ const article23 = {
           registration and ending with constant monitoring of compliance.
           <br />
           <br />
-          Singularity makes it possible to improve the company&apos;s cash flow and
-          minimize the work involved in administrative tasks. Here, we give you
-          insight into the deferred VAT system so you can discharge your dutiful
-          obligations as the government requires. We have value-added tax
-          solutions for your business that will enhance your daily VAT
+          Singularity makes it possible to improve the company&apos;s cash flow
+          and minimize the work involved in administrative tasks. Here, we give
+          you insight into the deferred VAT system so you can discharge your
+          dutiful obligations as the government requires. We have value-added
+          tax solutions for your business that will enhance your daily VAT
           procedures and give you the best return on investment.
           <br />
           <br />
           Please take advantage of our understanding of the UK: import VAT
           deferment. Our specialists give unambiguous advice on how and what
           must be recorded and reported. With Singularity, you can proudly
-          declare and defer your import VAT while we care for the rest.
+          declare and defer your import VAT while we while we handle the rest.
         </>
       ),
     },
@@ -566,12 +565,12 @@ const article23 = {
       title: "Tailored Solutions",
       content: (
         <>
-          Our VAT services at Singularity are developed by your company&apos;s needs.
-          Based on our deep understanding of taxes and your organizational
-          requirements, our specialists define the most effective solutions in
-          compliance with VAT legislation. Thus, managing your VAT operations
-          results in lower expenses, decreased job complexity, and allows you to
-          address the changes in legislation.
+          Our VAT services at Singularity are developed by your company&apos;s
+          needs. Based on our deep understanding of taxes and your
+          organizational requirements, our specialists define the most effective
+          solutions in compliance with VAT legislation. Thus, managing your VAT
+          operations results in lower expenses, decreased job complexity, and
+          allows you to address the changes in legislation.
           <br />
           <br />
           Enjoy the advantages of tailor-made strategies on VAT. What we offer
@@ -581,11 +580,11 @@ const article23 = {
           concentrate on development.
           <br />
           <br />
-          For VAT services, the above firms should hire trust Singularity for
-          their services. To the customers, our dedication to excellence implies
-          that you will get the best services. Would you like assistance to deal
-          with the issues of VAT to save your valuable time for the improvement
-          of your business strategies.
+          For VAT services, trust Singularity to provide the best solutions. To
+          the customers, our dedication to excellence implies that you will get
+          the best services. Would you like assistance to deal with the issues
+          of VAT to save your valuable time for the improvement of your business
+          strategies.
         </>
       ),
     },
@@ -593,7 +592,7 @@ const article23 = {
       image: benefits2,
       title: "Experienced Team",
       content:
-        "The services of our experts will help you have a powerful tool for organizing your company’s economic activity – VAT accounts, which our company has been successfully managing for many years. Utilizing local and international knowledge of VAT, our team guarantees that your business stays compliant while improving its VAT procedures. Spectrum offers consultation and planning, with subsequent development, management, and evaluation of the client’s ideas and tasks.",
+        "The services of our experts will help you have a powerful tool for organizing your company’s economic activity – VAT accounts, which our company has been successfully managing for many years. Utilizing local and international knowledge of VAT, our team guarantees that your business stays compliant while improving its VAT procedures. Singularity offers consultation and planning, with subsequent development, management, and evaluation of the client’s ideas and tasks.",
     },
     {
       image: benefits3,

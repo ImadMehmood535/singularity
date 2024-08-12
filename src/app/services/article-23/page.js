@@ -25,7 +25,7 @@ const whyusdata =[
   },
   {
     head : "Absolute Compliance",
-    para : "A Unique and Uniform Quality Compliance Services for Maximum Efficiency in Their Organizations.",
+    para : "Unique and Uniform Quality Compliance Services for Maximum Efficiency in Your Organization.",
   },
   {
     head : "Ultimate Flexibility",

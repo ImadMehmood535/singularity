@@ -38,7 +38,7 @@ const TaxConsultingData = {
       id: 3,
       subtitle: "Key Benefits 3",
       title: "Strong Market Presence",
-      content: "This will assist in building the necessary groundwork with localized information on the species in the concerned regions.",
+      content: "This will assist in building the necessary groundwork with This helps build a strong market presence with localized knowledge tailored to the specific regions.",
     },
   ],
   technologysolutions: [

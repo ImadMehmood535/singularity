@@ -14,9 +14,9 @@ const SinlgeBlogHeader = ({
   return (
     <section className="InformationBanner bg-[#0F121D] bg-cover bg-center bg-no-repeat">
       <div
-        className="containerCust overflow-hidden relative rounded-b-[20px] md:rounded-b-[60px] lg:rounded-b-[80px]  "
+        className="containerCust overflow-hidden relative rounded-b-[20px] md:rounded-b-[60px] lg:rounded-b-[80px] bg-no-repeat bg-cover  "
         style={{
-          backgroundImage: `url(${bannerimage.src})`,
+          backgroundImage: `url(${bannerimage})`,
         }}
       >
         <div className="pt-[150px] pb-[60px] z-20 relative md:py-[100px]  lg:pt-[250px] lg:pb-[150px] px-10 flex justify-center">
@@ -28,9 +28,10 @@ const SinlgeBlogHeader = ({
               {title}
             </h1>
             {content && (
-              <p className="text-lg text-center max-w-[720px] w-full mb-6">
-                {content}
-              </p>
+              <div
+                className="customShortDescriptionStyling"
+                dangerouslySetInnerHTML={{ __html: content }}
+              />
             )}
             {btntext && (
               <>

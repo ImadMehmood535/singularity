@@ -7,8 +7,39 @@ import {
   technologysolutions,
 } from "@/data/InnerServicePagesData";
 import { customsindirectfaq } from "@/data/SingleServiceData";
-
 import React from "react";
+
+export const metadata = {
+  title: " Customs Indirect Representation | Expert VAT & Customs Services",
+  description:
+    "Expert customs indirect representation and VAT services. Ensure smooth customs clearance and VAT compliance with our professional team.",
+  keyword: [
+    "customs indirect representation",
+    "indirect representation customs",
+    "customs representative",
+    "custom clearance UK",
+    "European customs clearance",
+    "VAT services",
+  ],
+};
+const whyusdata = [
+  {
+    head: "Worldwide Visibility",
+    para: "Specialized Global Consultants with Thorough Understanding and Sound Counseling.",
+  },
+  {
+    head: "Absolute Compliance",
+    para: "Unleash Your Potential Today and Boast of Uncompromised Compliance Services that Are Standardized.",
+  },
+  {
+    head: "Ultimate Flexibility",
+    para: "Solutions that are just right and even better to exceed the expectations of every business.",
+  },
+  {
+    head: "Exceptional Service Excellence",
+    para: "Steadfast partnerships, Sound and Proactive For Shared Victories.",
+  },
+];
 
 const Index = () => {
   return (
@@ -21,7 +52,7 @@ const Index = () => {
           </>
         }
         content={
-          "Navigating the complexities of customs clearance in the European Union (EU) can be challenging. With our Customs Indirect Representation services, we become your reliable partner, ensuring compliance with EU customs regulations. Acting as your indirect representation, we facilitate smooth and efficient operations, allowing your business to thrive without the hassle of customs complexities."
+          "Arranging customs clearances within the European Union territory can be challenging. To avail of our Customs Indirect Representation services, you can contact us as your reliable representative for European Union customs legislation enforcement. Since we act on your behalf, you can effectively manage the business as you want since it does not have to engage with customs directly."
         }
         text={"Reach Us Out"}
         href={"#ReachUs"}
@@ -30,7 +61,7 @@ const Index = () => {
         subtitle={"Customs Indirect Representation "}
         title={"Indirect Customs Representative"}
         content={
-          "At Singularity, we specialise in indirect representation customs, serving as your trusted intermediary within the EU customs framework. By partnering with us, you can focus on your core business activities while we handle the complexities of customs, providing you with peace of mind and seamless operations across the European Union."
+          "Here, at Singularity, we specialize in indirect representation in customs. This means that we act as your representative in the framework of European Union customs. With our services, you can rely on our company's extensive expertise to take care of the customs formalities, allowing you to focus on your primary business in the European Union area."
         }
         data={CustomsIndirectRepresentation.customIndirect}
       />
@@ -38,7 +69,7 @@ const Index = () => {
         subtitle={"Customs Indirect Representation Services"}
         title={"Indirect Representation Procedures in the EU Customs System"}
         content={
-          "Singularity takes pride in offering top-tier Indirect Customs Representation services for businesses looking to expand into the European Union. Our seasoned professionals possess extensive knowledge of EU customs laws and regulations, ensuring your goods clear customs efficiently and accurately."
+          "Indirect Customs Representation services from Singularity are among the best foreign businesses that can be obtained when seeking entry into the European Union. The mature staff will understand EU customs laws and formalities in-depth to avoid many problems while clearing your goods."
         }
         flip={true}
         data={CustomsIndirectRepresentation.realtimereporting}
@@ -47,18 +78,18 @@ const Index = () => {
         subtitle={"Customs Indirect Representation Services"}
         title={"Singularity for Risk-Free Compliant Customs Representation"}
         content={
-          "Choosing Singularity as your indirect customs representative means partnering with a team that prioritises compliance, reduces risks, and minimises errors."
+          "Deciding to work with Singularity as your indirect customs representative gives you a dedicated team that focuses on compliance, risks, and errors."
         }
         data={CustomsIndirectRepresentation.integrationefficiency}
       />
 
       <div className="relative z-50 ">
-        <WhyUs onlyslider={false} />
+        <WhyUs whyusdata={whyusdata} onlyslider={false} />
       </div>
       <div id="ReachUs">
         <InnerFaq
+          title={"Frequently Asked Questions"}
           data={customsindirectfaq}
-           
         />
       </div>
     </div>

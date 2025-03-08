@@ -19,7 +19,7 @@ const FormInputSelect = ({
         {options.map((item, index) => (
           <option
             key={index}
-            value={item.value}
+            value={item.name}
             disabled={index === 0}
             hidden={index === 0}
             className="bg-themeGray-0"

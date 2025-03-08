@@ -10,9 +10,9 @@ const Faq = ({ subtitle, title, data }) => {
               <div className="bg-themeGray-0 mb-4 rounded-[28px] px-6 py-1 w-fit">
                 <p className="text-sm">{subtitle}</p>
               </div>
-              <h1 className="font-normal mb-4 text-4xl md:text-6xl leading-[78px]">
+              <h2 className="font-normal mb-4 text-4xl md:text-6xl leading-[78px]">
                 {title}
-              </h1>
+              </h2>
             </div>
             <div className="faq-area col-span-3  ">
               <div className="  text-white rounded-[25px] px-4 pb-6 md:py-12 flex flex-col gap-4 h-full">

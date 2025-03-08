@@ -8,7 +8,8 @@ const TrustedReachOut = () => {
         Not having what you <br /> are for looking for?
       </h3>
       <p className="max-w-[85%]">
-        Contact our team for tailor-made services just for you.
+        You can fill out the form in the Contact Us section and receive services
+        specifically designed for you.
       </p>
       <div className="flex">
         <LinkComponent text={"Reach Us Out"} href={"/contact-us"} />

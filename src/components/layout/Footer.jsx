@@ -11,6 +11,8 @@ import { logo } from "@/assets";
 import Image from "next/image";
 import VectorComponent from "../home/VectorComponent";
 import { company_links, quick_links } from "@/data/footer";
+import { errorToast, successToast } from "@/hooks/useToast";
+import { API } from "@/api";
 
 const Footer = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -18,9 +20,24 @@ const Footer = () => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data) => console.log(data);
+
+  const [loading, setLoading] = useState(false);
+
+  const onSubmit = async (data) => {
+    setLoading(true);
+    try {
+      const response = await API.newsLetter(data);
+      reset();
+      successToast(response?.data?.message);
+      setLoading(false);
+    } catch (error) {
+      setLoading(false);
+      errorToast(error, "You can not subscribe to our newsletter");
+    }
+  };
 
   return (
     <>
@@ -102,18 +119,6 @@ const Footer = () => {
                         +971 (56) 123 45678
                       </Link>
                     </div>
-                    {/* <ul className="flex flex-col gap-3 text-sm font-medium">
-                      {quick_links.map((item, key) => (
-                        <li key={key}>
-                          <Link
-                            href={item.link}
-                            className=" text-sm font-[300] hover:text-[#32BB98]"
-                          >
-                            {item.name}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul> */}
                   </div>
 
                   <div className="useful-links">
@@ -148,21 +153,23 @@ const Footer = () => {
                           href={"https://www.instagram.com/singularitygmbh/"}
                           target="_blank"
                         >
-                        <li
-                          className={`p-3 rounded-2xl bg-[#464646] hover:bg-[#32BB98] text-white hover:text-black   transition-all duration-200 `}
-                        >
-                          <PiInstagramLogo />
-                        </li>
+                          <li
+                            className={`p-3 rounded-2xl bg-[#464646] hover:bg-[#32BB98] text-white hover:text-black   transition-all duration-200 `}
+                          >
+                            <PiInstagramLogo />
+                          </li>
                         </Link>
                         <Link
-                          href={"https://www.linkedin.com/company/singularity-gmbh"}
+                          href={
+                            "https://www.linkedin.com/company/singularity-gmbh"
+                          }
                           target="_blank"
                         >
-                        <li
-                          className={`p-3 rounded-2xl bg-[#464646] hover:bg-[#32BB98] text-white hover:text-black   transition-all duration-200 `}
-                        >
-                          <FaLinkedinIn />
-                        </li>
+                          <li
+                            className={`p-3 rounded-2xl bg-[#464646] hover:bg-[#32BB98] text-white hover:text-black   transition-all duration-200 `}
+                          >
+                            <FaLinkedinIn />
+                          </li>
                         </Link>
                       </ul>
                     </div>
@@ -179,7 +186,7 @@ const Footer = () => {
                     updates, and industry insights.
                   </p>
                   <form onSubmit={handleSubmit(onSubmit)}>
-                    <div className="flex flex-row justify-between items-center gap-1">
+                    <div className="flex flex-row justify-between items-start gap-1">
                       <div className="field-wrapper w-5/6">
                         <input
                           type="text"
@@ -189,7 +196,7 @@ const Footer = () => {
                               : "bg-black text-white"
                           }`}
                           placeholder="Your email, please"
-                          {...register("Email", {
+                          {...register("email", {
                             required: "Enter your email",
                             pattern: {
                               value: /^\S+@\S+$/i,
@@ -197,14 +204,17 @@ const Footer = () => {
                             },
                           })}
                         />
-                        {errors.Email && (
-                          <span className="error text-red-500 text-sm mt-1">
-                            {errors.Email.message}
+                        {errors.email && (
+                          <span className="error text-red-500 text-sm mt-3">
+                            {errors.email.message}
                           </span>
                         )}
                       </div>
                       <div className="button-wrapper  w-1/3">
-                        <button className="bg-black w-full rounded-full font-medium text-white  table py-3 transition-all duration-200 cursor-pointer text-center hover:bg-[#32BB98]">
+                        <button
+                          disabled={loading}
+                          className="bg-black w-full rounded-full font-medium text-white  table py-3 transition-all duration-200 cursor-pointer text-center hover:bg-[#32BB98]"
+                        >
                           Suscribe
                         </button>
                       </div>
@@ -285,7 +295,18 @@ const Footer = () => {
               <div className="rights-text">
                 <p className=" whitespace-nowrap text-base">
                   <span className="font-[300] text-sm">
-                    Copyright © 2024 Singularity GmbH. All Rights Reserved. <br/>Design and Developed by <Link className="text-themeGreen-0 hover:text-white transition-all duration-200" href={"https://www.clicktap.ae/"} target="_blank"> Clicktap Digital</Link>.
+                    Copyright © 2024 Singularity GmbH. All Rights Reserved.{" "}
+                    <br />
+                    Design and Developed by{" "}
+                    <Link
+                      className="text-themeGreen-0 hover:text-white transition-all duration-200"
+                      href={"https://www.clicktap.ae/"}
+                      target="_blank"
+                    >
+                      {" "}
+                      Clicktap Digital
+                    </Link>
+                    .
                   </span>
                 </p>
               </div>
@@ -308,7 +329,6 @@ const Footer = () => {
                         Privacy Policy
                       </Link>
                     </li>
-                     
                   </ul>
                 </div>
               </div>

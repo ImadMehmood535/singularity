@@ -10,8 +10,8 @@ const BoxScroll2 = () => {
       <div className="col-span-3 md:col-span-1 mt-[35%] md:mt-[60%]">
         <SBox
           pic={b2}
-          head={<>Compliance-First</>}
-          paragh={"We help you reach your maximum potential, while always being compliant"}
+          head={<>Prioritizing Compliance</>}
+          paragh={"We assist you in achieving your full potential while ensuring adherence to regulations."}
         />
       </div>
 

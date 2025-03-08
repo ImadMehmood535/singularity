@@ -8,6 +8,8 @@ import { PhoneInput } from "react-international-phone";
 import "react-international-phone/style.css";
 import { landingcontactSchema } from "@/validations/landingform";
 import FormInputSelect from "../general/FormInputSelect";
+import { API } from "@/api";
+import { errorToast, successToast } from "@/hooks/useToast";
 
 const LandingForm = () => {
   const options = [
@@ -32,6 +34,11 @@ const LandingForm = () => {
       name: "Article 23",
     },
   ];
+
+  const [countryOptions, setCountryOptions] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [defaultCountry, setDefaultCountry] = useState("");
+
   const {
     handleSubmit,
     control,
@@ -41,17 +48,30 @@ const LandingForm = () => {
     resolver: yupResolver(landingcontactSchema),
   });
 
-  const onSubmit = (data) => {
-    console.log(data);
-  };
+  const onSubmit = async (data) => {
+    setLoading(true);
 
-  const [country, setCountry] = useState("");
+    try {
+      const response = await API.landingContact(data);
+      successToast(response?.data?.message);
+      setLoading(false);
+    } catch (error) {
+      console.log(error);
+      errorToast(error, "Can not submit form at the moment");
+      setLoading(false);
+    }
+  };
 
   const getCountry = async () => {
     try {
-      const response = await axios.get("https://api.country.is");
-      const code = response?.data?.country;
-      setCountry(String(code?.toLowerCase()));
+      const response = await axios.get("https://restcountries.com/v3.1/all");
+      const countryData = response.data.map((country) => ({
+        value: country.cca2,
+        name: country.name.common,
+      }));
+      setCountryOptions(countryData);
+      const userCountry = await axios.get("https://api.country.is");
+      setDefaultCountry(userCountry?.data?.country.toLowerCase());
     } catch (error) {
       console.log(error);
     }
@@ -60,10 +80,10 @@ const LandingForm = () => {
   useEffect(() => {
     getCountry();
   }, []);
-  return (
-    <div className="contactBg rounded-[25px] py-6 px-4 md:py-4 md:px-6 flex flex-col gap-4  h-full  ">
-      <h3 className="font-medium text-3xl 	 text-white">Reach out to Us</h3>
 
+  return (
+    <div className="contactBg rounded-[25px] py-6 px-4 md:py-4 md:px-6 flex flex-col gap-4 h-full">
+      <h3 className="font-medium text-3xl text-white">Reach out to Us</h3>
       <p className="text-white text-sm font-light">
         Submit your details below, and our VAT experts will reach out to you
         shortly to discuss how we can optimize your business&apos;s VAT
@@ -74,17 +94,16 @@ const LandingForm = () => {
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-2">
           <FormInput
             type="text"
-            placeholder="Name"
+            placeholder="Full name"
             control={control}
             name="name"
             label="Name"
             register={register}
             error={errors}
           />
-        
           <FormInput
             type="text"
-            placeholder="Company name here"
+            placeholder="Company name "
             control={control}
             name="company"
             label="Company"
@@ -92,12 +111,10 @@ const LandingForm = () => {
             error={errors}
           />
         </div>
-
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-2">
           <div className="flex flex-col gap-2">
-            <p className="font-medium  ">Phone Number</p>
-
-            {country && (
+            <p className="font-medium">Phone Number</p>
+            {defaultCountry && (
               <div className="w-full flex flex-col gap-4">
                 <Controller
                   control={control}
@@ -106,22 +123,20 @@ const LandingForm = () => {
                     <PhoneInput
                       value={value}
                       onChange={onChange}
-                      defaultCountry={country}
+                      defaultCountry={"de"}
                       placeholder="Enter phone number"
                     />
                   )}
                 />
-                <p className="text-red-500"></p>
                 {errors.phone && (
                   <p className="text-red-500">{errors.phone.message}</p>
                 )}
               </div>
             )}
           </div>
-         
           <FormInput
             type="email"
-            placeholder="example@gmail.com"
+            placeholder="Email"
             control={control}
             name="email"
             label="Email"
@@ -129,13 +144,26 @@ const LandingForm = () => {
             error={errors}
           />
         </div>
-        <div className="grid grid-cols-1  gap-2">
+
+        <div className="grid grid-cols-1 xl:grid-cols-1 gap-2">
+          <FormInputSelect
+            type="select"
+            placeholder="Select your country"
+            control={control}
+            name="country"
+            label="Country"
+            register={register}
+            options={countryOptions}
+            error={errors}
+          />
+        </div>
+        <div className="grid grid-cols-1 xl:grid-cols-1 gap-2">
           <FormInputSelect
             type="select"
             placeholder="Select Service"
             control={control}
-            name="select"
-            label="Service Required"
+            name="service"
+            label="Service"
             register={register}
             options={options}
             error={errors}
@@ -143,6 +171,7 @@ const LandingForm = () => {
         </div>
 
         <button
+          disabled={loading}
           type="submit"
           className="bg-[#32BB98] hover:bg-themeGray-0 hover:text-white transition-all relative customLink rounded-full w-[180px] py-4 text-center text-sm text-white"
         >

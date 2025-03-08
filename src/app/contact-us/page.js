@@ -5,6 +5,19 @@ import ContactForm from "@/components/home/ContactForm";
 import { locationdetails } from "@/data/locationdetails";
 import React from "react";
 
+export const metadata = {
+  title: "Contact Singularity | VAT & Tax Services",
+  description:
+    " Contact Singularity for expert VAT, tax, accounting, and business consultancy services. Reach out to our team for personalized assistance.",
+  keyword: [
+    "contact Singularity",
+    " VAT consultancy contact",
+    "tax services contact",
+    "accounting services contact",
+    " business consultants contact",
+  ],
+};
+
 const Index = () => {
   return (
     <div className="contactpage  w-full ">

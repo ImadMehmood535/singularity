@@ -15,7 +15,7 @@ const HomeBanner = () => {
         fetchPriority="high"
         loading="eager"
       />
-      <div className="flex flex-col items-center justify-center h-full gap-12 containerCust relative z-10 top-4 md:top-8">
+      <div className="flex z-40 flex-col items-center justify-center h-full gap-12 containerCust relative top-4 md:top-8">
         <div className="flex flex-col items-center gap-2">
           <p className="text-[#FAFAFA]/80 text-lg">We are</p>
           <h1 className="text-animation w-[220px] md:w-[360px]">
@@ -30,12 +30,14 @@ const HomeBanner = () => {
         </div>
         <BannerBoxes />
         <p className="text-base text-center max-w-[800px] w-full">
-          Singularity GmbH is your trusted partner for all tax and accounting
-          services, from comprehensive audit management to regular VAT returns.
-          Let us handle the complexities and ensure your financial records are
-          impeccable. Our expert team offers a full suite of tax and accounting
-          services designed to meet the unique needs of your business, including
-          bookkeeping, payroll processing, and financial statement preparation.
+          Regarding tax and accounting services, Singularity GmbH can offer you
+          everything from complete audit management to submitting everyday VAT
+          returns. Leave it to us and be assured of clean books of account for
+          your company&apos;s business. We have a professional staff of specialists
+          who aim to provide comprehensive taxation and accountancy solutions
+          optimized for your company&apos;s requirements, encompassing such services
+          as bookkeeping, payroll services, and preparation of financial
+          statements.
         </p>
 
         <LinkComponent text={"Learn More"} href={"/about-us"} />

@@ -2,53 +2,53 @@ import AboutBanner from "@/components/about/AboutBanner";
 import Aboutarea from "@/components/about/Aboutarea";
 import Centercontent from "@/components/about/Centercontent";
 import VatComponent from "@/components/about/VatComponent";
-
-import IndividuallyFaq from "@/components/general/IndividuallyFaq";
-import InnerBanner from "@/components/general/InnerBanner";
+import IndividuallyFaq from "@/components/general/IndividuallyFaq"; 
 import ContactForm from "@/components/home/ContactForm";
- 
 
 import React from "react";
 
 export const metadata = {
-  title: "About Singularity Tax | Pioneering Tax Solutions for Tech Innovators",
+  title: " About Singularity | Trusted Tax & VAT Experts",
   description:
-    "Learn about Singularity Tax, the leading provider of specialized tax solutions for tech innovators. Discover our team of experts and our commitment to helping businesses in the technology industry thrive financially.",
+    "Learn about Singularity, your trusted partner in tax, VAT, and business consultancy. Meet our team of experienced professionals.",
+  keyword: [
+    "Singularity about us",
+    "VAT experts",
+    "tax professionals",
+    "business consultants",
+    "VAT inspection",
+    " VAT specialists",
+  ],
 };
-
 const Index = () => {
   const faq = [
     {
-      title:
-        "What is Singularity GmbH?",
+      title: "What is Singularity GmbH?",
       content:
-        "Singularity GmbH is an international organization that specializes in supporting its partners with their VAT needs in all EU countries.",
+        "Singularity GmbH is an international affiliated company devoted to offering assistance with VAT issues for its partners across all European Union member states.",
     },
     {
-      title:
-        "Which regions does Singularity GmbH provide VAT support for?",
+      title: "For which countries does Singularity GmbH offer VAT assistance?",
       content:
-        "Singularity GmbH provides VAT support for all EU customs, assisting businesses in navigating the complexities of VAT regulations.",
+        "Regarding taxes, Singularity offers tax compliance and registration in all countries in the European Union.",
     },
     {
-      title:
-        "What type of VAT support does Singularity GmbH offer?",
+      title: "Which type of VAT help is provided by Singularity GmbH?",
       content:
-        "Singularity GmbH offers comprehensive VAT support, including VAT registration, compliance, reporting, and advisory services to ensure that businesses meet their VAT obligations effectively.",
+        "Our VAT services entail registration, compliance, reporting, and advisory to enable organizations to fulfill their VAT obligations efficiently through Singularity GmbH.",
     },
     {
-      title:
-        "Who can benefit from Singularity GmbH's services?",
+      title: "For whom can Singularity GmbH be useful?",
       content:
-        "Businesses operating in or expanding to all of the EU customs, and markets can benefit from Singularity GmbH's specialized VAT services, ensuring compliance and optimizing their VAT processes.",
+        "Companies based in or planning to set up in EU customs and markets can leverage Singularity GmbH's focused VAT services to meet VAT standards and enhance VAT controls.",
     },
     {
-      title:
-        "How can I get started with Singularity GmbH's VAT services?",
+      title: "Can we begin cooperation with Singularity GmbH's VAT services?",
       content:
-        "To get started, you can contact Singularity GmbH through their website or directly via phone or email. Our team will arrange an initial consultation to discuss your specific VAT needs and how we can assist you.",
+        "First, you can make a request on the official website of Singularity GmbH or call and leave a message or email. We will then schedule a meeting where our experts will meet you, understand your VAT requirements, and discuss how we can help.",
     },
   ];
+
   return (
     <div className="text-center w-full  ">
       <AboutBanner subtitle="Our Story" title="About Us" />
@@ -65,7 +65,7 @@ const Index = () => {
             <IndividuallyFaq
               data={faq}
               title="Frequently Asked Questions"
-              content="Welcome to Singularity's Frequently Asked Questions (FAQs) section! At Singularity, we understand that you may have questions about our innovative services, our unique approach, and how we can help your business excel. If your question isn't answered below, please don't hesitate to reach out to us directly , we're always here to assist you!"
+              content="Here is a set of aims and objectives we believe only Singularity's team can deliver competently. Of course, when using Singularity's services, questions may appear concerning our services, ideas, and ways of improving the partner's success. If you do not find the answer to your question here, do not hesitate to contact us; we will be glad to help you!"
             />
           </div>
         </div>

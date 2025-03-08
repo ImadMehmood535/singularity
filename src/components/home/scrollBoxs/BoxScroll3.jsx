@@ -10,9 +10,9 @@ const BoxScroll3 = () => {
       <div className="col-span-1 mt-[50%] lg:mt-[70%]">
         <SBox
           pic={b3}
-          head={<>Flexible</>}
+          head={<>Adaptable</>}
           paragh={
-            "We tailor-make solutions that are a unique fit for all of our clients"
+            "We create customized solutions that perfectly suit each of our clients."
           }
         />
       </div>

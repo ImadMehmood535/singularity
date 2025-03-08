@@ -7,6 +7,8 @@ import axios from "axios";
 import { PhoneInput } from "react-international-phone";
 import "react-international-phone/style.css";
 import { contactSchema } from "@/validations/contact";
+import { API } from "@/api";
+import { errorToast, successToast } from "@/hooks/useToast";
 
 const ContactForm = () => {
   const {
@@ -18,42 +20,37 @@ const ContactForm = () => {
     resolver: yupResolver(contactSchema),
   });
 
-  const onSubmit = (data) => {
-    console.log(data);
-  };
+  const [loading, setLoading] = useState(false);
+  const onSubmit = async (data) => {
+    setLoading(true);
 
-  const [country, setCountry] = useState("");
-
-  const getCountry = async () => {
     try {
-      const response = await axios.get("https://api.country.is");
-      const code = response?.data?.country;
-      setCountry(String(code?.toLowerCase()));
+      const response = await API.contact(data);
+      successToast(response?.data?.message);
+      setLoading(false);
     } catch (error) {
       console.log(error);
+      errorToast(error, "Can not submit form at the moment");
+      setLoading(false);
     }
   };
 
-  useEffect(() => {
-    getCountry();
-  }, []);
-
   return (
     <div className="contactBg   rounded-[25px] px-4 py-12 flex flex-col gap-4  h-full  ">
-      <h3 className="font-bold text-white">We would love to hear from you</h3>
+      <h3 className="font-bold text-white">
+        We would also like to hear from you.
+      </h3>
 
       <p className="text-white">
-        Contact Singularity GmbH today for more information about our
-        comprehensive tax services or to schedule a consultation with our
-        experienced team. We are committed to providing tailored solutions to
-        help your business succeed.
+        Our tax experts can tailor solutions for your business needs. Contact us
+        by filling out the form below.
       </p>
 
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
           <FormInput
             type="text"
-            placeholder="Name"
+            placeholder="Full Name"
             control={control}
             name="name"
             label="Name"
@@ -63,7 +60,7 @@ const ContactForm = () => {
 
           <FormInput
             type="text"
-            placeholder="Company name here"
+            placeholder="Company name"
             control={control}
             name="company"
             label="Company"
@@ -76,30 +73,28 @@ const ContactForm = () => {
           <div className="flex flex-col gap-2">
             <p className="font-medium">Phone Number</p>
 
-            {country && (
-              <div className="w-full flex flex-col gap-2">
-                <Controller
-                  control={control}
-                  name="phone"
-                  render={({ field: { onChange, value } }) => (
-                    <PhoneInput
-                      value={value}
-                      onChange={onChange}
-                      defaultCountry={country}
-                      placeholder="Enter phone number"
-                    />
-                  )}
-                />
-                <p className="text-red-500"></p>
-                {errors.phone && (
-                  <p className="text-red-500">{errors.phone.message}</p>
+            <div className="w-full flex flex-col gap-2">
+              <Controller
+                control={control}
+                name="phone"
+                render={({ field: { onChange, value } }) => (
+                  <PhoneInput
+                    value={value}
+                    onChange={onChange}
+                    defaultCountry={"de"}
+                    placeholder="phone number"
+                  />
                 )}
-              </div>
-            )}
+              />
+              <p className="text-red-500"></p>
+              {errors.phone && (
+                <p className="text-red-500">{errors.phone.message}</p>
+              )}
+            </div>
           </div>
           <FormInput
             type="email"
-            placeholder="example@gmail.com"
+            placeholder="Email"
             control={control}
             name="email"
             label="Email"
@@ -123,6 +118,7 @@ const ContactForm = () => {
 
         <button
           type="submit"
+          disabled={loading}
           className="bg-black hover:bg-white hover:text-black transition-all relative customLink rounded-full w-[160px] py-4 text-center text-sm text-white"
         >
           Send message

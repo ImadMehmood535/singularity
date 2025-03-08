@@ -7,7 +7,7 @@ const ImpressumBody = ( ) => {
       <div className="containerCust">
         <div className="flex flex-col items-center gap-5 containerCust !py-12">
            
-          <h1>Legal Notice and Copyright</h1>
+          <h2>Legal Notice and Copyright</h2>
 
           <p>
             The information included on this website is legally subject to a

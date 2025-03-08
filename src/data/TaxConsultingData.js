@@ -5,19 +5,19 @@ const TaxConsultingData = {
       subtitle: "Key Benefits 1",
       title: "Avoid Fines",
       content:
-        "Prevent costly fines and penalties through consistent VAT compliance.",
+        "VAT compliance can help the organization avoid fines and penalties for non-compliance with the act's provisions.",
     },
     {
       id: 2,
       subtitle: "Key Benefits 2",
       title: "Enhance Business Reputation",
-      content: "Enhance trust and reliability with customers and partners.",
+      content: "Increase trust and reliability of customers and partners.",
     },
     {
       id: 3,
       subtitle: "Key Benefits 3",
       title: "Streamline Financial Operations",
-      content: "Simplify financial processes and improve cash flow insights.",
+      content: "Automate and streamline the financial systems and enhance cash-flow-data readability.",
     },
   ],
 
@@ -26,19 +26,19 @@ const TaxConsultingData = {
       id: 1,
       subtitle: "Key Benefits 1",
       title: "Expert Guidance",
-      content: "Smooth, compliant setup with professional support.",
+      content: "When a professional is hired for the job, everything is easy to set up, smooth, and standard.",
     },
     {
       id: 2,
       subtitle: "Key Benefits 2",
       title: "Time and Cost Efficiency",
-      content: "Save time and reduce costs with streamlined processes.",
+      content: "By identifying these with the solution, one can appreciate the reduction in time spent on efforts and expenditures.",
     },
     {
       id: 3,
       subtitle: "Key Benefits 3",
       title: "Strong Market Presence",
-      content: "Establish a strong foothold with local expertise.",
+      content: "This will assist in building the necessary groundwork with This helps build a strong market presence with localized knowledge tailored to the specific regions.",
     },
   ],
   technologysolutions: [
@@ -47,21 +47,21 @@ const TaxConsultingData = {
       subtitle: "Key Benefits 1",
       title: "Expert Compliance",
       content:
-        "Ensure adherence to complex EU customs regulations, minimising the risk of penalties and delays.",
+        "Compliance with many legal acts regulating customs procedures in the EU and preventing fines and delays.",
     },
     {
       id: 2,
       subtitle: "Key Benefits 2",
       title: "Seamless Operations",
       content:
-        "Streamline your customs processes, allowing for smoother and more efficient business operations.",
+        "The real one is to work more efficiently in customs clearance to improve business processes.",
     },
     {
       id: 3,
       subtitle: "Key Benefits 3",
       title: "Reduced Burden",
       content:
-        "Let professionals handle the intricate details, freeing up your resources to focus on core business activities.",
+        "Spare time to work on other important business functions and allow experts to deal with such complexities.",
     },
   ],
   article23: [
@@ -70,21 +70,21 @@ const TaxConsultingData = {
       subtitle: "Key Benefits 1",
       title: "Expert Guidance and Compliance",
       content:
-        "Singularity ensures your business complies with VAT deferment regulations, offering expert guidance on navigating Article 23 complexities.",
+        "Hence, use Singularity to assist your business in adhering to the conditions of VAT deferment. We will also help you understand Article 23.",
     },
     {
       id: 2,
       subtitle: "Key Benefits 2",
       title: "Tax Representation",
       content:
-        "We act as your tax representative, handling all documentation and applications for the Article 23 permit.",
+        "Depending on the case, we intervene as your tax representative for all the necessary documents to obtain the Article 23 permit.",
     },
     {
       id: 3,
       subtitle: "Key Benefits 3",
       title: "Efficient VAT Management",
       content:
-        "By deferring the payment of import VAT to the periodic VAT return, we help improve your company's cash flow.",
+        "Self-scheme allows us to extend the payment of import VAT to the periodic VAT return, which in turn helps to release your company’s cash.",
     },
   ],
 };
